@@ -1,0 +1,307 @@
+{
+   "deps" : [
+      {
+         "a1" : "r1_c1",
+         "a2" : "download_9",
+         "time" : -1,
+         "id" : "dep1"
+      },
+      {
+         "a2" : "download_8",
+         "a1" : "r1_c1",
+         "time" : 1133.39099999939,
+         "id" : "dep2"
+      },
+      {
+         "time" : 1127.9489999979,
+         "a1" : "r1_c1",
+         "a2" : "download_7",
+         "id" : "dep3"
+      },
+      {
+         "id" : "dep4",
+         "time" : 1119.77800000023,
+         "a2" : "download_6",
+         "a1" : "r1_c1"
+      },
+      {
+         "time" : 1116.72499999986,
+         "a2" : "download_5",
+         "a1" : "r1_c1",
+         "id" : "dep5"
+      },
+      {
+         "id" : "dep6",
+         "a2" : "download_4",
+         "a1" : "r1_c1",
+         "time" : 1087.82599999904
+      },
+      {
+         "id" : "dep7",
+         "time" : 1107.73399999744,
+         "a1" : "r1_c1",
+         "a2" : "download_3"
+      },
+      {
+         "time" : 11.306999997032,
+         "a2" : "download_2",
+         "a1" : "r1_c1",
+         "id" : "dep8"
+      }
+   ],
+   "n_download_no_trigger" : 2,
+   "load_activity" : -1,
+   "start_activity" : "download_0",
+   "objs" : [
+      {
+         "download" : {
+            "dns" : 0,
+            "dnsEnd" : 0,
+            "receiveFirst" : 558,
+            "receiveLast" : 93.3010000005306,
+            "id" : "download_0",
+            "sslEnd" : 154,
+            "sendEnd" : 155,
+            "sslStart" : 0,
+            "connectEnd" : 155,
+            "sendStart" : 155,
+            "dnsStart" : 0,
+            "connectStart" : 0,
+            "s_time" : 0,
+            "receivedTime" : 806.301000000531,
+            "receiveHeadersEnd" : 713,
+            "len" : 37838,
+            "type" : "text/html"
+         },
+         "url" : "https://searchengineland-com.cdn.ampproject.org/c/searchengineland.com/oskar-fischinger-google-doodle-honoring-filmmaker-visual-artist-doubles-musical-instrument-277649/amp",
+         "comps" : [
+            {
+               "time" : 2196.47599999735,
+               "e_time" : 3004.3740000001,
+               "s_time" : 807.898000002751,
+               "type" : "evalhtml",
+               "id" : "r1_c1"
+            }
+         ],
+         "id" : "r1",
+         "when_comp_start" : 1
+      },
+      {
+         "when_comp_start" : -1,
+         "id" : "r9",
+         "comps" : [
+            {
+               "type" : 3,
+               "id" : "comp_31",
+               "s_time" : 2043.40400000001,
+               "e_time" : 2054.65400000321,
+               "time" : 11.2500000032001
+            }
+         ],
+         "url" : "https://cdn.ampproject.org/rtv/011498506512561/v0/amp-youtube-0.1.js",
+         "download" : {
+            "sendStart" : 414,
+            "dnsStart" : -1,
+            "receivedTime" : 1621.27800000235,
+            "connectStart" : 0,
+            "s_time" : 819.204999999783,
+            "receiveHeadersEnd" : 503,
+            "len" : 11166,
+            "type" : "text/javascript",
+            "sslEnd" : -1,
+            "sslStart" : -1,
+            "sendEnd" : 414,
+            "connectEnd" : 414,
+            "receiveFirst" : 89,
+            "id" : "download_2",
+            "receiveLast" : 1118.27800000235,
+            "dns" : 0,
+            "dnsEnd" : -1
+         }
+      },
+      {
+         "download" : {
+            "sslEnd" : -1,
+            "sendEnd" : 8,
+            "sslStart" : -1,
+            "connectEnd" : 7,
+            "sendStart" : 7,
+            "dnsStart" : -1,
+            "connectStart" : 0,
+            "s_time" : 1915.63200000019,
+            "receivedTime" : 2056.90000000322,
+            "receiveHeadersEnd" : 114,
+            "type" : "image/png",
+            "len" : 111,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveFirst" : 106,
+            "receiveLast" : 1942.90000000322,
+            "id" : "download_3"
+         },
+         "url" : "https://searchengineland-com.cdn.ampproject.org/i/searchengineland.com/figz/wp-content/themes/searchengineland/amp/img/icons/menu.png",
+         "comps" : [],
+         "id" : "r21",
+         "when_comp_start" : -1
+      },
+      {
+         "when_comp_start" : -1,
+         "id" : "r20",
+         "comps" : [],
+         "url" : "https://searchengineland-com.cdn.ampproject.org/ii/w680/searchengineland.com/figz/wp-content/themes/searchengineland/img/logo/SEL-block.svg",
+         "download" : {
+            "receiveHeadersEnd" : 166,
+            "len" : 7319,
+            "type" : "image/svg+xml",
+            "connectStart" : 0,
+            "s_time" : 1895.72400000179,
+            "receivedTime" : 2087.66400000241,
+            "dnsStart" : -1,
+            "sendStart" : 7,
+            "connectEnd" : 7,
+            "sendEnd" : 8,
+            "sslStart" : -1,
+            "sslEnd" : -1,
+            "receiveLast" : 1921.66400000241,
+            "id" : "download_4",
+            "receiveFirst" : 158,
+            "dnsEnd" : -1,
+            "dns" : 0
+         }
+      },
+      {
+         "comps" : [],
+         "url" : "https://searchengineland-com.cdn.ampproject.org/i/searchengineland.com/figz/wp-content/themes/searchengineland/amp/img/icons/facebook.jpg",
+         "when_comp_start" : -1,
+         "id" : "r22",
+         "download" : {
+            "receivedTime" : 2292.45900000024,
+            "s_time" : 1924.62300000261,
+            "connectStart" : 0,
+            "receiveHeadersEnd" : 206,
+            "type" : "image/webp",
+            "len" : 180,
+            "sendStart" : 106,
+            "dnsStart" : -1,
+            "sslStart" : -1,
+            "sendEnd" : 107,
+            "connectEnd" : 106,
+            "sslEnd" : -1,
+            "receiveFirst" : 99,
+            "id" : "download_5",
+            "receiveLast" : 2086.45900000024,
+            "dnsEnd" : -1,
+            "dns" : 0
+         }
+      },
+      {
+         "download" : {
+            "receivedTime" : 2293.79600000175,
+            "connectStart" : 0,
+            "s_time" : 1927.67600000298,
+            "type" : "image/webp",
+            "receiveHeadersEnd" : 232,
+            "len" : 248,
+            "sendStart" : 132,
+            "dnsStart" : 5,
+            "sslStart" : 68,
+            "sendEnd" : 132,
+            "connectEnd" : 132,
+            "sslEnd" : 131,
+            "receiveFirst" : 100,
+            "id" : "download_6",
+            "receiveLast" : 2061.79600000175,
+            "dnsEnd" : 6,
+            "dns" : 1
+         },
+         "comps" : [],
+         "url" : "https://searchengineland-com.cdn.ampproject.org/i/searchengineland.com/figz/wp-content/themes/searchengineland/amp/img/icons/twitter.jpg",
+         "when_comp_start" : -1,
+         "id" : "r23"
+      },
+      {
+         "download" : {
+            "receiveHeadersEnd" : 235,
+            "len" : 238,
+            "type" : "image/webp",
+            "receivedTime" : 2334.95400000174,
+            "connectStart" : 0,
+            "s_time" : 1935.84700000065,
+            "dnsStart" : -1,
+            "sendStart" : 130,
+            "connectEnd" : 130,
+            "sslStart" : -1,
+            "sendEnd" : 131,
+            "sslEnd" : -1,
+            "id" : "download_7",
+            "receiveLast" : 2099.95400000174,
+            "receiveFirst" : 104,
+            "dnsEnd" : -1,
+            "dns" : 0
+         },
+         "comps" : [],
+         "url" : "https://searchengineland-com.cdn.ampproject.org/i/searchengineland.com/figz/wp-content/themes/searchengineland/amp/img/icons/linkedin.jpg",
+         "when_comp_start" : -1,
+         "id" : "r24"
+      },
+      {
+         "comps" : [],
+         "url" : "https://searchengineland-com.cdn.ampproject.org/i/searchengineland.com/figz/wp-content/seloads/2017/06/oskar-fischingers-doodle-featured-800x300.png",
+         "when_comp_start" : -1,
+         "id" : "r25",
+         "download" : {
+            "dns" : 0,
+            "dnsEnd" : 0,
+            "id" : "download_8",
+            "receiveLast" : 2129.38900000328,
+            "receiveFirst" : 954,
+            "sslEnd" : 124,
+            "connectEnd" : 125,
+            "sslStart" : 62,
+            "sendEnd" : 126,
+            "dnsStart" : 0,
+            "sendStart" : 125,
+            "len" : 70094,
+            "receiveHeadersEnd" : 1080,
+            "type" : "image/png",
+            "receivedTime" : 3209.38900000328,
+            "connectStart" : 0,
+            "s_time" : 1941.28900000214
+         }
+      },
+      {
+         "comps" : [
+            {
+               "id" : "comp_71",
+               "type" : 2,
+               "s_time" : 3150.76100000078,
+               "time" : 8.26099999904,
+               "e_time" : 3159.02199999982
+            }
+         ],
+         "url" : "https://cdn.ampproject.org/rtv/011498506512561/v0/amp-crypto-polyfill-0.1.js",
+         "when_comp_start" : -1,
+         "id" : "r26",
+         "download" : {
+            "receiveLast" : 3015.57100000174,
+            "id" : "download_9",
+            "receiveFirst" : 127,
+            "dnsEnd" : -1,
+            "dns" : 0,
+            "receiveHeadersEnd" : 134,
+            "len" : 9930,
+            "type" : "text/javascript",
+            "s_time" : 3004.3740000001,
+            "connectStart" : 0,
+            "receivedTime" : 3149.57100000174,
+            "dnsStart" : -1,
+            "sendStart" : 7,
+            "connectEnd" : 7,
+            "sendEnd" : 7,
+            "sslStart" : -1,
+            "sslEnd" : -1
+         }
+      }
+   ],
+   "name" : "searchengineland-com.cdn.ampproject.org_c_searchengineland.com_oskar-fischinger-google-doodle-honoring-filmmaker-visual-artist-doubles-musical-instrument-277649_amp"
+}

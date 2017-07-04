@@ -1,0 +1,689 @@
+{
+   "deps" : [
+      {
+         "id" : "dep1",
+         "time" : -1,
+         "a2" : "download_18",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_17",
+         "a1" : "r1_c1",
+         "time" : 1096.80399999979,
+         "id" : "dep2"
+      },
+      {
+         "a1" : "r1_c1",
+         "a2" : "download_16",
+         "time" : -1,
+         "id" : "dep3"
+      },
+      {
+         "id" : "dep4",
+         "time" : 1102.45299999997,
+         "a2" : "download_15",
+         "a1" : "r1_c1"
+      },
+      {
+         "id" : "dep5",
+         "a2" : "download_14",
+         "a1" : "r1_c1",
+         "time" : 1099.60300000012
+      },
+      {
+         "id" : "dep6",
+         "a1" : "r1_c1",
+         "a2" : "download_13",
+         "time" : 1087.39900000001
+      },
+      {
+         "time" : 1092.92300000016,
+         "a2" : "download_12",
+         "a1" : "r1_c1",
+         "id" : "dep7"
+      },
+      {
+         "a2" : "download_11",
+         "a1" : "r1_c1",
+         "time" : 7.69899999977508,
+         "id" : "dep8"
+      },
+      {
+         "time" : 25.141000000076,
+         "a1" : "r1_c1",
+         "a2" : "download_10",
+         "id" : "dep9"
+      },
+      {
+         "a1" : "r1_c1",
+         "a2" : "download_9",
+         "time" : 7.06399999990003,
+         "id" : "dep10"
+      },
+      {
+         "a2" : "download_8",
+         "a1" : "r1_c1",
+         "time" : 6.43099999979302,
+         "id" : "dep11"
+      },
+      {
+         "time" : 9.18599999977209,
+         "a1" : "r1_c1",
+         "a2" : "download_7",
+         "id" : "dep12"
+      },
+      {
+         "a1" : "r1_c1",
+         "a2" : "download_6",
+         "time" : 5.78399999994906,
+         "id" : "dep13"
+      },
+      {
+         "a1" : "r1_c1",
+         "a2" : "download_5",
+         "time" : 8.52500000019006,
+         "id" : "dep14"
+      },
+      {
+         "id" : "dep15",
+         "time" : 4.16399999994599,
+         "a2" : "download_4",
+         "a1" : "r1_c1"
+      },
+      {
+         "id" : "dep16",
+         "time" : 3.51899999986904,
+         "a2" : "download_3",
+         "a1" : "r1_c1"
+      },
+      {
+         "a1" : "r1_c1",
+         "a2" : "download_2",
+         "time" : 2.80900000007,
+         "id" : "dep17"
+      },
+      {
+         "id" : "dep18",
+         "a1" : "r1_c1",
+         "a2" : "download_1",
+         "time" : 5.10799999983601
+      }
+   ],
+   "n_download_no_trigger" : 1,
+   "load_activity" : -1,
+   "start_activity" : "download_0",
+   "objs" : [
+      {
+         "comps" : [
+            {
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "s_time" : 560.222999999951,
+               "e_time" : 1670.05400000016,
+               "time" : 1109.83100000021
+            }
+         ],
+         "url" : "https://searchengineland-com.cdn.ampproject.org/c/searchengineland.com/richard-oakes-google-doodle-honors-activist-championed-rights-american-indian-275482/amp",
+         "when_comp_start" : 1,
+         "id" : "r1",
+         "download" : {
+            "receiveLast" : 93.0300000001444,
+            "id" : "download_0",
+            "receiveFirst" : 284,
+            "dnsEnd" : 0,
+            "dns" : 0,
+            "len" : 35663,
+            "receiveHeadersEnd" : 465,
+            "type" : "text/html",
+            "connectStart" : 0,
+            "s_time" : 0,
+            "receivedTime" : 558.030000000144,
+            "dnsStart" : 0,
+            "sendStart" : 181,
+            "connectEnd" : 181,
+            "sendEnd" : 181,
+            "sslStart" : 0,
+            "sslEnd" : 181
+         }
+      },
+      {
+         "download" : {
+            "receiveFirst" : 158,
+            "id" : "download_1",
+            "receiveLast" : 625.723999999995,
+            "dnsEnd" : 44,
+            "dns" : 0,
+            "receivedTime" : 1096.72399999999,
+            "s_time" : 565.330999999787,
+            "connectStart" : 0,
+            "type" : "text/javascript",
+            "receiveHeadersEnd" : 471,
+            "len" : 4377,
+            "sendStart" : 313,
+            "dnsStart" : 44,
+            "sslStart" : 103,
+            "sendEnd" : 313,
+            "connectEnd" : 313,
+            "sslEnd" : 312
+         },
+         "id" : "r5",
+         "when_comp_start" : -1,
+         "url" : "https://cdn.ampproject.org/rtv/011498506512561/v0/amp-anim-0.1.js",
+         "comps" : [
+            {
+               "s_time" : 1101.06199999973,
+               "type" : null,
+               "id" : "comp_3",
+               "time" : 5.40300000011007,
+               "e_time" : 1106.46499999984
+            }
+         ]
+      },
+      {
+         "url" : "https://cdn.ampproject.org/rtv/011498506512561/v0.js",
+         "comps" : [
+            {
+               "id" : "comp_18",
+               "type" : null,
+               "s_time" : 1270.1320000001,
+               "e_time" : 1416.25799999974,
+               "time" : 146.12599999964
+            }
+         ],
+         "id" : "r2",
+         "when_comp_start" : -1,
+         "download" : {
+            "receiveLast" : 688.188999999966,
+            "id" : "download_2",
+            "receiveFirst" : 170,
+            "dns" : 3,
+            "dnsEnd" : 47,
+            "dnsStart" : 44,
+            "sendStart" : 330,
+            "type" : "text/javascript",
+            "receiveHeadersEnd" : 500,
+            "len" : 221178,
+            "s_time" : 563.032000000021,
+            "connectStart" : 0,
+            "receivedTime" : 1188.18899999997,
+            "sslEnd" : 329,
+            "connectEnd" : 330,
+            "sendEnd" : 330,
+            "sslStart" : 108
+         }
+      },
+      {
+         "download" : {
+            "sslEnd" : 326,
+            "connectEnd" : 327,
+            "sslStart" : 108,
+            "sendEnd" : 327,
+            "dnsStart" : 47,
+            "sendStart" : 327,
+            "type" : "text/javascript",
+            "receiveHeadersEnd" : 504,
+            "len" : 54716,
+            "receivedTime" : 1185.97199999977,
+            "connectStart" : 0,
+            "s_time" : 563.74199999982,
+            "dns" : 0,
+            "dnsEnd" : 47,
+            "id" : "download_3",
+            "receiveLast" : 681.971999999765,
+            "receiveFirst" : 177
+         },
+         "when_comp_start" : -1,
+         "id" : "r3",
+         "comps" : [
+            {
+               "type" : null,
+               "id" : "comp_14",
+               "s_time" : 1222.7969999999,
+               "time" : 19.63500000011,
+               "e_time" : 1242.43200000001
+            }
+         ],
+         "url" : "https://cdn.ampproject.org/rtv/011498506512561/v0/amp-ad-0.1.js"
+      },
+      {
+         "id" : "r4",
+         "when_comp_start" : -1,
+         "url" : "https://cdn.ampproject.org/rtv/011498506512561/v0/amp-analytics-0.1.js",
+         "comps" : [
+            {
+               "id" : "comp_16",
+               "type" : null,
+               "s_time" : 1242.64600000015,
+               "e_time" : 1269.91399999997,
+               "time" : 27.2679999998199
+            }
+         ],
+         "download" : {
+            "sendStart" : 325,
+            "dnsStart" : 49,
+            "receivedTime" : 1186.73799999988,
+            "s_time" : 564.386999999897,
+            "connectStart" : 0,
+            "type" : "text/javascript",
+            "receiveHeadersEnd" : 506,
+            "len" : 84256,
+            "sslEnd" : 324,
+            "sslStart" : 110,
+            "sendEnd" : 325,
+            "connectEnd" : 325,
+            "receiveFirst" : 181,
+            "id" : "download_4",
+            "receiveLast" : 680.737999999878,
+            "dns" : 0,
+            "dnsEnd" : 49
+         }
+      },
+      {
+         "download" : {
+            "sslEnd" : 271,
+            "sendEnd" : 272,
+            "sslStart" : 107,
+            "connectEnd" : 271,
+            "sendStart" : 271,
+            "dnsStart" : 41,
+            "connectStart" : 0,
+            "s_time" : 568.748000000141,
+            "receivedTime" : 1108.10899999979,
+            "receiveHeadersEnd" : 487,
+            "type" : "text/css",
+            "len" : 734,
+            "dns" : 6,
+            "dnsEnd" : 47,
+            "receiveFirst" : 215,
+            "receiveLast" : 621.108999999786,
+            "id" : "download_5"
+         },
+         "url" : "https://fonts.googleapis.com/cssfamily=Oswald:300,400,700",
+         "comps" : [
+            {
+               "e_time" : 1109.06699999987,
+               "time" : 0.517999999829954,
+               "id" : "comp_5",
+               "type" : null,
+               "s_time" : 1108.54900000004
+            }
+         ],
+         "id" : "r10",
+         "when_comp_start" : -1
+      },
+      {
+         "download" : {
+            "dns" : 0,
+            "dnsEnd" : 43,
+            "id" : "download_6",
+            "receiveLast" : 686.303,
+            "receiveFirst" : 182,
+            "sslEnd" : 315,
+            "connectEnd" : 316,
+            "sslStart" : 103,
+            "sendEnd" : 316,
+            "dnsStart" : 43,
+            "sendStart" : 316,
+            "receiveHeadersEnd" : 498,
+            "len" : 31561,
+            "type" : "text/javascript",
+            "receivedTime" : 1184.303,
+            "connectStart" : 0,
+            "s_time" : 566.0069999999
+         },
+         "url" : "https://cdn.ampproject.org/rtv/011498506512561/v0/amp-form-0.1.js",
+         "comps" : [
+            {
+               "e_time" : 1222.58599999986,
+               "time" : 14.0809999998,
+               "type" : null,
+               "id" : "comp_12",
+               "s_time" : 1208.50500000006
+            }
+         ],
+         "id" : "r6",
+         "when_comp_start" : -1
+      },
+      {
+         "comps" : [
+            {
+               "type" : null,
+               "id" : "comp_7",
+               "s_time" : 1110.77999999998,
+               "e_time" : 1182.90100000013,
+               "time" : 72.1210000001499
+            }
+         ],
+         "url" : "https://fonts.googleapis.com/cssfamily=Merriweather:400,400italic,700,700italic",
+         "when_comp_start" : -1,
+         "id" : "r11",
+         "download" : {
+            "sslEnd" : 274,
+            "connectEnd" : 274,
+            "sslStart" : 108,
+            "sendEnd" : 274,
+            "dnsStart" : 39,
+            "sendStart" : 274,
+            "receiveHeadersEnd" : 493,
+            "len" : 1079,
+            "type" : "text/css",
+            "receivedTime" : 1110.18699999977,
+            "connectStart" : 0,
+            "s_time" : 569.408999999723,
+            "dns" : 6,
+            "dnsEnd" : 45,
+            "id" : "download_7",
+            "receiveLast" : 617.186999999769,
+            "receiveFirst" : 219
+         }
+      },
+      {
+         "comps" : [
+            {
+               "type" : null,
+               "id" : "comp_10",
+               "s_time" : 1205.08500000005,
+               "time" : 3.20299999975987,
+               "e_time" : 1208.28799999981
+            }
+         ],
+         "url" : "https://cdn.ampproject.org/rtv/011498506512561/v0/amp-sidebar-0.1.js",
+         "when_comp_start" : -1,
+         "id" : "r7",
+         "download" : {
+            "dnsEnd" : 37,
+            "dns" : 0,
+            "receiveFirst" : 181,
+            "id" : "download_8",
+            "receiveLast" : 679.152999999947,
+            "sslStart" : 100,
+            "sendEnd" : 323,
+            "connectEnd" : 323,
+            "sslEnd" : 323,
+            "receivedTime" : 1183.15299999995,
+            "s_time" : 566.653999999744,
+            "connectStart" : 0,
+            "receiveHeadersEnd" : 504,
+            "type" : "text/javascript",
+            "len" : 6687,
+            "sendStart" : 323,
+            "dnsStart" : 37
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "id" : "r8",
+         "comps" : [
+            {
+               "time" : 12.7429999997701,
+               "e_time" : 1723.70899999987,
+               "s_time" : 1710.9660000001,
+               "id" : "comp_28",
+               "type" : null
+            }
+         ],
+         "url" : "https://cdn.ampproject.org/rtv/011498506512561/v0/amp-video-0.1.js",
+         "download" : {
+            "dnsStart" : -1,
+            "sendStart" : 528,
+            "receiveHeadersEnd" : 592,
+            "len" : 10102,
+            "type" : "text/javascript",
+            "receivedTime" : 1189.62499999998,
+            "s_time" : 567.286999999851,
+            "connectStart" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 528,
+            "sslStart" : -1,
+            "sendEnd" : 528,
+            "id" : "download_9",
+            "receiveLast" : 597.624999999978,
+            "receiveFirst" : 64,
+            "dns" : 0,
+            "dnsEnd" : -1
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "id" : "r12",
+         "comps" : [
+            {
+               "id" : "comp_32",
+               "type" : null,
+               "s_time" : 1732.64599999993,
+               "time" : 31.9599999998002,
+               "e_time" : 1764.60599999973
+            }
+         ],
+         "url" : "https://cdn.ampproject.org/rtv/011498506512561/v0/amp-mustache-0.1.js",
+         "download" : {
+            "sslStart" : -1,
+            "sendEnd" : 531,
+            "connectEnd" : 530,
+            "sslEnd" : -1,
+            "receivedTime" : 1428.36099999977,
+            "s_time" : 585.364000000027,
+            "connectStart" : 0,
+            "type" : "text/javascript",
+            "receiveHeadersEnd" : 613,
+            "len" : 38077,
+            "sendStart" : 530,
+            "dnsStart" : -1,
+            "dnsEnd" : -1,
+            "dns" : 0,
+            "receiveFirst" : 82,
+            "id" : "download_10",
+            "receiveLast" : 815.360999999768
+         }
+      },
+      {
+         "download" : {
+            "receiveFirst" : 87,
+            "receiveLast" : 809.959000000101,
+            "id" : "download_11",
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "sendStart" : 531,
+            "dnsStart" : -1,
+            "s_time" : 567.921999999726,
+            "connectStart" : 0,
+            "receivedTime" : 1427.9590000001,
+            "len" : 11166,
+            "receiveHeadersEnd" : 618,
+            "type" : "text/javascript",
+            "sslEnd" : -1,
+            "sendEnd" : 531,
+            "sslStart" : -1,
+            "connectEnd" : 531
+         },
+         "comps" : [
+            {
+               "time" : 8.39399999994998,
+               "e_time" : 1732.37999999992,
+               "id" : "comp_30",
+               "type" : null,
+               "s_time" : 1723.98599999997
+            }
+         ],
+         "url" : "https://cdn.ampproject.org/rtv/011498506512561/v0/amp-youtube-0.1.js",
+         "when_comp_start" : -1,
+         "id" : "r9"
+      },
+      {
+         "comps" : [],
+         "url" : "https://searchengineland-com.cdn.ampproject.org/i/searchengineland.com/figz/wp-content/themes/searchengineland/amp/img/icons/menu.png",
+         "when_comp_start" : -1,
+         "id" : "r21",
+         "download" : {
+            "receiveFirst" : 113,
+            "id" : "download_12",
+            "receiveLast" : 1843.19100000017,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "sendStart" : 31,
+            "dnsStart" : -1,
+            "receivedTime" : 1987.19100000017,
+            "s_time" : 1653.14600000011,
+            "connectStart" : 0,
+            "type" : "image/png",
+            "receiveHeadersEnd" : 144,
+            "len" : 111,
+            "sslEnd" : -1,
+            "sslStart" : -1,
+            "sendEnd" : 31,
+            "connectEnd" : 31
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "id" : "r20",
+         "comps" : [],
+         "url" : "https://searchengineland-com.cdn.ampproject.org/ii/w680/searchengineland.com/figz/wp-content/themes/searchengineland/img/logo/SEL-block.svg",
+         "download" : {
+            "connectEnd" : 29,
+            "sendEnd" : 29,
+            "sslStart" : -1,
+            "sslEnd" : -1,
+            "len" : 7319,
+            "receiveHeadersEnd" : 152,
+            "type" : "image/svg+xml",
+            "connectStart" : 0,
+            "s_time" : 1647.62199999996,
+            "receivedTime" : 1988.2349999998,
+            "dnsStart" : -1,
+            "sendStart" : 29,
+            "dnsEnd" : -1,
+            "dns" : 0,
+            "receiveLast" : 1836.2349999998,
+            "id" : "download_13",
+            "receiveFirst" : 123
+         }
+      },
+      {
+         "download" : {
+            "dnsStart" : 27,
+            "sendStart" : 145,
+            "receiveHeadersEnd" : 242,
+            "type" : "image/webp",
+            "len" : 248,
+            "connectStart" : 0,
+            "s_time" : 1659.82600000007,
+            "receivedTime" : 2054.7889999998,
+            "sslEnd" : 145,
+            "connectEnd" : 145,
+            "sendEnd" : 146,
+            "sslStart" : 86,
+            "receiveLast" : 1812.7889999998,
+            "id" : "download_14",
+            "receiveFirst" : 96,
+            "dns" : 0,
+            "dnsEnd" : 27
+         },
+         "comps" : [],
+         "url" : "https://searchengineland-com.cdn.ampproject.org/i/searchengineland.com/figz/wp-content/themes/searchengineland/amp/img/icons/twitter.jpg",
+         "when_comp_start" : -1,
+         "id" : "r23"
+      },
+      {
+         "id" : "r24",
+         "when_comp_start" : -1,
+         "url" : "https://searchengineland-com.cdn.ampproject.org/i/searchengineland.com/figz/wp-content/themes/searchengineland/amp/img/icons/linkedin.jpg",
+         "comps" : [],
+         "download" : {
+            "receivedTime" : 2056.54700000014,
+            "s_time" : 1662.67599999992,
+            "connectStart" : 0,
+            "receiveHeadersEnd" : 258,
+            "len" : 238,
+            "type" : "image/webp",
+            "sendStart" : 147,
+            "dnsStart" : -1,
+            "sslStart" : -1,
+            "sendEnd" : 147,
+            "connectEnd" : 147,
+            "sslEnd" : -1,
+            "receiveFirst" : 111,
+            "id" : "download_15",
+            "receiveLast" : 1798.54700000014,
+            "dnsEnd" : -1,
+            "dns" : 0
+         }
+      },
+      {
+         "download" : {
+            "sendStart" : 145,
+            "dnsStart" : 27,
+            "s_time" : 1670.05400000016,
+            "connectStart" : 0,
+            "receivedTime" : 2057.94400000013,
+            "type" : "image/png",
+            "receiveHeadersEnd" : 252,
+            "len" : 7014,
+            "sslEnd" : 145,
+            "sendEnd" : 145,
+            "sslStart" : 86,
+            "connectEnd" : 145,
+            "receiveFirst" : 107,
+            "receiveLast" : 1805.94400000013,
+            "id" : "download_16",
+            "dns" : 0,
+            "dnsEnd" : 27
+         },
+         "comps" : [],
+         "url" : "https://searchengineland-com.cdn.ampproject.org/i/searchengineland.com/images/partners/smxlogo.png",
+         "when_comp_start" : -1,
+         "id" : "r26"
+      },
+      {
+         "url" : "https://searchengineland-com.cdn.ampproject.org/i/searchengineland.com/figz/wp-content/themes/searchengineland/amp/img/icons/facebook.jpg",
+         "comps" : [],
+         "id" : "r22",
+         "when_comp_start" : -1,
+         "download" : {
+            "receiveFirst" : 120,
+            "receiveLast" : 1788.38299999985,
+            "id" : "download_17",
+            "dnsEnd" : -1,
+            "dns" : 0,
+            "s_time" : 1657.02699999974,
+            "connectStart" : 0,
+            "receivedTime" : 2057.38299999985,
+            "len" : 180,
+            "receiveHeadersEnd" : 269,
+            "type" : "image/webp",
+            "sendStart" : 148,
+            "dnsStart" : -1,
+            "sendEnd" : 149,
+            "sslStart" : -1,
+            "connectEnd" : 148,
+            "sslEnd" : -1
+         }
+      },
+      {
+         "url" : "https://searchengineland-com.cdn.ampproject.org/i/searchengineland.com/figz/wp-content/seloads/2017/05/richard-oakes-75th-birthday.jpg",
+         "comps" : [],
+         "id" : "r25",
+         "when_comp_start" : -1,
+         "download" : {
+            "receiveFirst" : 299,
+            "receiveLast" : 1746.03900000007,
+            "id" : "download_18",
+            "dnsEnd" : 28,
+            "dns" : 0,
+            "s_time" : 1666.20999999986,
+            "connectStart" : 0,
+            "receivedTime" : 2190.03900000007,
+            "len" : 22536,
+            "receiveHeadersEnd" : 444,
+            "type" : "image/webp",
+            "sendStart" : 145,
+            "dnsStart" : 28,
+            "sendEnd" : 145,
+            "sslStart" : 86,
+            "connectEnd" : 145,
+            "sslEnd" : 144
+         }
+      }
+   ],
+   "name" : "searchengineland-com.cdn.ampproject.org_c_searchengineland.com_richard-oakes-google-doodle-honors-activist-championed-rights-american-indian-275482_amp"
+}

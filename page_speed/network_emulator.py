@@ -1,0 +1,72 @@
+import subprocess
+import netifaces
+import os
+
+__author__ = 'jnejati'
+
+
+class NetworkEmulator():
+
+    def __init__(self, profile):
+        self.profile = profile
+
+    def set_profile(self, net_type):
+
+        if self.profile['device_type'] == 'desktop':
+
+            commands = [
+            'tc' + ' ' + 'qdisc' + ' ' + 'del' + ' ' + 'dev' + ' ' + 'eth0' + ' ' + 'root'
+            ,'tc' + ' ' + 'qdisc' + ' ' + 'del' + ' ' + 'dev' + ' ' + 'lo' + ' ' + 'root'
+            , 'tc' + ' ' + 'qdisc' + ' ' + 'del' + ' ' + 'dev' + ' ' + 'usb0' + ' ' + 'root'
+            , 'tc' + ' ' + 'qdisc' + ' ' + 'del' + ' ' + 'dev' + ' ' + 'veth0' + ' ' + 'root'
+            , 'ip' + ' ' + 'netns' + ' ' + 'exec' + ' ' + 'client_tb' + ' ' + 'tc' + ' ' + 'qdisc' + ' ' + 'del' + ' ' + 'dev' + ' ' + 'veth1' + ' ' + 'root'
+            , 'tc' + ' ' + 'qdisc' + ' ' + 'add' + ' ' + 'dev' + ' ' + 'veth0' + ' ' + 'handle' + ' ' + '1:0' + ' ' + 'root' + ' ' + 'htb' + ' ' + 'default' + ' ' + '11'
+            , 'tc' + ' ' + 'class' + ' ' + 'add' + ' ' + 'dev' + ' ' + 'veth0' + ' ' + 'parent' + ' ' + '1:' + ' ' + 'classid' + ' ' + '1:1 ' +' ' +  'htb' + ' ' + 'rate' + ' ' + '1000Mbps'
+            , 'tc' + ' ' + 'class' + ' ' + 'add' + ' ' + 'dev' + ' ' + 'veth0' + ' ' + 'parent' + ' ' + '1:1' + ' ' + 'classid' +' ' +  '1:11 ' + ' ' + 'htb' + ' ' + 'rate' + ' ' + self.profile['download_rate']
+            , 'tc' + ' ' + 'qdisc' + ' ' + 'add' + ' ' + 'dev' + ' ' + 'veth0' + ' ' + 'parent' + ' ' + '1:11' + ' ' + 'handle' +' ' +  '10: ' + ' ' + 'netem' + ' ' + 'delay' + ' ' + self.profile['download_delay'] + ' ' + 'loss' + ' ' + self.profile['download_loss']
+            , 'ip' + ' ' + 'netns' + ' ' + 'exec' + ' ' + 'client_tb' + ' ' + 'tc' + ' ' + 'qdisc' + ' ' + 'add' + ' ' + 'dev' + ' ' + 'veth1' + ' ' + 'handle' + ' ' + '1:' + ' ' + 'root' + ' ' + 'htb' + ' ' + 'default' + ' ' + '11'
+            , 'ip' + ' ' + 'netns' + ' ' + 'exec' + ' ' + 'client_tb' + ' ' + 'tc' + ' ' + 'class' + ' ' + 'add' + ' ' + 'dev' + ' ' + 'veth1' + ' ' + 'parent' + ' ' + '1:' + ' ' + 'classid' + ' ' + '1:1' + ' ' + 'htb' + ' ' + 'rate' +' ' +  '1000Mbps'
+            , 'ip' + ' ' + 'netns' + ' ' + 'exec' + ' ' + 'client_tb' + ' ' + 'tc' + ' ' + 'class' + ' ' + 'add' + ' ' + 'dev' + ' ' + 'veth1' + ' ' + 'parent' + ' ' + '1:1' + ' ' + 'classid' + ' ' + '1:11' + ' ' + 'htb' + ' ' + 'rate' +' ' +  self.profile['upload_rate']
+            , 'ip' + ' ' + 'netns' + ' ' + 'exec' + ' ' + 'client_tb' + ' ' + 'tc' + ' ' + 'qdisc' + ' ' + 'add' + ' ' + 'dev' + ' ' + 'veth1' + ' ' + 'parent' + ' ' + '1:11' + ' ' + 'handle' + ' ' + '10:' + ' ' + 'netem' + ' ' + 'delay' + ' ' + self.profile['upload_delay'] + ' ' + 'loss' + ' ' + self.profile['upload_loss']
+            ]
+        elif self.profile['device_type'] == 'mobile':
+            commands = [
+              'tc' + ' ' + 'qdisc' + ' ' + 'del' + ' ' + 'dev' + ' ' + 'veth0' + ' ' + 'root'
+            , 'tc' + ' ' + 'qdisc' + ' ' + 'del' + ' ' + 'dev' + ' ' + 'usb0' + ' ' + 'root'
+            , 'tc' + ' ' + 'qdisc' + ' ' + 'del' + ' ' + 'dev' + ' ' + 'ifb0' + ' ' + 'root'
+            , 'tc' + ' ' + 'qdisc' + ' ' + 'del' + ' ' + 'dev' + ' ' + 'eth0' + ' ' + 'ingress'
+            , 'modprobe' + ' ' + 'ifb'
+            , 'ip' + ' ' + 'link' + ' ' + 'set' + ' ' + 'dev' + ' ' + 'ifb0' + ' ' + 'up'
+            , 'tc' + ' ' + 'qdisc' + ' ' + 'add' + ' ' + 'dev' + ' ' + 'usb0' + ' ' + 'ingress'
+            , 'tc' + ' ' + 'filter' + ' ' + 'add' + ' ' + 'dev' + ' ' + 'usb0' + ' ' + 'parent' + ' ' + 'ffff:' + ' ' + 'protocol' + ' ' + 'ip' + ' ' + 'u32' + ' ' + 'match' + ' ' + 'u32' + ' ' + '0' + ' ' + '0' + ' ' + 'flowid' + ' ' + '1:1' + ' ' + 'action' + ' ' + 'mirred' + ' ' + 'egress' + ' ' + 'redirect' + ' ' + 'dev' + ' ' + 'ifb0'
+
+
+            , 'tc'+ ' ' + 'qdisc' + ' ' + 'add' + ' ' + 'dev' + ' ' + 'ifb0' + ' '  + 'handle' + ' ' + '1:' + ' ' + 'root' + ' ' + 'htb' + ' ' + 'default' + ' ' + '11'
+            , 'tc' + ' ' + 'class' + ' ' + 'add' + ' ' + 'dev' + ' ' + 'ifb0' + ' ' + 'parent' + ' ' + '1:' + ' ' + 'classid' + ' ' + '1:1' + ' ' + 'htb' + ' ' + 'rate' + ' ' + '1000Mbps'
+            , 'tc' + ' ' + 'class' + ' ' + 'add' + ' ' + 'dev' + ' ' + 'ifb0' + ' ' + 'parent' + ' ' + '1:1' + ' ' + 'classid' + ' ' + '1:11' + ' ' + 'htb' + ' ' + 'rate' + ' ' +  self.profile['upload_rate']
+            , 'tc' + ' ' + 'qdisc' + ' ' + 'add' + ' ' + 'dev' + ' ' + 'ifb0' + ' ' + 'parent' + ' ' + '1:11' + ' ' + 'handle' + ' ' + '10:' + ' ' + 'netem' + ' ' + 'delay' + ' ' + self.profile['download_delay'] + ' ' + 'loss' + ' ' + self.profile['download_loss']
+
+            , 'tc' + ' ' + 'qdisc' + ' ' + 'add' + ' ' + 'dev' + ' ' + 'usb0' + ' ' + 'handle' + ' ' + '1:' + ' ' + 'root' + ' ' + 'htb' + ' ' + 'default' + ' ' + '11'
+            , 'tc' + ' ' + 'class' + ' ' + 'add' + ' ' + 'dev' + ' ' + 'usb0' + ' ' + 'parent' + ' ' + '1:' + ' ' + 'classid' + ' ' + '1:1' + ' ' + 'htb' + ' ' + 'rate' +' ' +  '1000Mbps'
+            , 'tc' + ' ' + 'class' + ' ' + 'add' + ' ' + 'dev' + ' ' + 'usb0' + ' ' + 'parent' + ' ' + '1:1' + ' ' + 'classid' + ' ' + '1:11' + ' ' + 'htb' + ' ' + 'rate' +' ' +  self.profile['upload_rate']
+            , 'tc' + ' ' + 'qdisc' + ' ' + 'add' + ' ' + 'dev' + ' ' + 'usb0' + ' ' + 'parent' + ' ' + '1:11' + ' ' + 'handle' + ' ' + '10:' + ' ' + 'netem' + ' ' + 'delay' + ' ' + self.profile['upload_delay'] + ' ' + 'loss' + ' ' + self.profile['upload_loss']
+            ]
+
+
+            #if not 'usb0' in netifaces.interfaces():
+            print('usb0 needs to be reconfigured...')
+            os.system('killall adb')
+            os.system('killall usb_handler.sh')
+            loadcommand = './usb_handler.sh'
+
+            try:
+                proc1 = subprocess.call(loadcommand, shell=True, timeout=40)
+            except subprocess.TimeoutExpired:
+                print("Killed process " + 'usb handler' + " after timeout")
+        print("Setting network profile for: " + self.profile['conn_type'])
+        for command in commands:
+            try:
+                proc = subprocess.call(command.split(), shell=False, timeout=15)
+            except subprocess.TimeoutExpired:
+                print("Killed process " + " after timeout")
+

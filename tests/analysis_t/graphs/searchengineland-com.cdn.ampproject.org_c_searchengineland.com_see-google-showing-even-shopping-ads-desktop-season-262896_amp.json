@@ -1,0 +1,82 @@
+{
+   "deps" : [
+      {
+         "id" : "dep1",
+         "a1" : "r1_c1",
+         "a2" : "download_2",
+         "time" : -1
+      }
+   ],
+   "n_download_no_trigger" : 2,
+   "objs" : [
+      {
+         "download" : {
+            "dnsEnd" : 0,
+            "dns" : 0,
+            "receiveFirst" : 249,
+            "id" : "download_0",
+            "receiveLast" : 115.169000000344,
+            "sslStart" : 0,
+            "sendEnd" : 89,
+            "connectEnd" : 88,
+            "sslEnd" : 88,
+            "receivedTime" : 453.169000000344,
+            "connectStart" : 0,
+            "s_time" : 0,
+            "receiveHeadersEnd" : 338,
+            "type" : "text/html",
+            "len" : 41794,
+            "sendStart" : 88,
+            "dnsStart" : 0
+         },
+         "id" : "r1",
+         "when_comp_start" : 1,
+         "url" : "https://searchengineland-com.cdn.ampproject.org/c/searchengineland.com/see-google-showing-even-shopping-ads-desktop-season-262896/amp",
+         "comps" : [
+            {
+               "e_time" : 2616.22499999976,
+               "time" : 2160.79799999898,
+               "s_time" : 455.427000000782,
+               "type" : "evalhtml",
+               "id" : "r1_c1"
+            }
+         ]
+      },
+      {
+         "download" : {
+            "receiveHeadersEnd" : 120,
+            "len" : 9930,
+            "type" : "text/javascript",
+            "receivedTime" : 2769.89300000059,
+            "connectStart" : 0,
+            "s_time" : 2616.22499999976,
+            "dnsStart" : -1,
+            "sendStart" : 8,
+            "connectEnd" : 8,
+            "sslStart" : -1,
+            "sendEnd" : 9,
+            "sslEnd" : -1,
+            "id" : "download_2",
+            "receiveLast" : 2649.89300000059,
+            "receiveFirst" : 111,
+            "dnsEnd" : -1,
+            "dns" : 0
+         },
+         "id" : "r27",
+         "when_comp_start" : -1,
+         "url" : "https://cdn.ampproject.org/rtv/011498506512561/v0/amp-crypto-polyfill-0.1.js",
+         "comps" : [
+            {
+               "time" : 8.22599999992008,
+               "e_time" : 2780.98099999988,
+               "s_time" : 2772.75499999996,
+               "type" : 2,
+               "id" : "comp_74"
+            }
+         ]
+      }
+   ],
+   "load_activity" : -1,
+   "start_activity" : "download_0",
+   "name" : "searchengineland-com.cdn.ampproject.org_c_searchengineland.com_see-google-showing-even-shopping-ads-desktop-season-262896_amp"
+}

@@ -1,0 +1,82 @@
+{
+   "name" : "searchengineland-com.cdn.ampproject.org_c_searchengineland.com_7-changes-facebook-make-real-local-search-player-276964_amp",
+   "start_activity" : "download_0",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "download" : {
+            "sslEnd" : 179,
+            "connectEnd" : 180,
+            "sendEnd" : 180,
+            "sslStart" : 0,
+            "dnsStart" : 0,
+            "sendStart" : 180,
+            "type" : "text/html",
+            "receiveHeadersEnd" : 389,
+            "len" : 50559,
+            "s_time" : 0,
+            "connectStart" : 0,
+            "receivedTime" : 479.214000000866,
+            "dns" : 0,
+            "dnsEnd" : 0,
+            "receiveLast" : 90.2140000008658,
+            "id" : "download_0",
+            "receiveFirst" : 209
+         },
+         "id" : "r1",
+         "when_comp_start" : 1,
+         "url" : "https://searchengineland-com.cdn.ampproject.org/c/searchengineland.com/7-changes-facebook-make-real-local-search-player-276964/amp",
+         "comps" : [
+            {
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "s_time" : 480.316000001039,
+               "time" : 81.130999999005,
+               "e_time" : 561.447000000044
+            }
+         ]
+      },
+      {
+         "id" : "r4",
+         "when_comp_start" : -1,
+         "url" : "https://cdn.ampproject.org/rtv/011498506512561/v0/amp-analytics-0.1.js",
+         "comps" : [
+            {
+               "id" : "comp_11",
+               "type" : null,
+               "s_time" : 943.628000000899,
+               "e_time" : 974.50900000149,
+               "time" : 30.881000000591
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 101,
+            "id" : "download_1",
+            "receiveLast" : 557.696000000389,
+            "dnsEnd" : 34,
+            "dns" : 0,
+            "receivedTime" : 890.696000000389,
+            "connectStart" : 0,
+            "s_time" : 486.871000000974,
+            "type" : "text/javascript",
+            "receiveHeadersEnd" : 333,
+            "len" : 84256,
+            "sendStart" : 232,
+            "dnsStart" : 34,
+            "sslStart" : 94,
+            "sendEnd" : 232,
+            "connectEnd" : 232,
+            "sslEnd" : 230
+         }
+      }
+   ],
+   "n_download_no_trigger" : 1,
+   "deps" : [
+      {
+         "id" : "dep1",
+         "a1" : "r1_c1",
+         "a2" : "download_1",
+         "time" : 6.55499999993498
+      }
+   ]
+}

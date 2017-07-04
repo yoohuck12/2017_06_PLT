@@ -1,0 +1,307 @@
+{
+   "name" : "platform.twitter.com_widgets_follow_button.7bf2b0e802ada47dae9548b7a1739fed.en.html#dnt=false&id=twitter-widget-1&lang=en&screen_name=sengineland&show_count=true&show_screen_name=false&size=m&time=1498619156087",
+   "n_download_no_trigger" : 4,
+   "deps" : [
+      {
+         "time" : -1,
+         "a1" : "comp_45",
+         "a2" : "r135_c2",
+         "id" : "dep1"
+      },
+      {
+         "time" : -1,
+         "a1" : "r135_c1",
+         "a2" : "download_6",
+         "id" : "dep2"
+      },
+      {
+         "id" : "dep3",
+         "a2" : "download_5",
+         "a1" : "r135_c1",
+         "time" : -1
+      },
+      {
+         "id" : "dep4",
+         "a1" : "r135_c1",
+         "a2" : "download_3",
+         "time" : 0.785000000178002
+      }
+   ],
+   "load_activity" : -1,
+   "start_activity" : "download_0",
+   "objs" : [
+      {
+         "download" : {
+            "sslEnd" : -1,
+            "connectEnd" : 150,
+            "sslStart" : -1,
+            "sendEnd" : 151,
+            "dnsStart" : 4,
+            "sendStart" : 150,
+            "receiveHeadersEnd" : 294,
+            "type" : "text/html",
+            "len" : 33941,
+            "receivedTime" : 691.661999999269,
+            "connectStart" : 0,
+            "s_time" : 0,
+            "dns" : 1,
+            "dnsEnd" : 5,
+            "id" : "download_0",
+            "receiveLast" : 397.661999999269,
+            "receiveFirst" : 143
+         },
+         "comps" : [
+            {
+               "time" : 62.0460000009181,
+               "e_time" : 948.285000000396,
+               "s_time" : 886.238999999478,
+               "type" : "evalhtml",
+               "id" : "r134_c1"
+            }
+         ],
+         "url" : "http://platform.twitter.com/widgets/follow_button.7bf2b0e802ada47dae9548b7a1739fed.en.html#dnt=false&id=twitter-widget-1&lang=en&screen_name=sengineland&show_count=true&show_screen_name=false&size=m&time=1498619156087",
+         "when_comp_start" : 1,
+         "id" : "r134"
+      },
+      {
+         "comps" : [
+            {
+               "id" : "r135_c1",
+               "type" : "evalhtml",
+               "s_time" : 950.998000000254,
+               "time" : 258.385999999516,
+               "e_time" : 1209.38399999977
+            },
+            {
+               "e_time" : 1457.21500000036,
+               "time" : 20.9570000006302,
+               "s_time" : 1436.25799999973,
+               "id" : "r135_c2",
+               "type" : "evalhtml"
+            }
+         ],
+         "url" : "https://app-sj02.marketo.com/index.php/form/XDFrame",
+         "when_comp_start" : 1,
+         "id" : "r135",
+         "download" : {
+            "dnsStart" : 0,
+            "sendStart" : 70,
+            "len" : 1658,
+            "receiveHeadersEnd" : 372,
+            "type" : "text/html",
+            "s_time" : 105.803000000378,
+            "connectStart" : 0,
+            "receivedTime" : 693.318999999974,
+            "sslEnd" : 68,
+            "connectEnd" : 70,
+            "sendEnd" : 71,
+            "sslStart" : 5,
+            "receiveLast" : 321.318999999974,
+            "id" : "download_1",
+            "receiveFirst" : 301,
+            "dns" : 0,
+            "dnsEnd" : 0
+         }
+      },
+      {
+         "download" : {
+            "id" : "download_2",
+            "receiveLast" : 665.377999999764,
+            "receiveFirst" : 40,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "dnsStart" : -1,
+            "sendStart" : 5,
+            "receiveHeadersEnd" : 45,
+            "len" : 33343,
+            "type" : "application/x-javascript",
+            "receivedTime" : 710.377999999764,
+            "s_time" : 535.101999999824,
+            "connectStart" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 5,
+            "sslStart" : -1,
+            "sendEnd" : 5
+         },
+         "url" : "http://static.chartbeat.com/js/chartbeat.js",
+         "comps" : [
+            {
+               "s_time" : 955.031999999846,
+               "type" : 2,
+               "id" : "comp_32",
+               "time" : 109.522000000654,
+               "e_time" : 1064.5540000005
+            }
+         ],
+         "id" : "r136",
+         "when_comp_start" : -1
+      },
+      {
+         "download" : {
+            "dnsStart" : -1,
+            "sendStart" : 6,
+            "len" : 168251,
+            "receiveHeadersEnd" : 20,
+            "type" : "application/x-javascript",
+            "s_time" : 951.783000000432,
+            "connectStart" : 0,
+            "receivedTime" : 1212.19399999973,
+            "sslEnd" : -1,
+            "connectEnd" : 6,
+            "sendEnd" : 6,
+            "sslStart" : -1,
+            "receiveLast" : 1192.19399999973,
+            "id" : "download_3",
+            "receiveFirst" : 14,
+            "dns" : 0,
+            "dnsEnd" : -1
+         },
+         "comps" : [
+            {
+               "e_time" : 1436.25799999973,
+               "time" : 223.4840000001,
+               "id" : "comp_45",
+               "type" : 1,
+               "s_time" : 1212.77399999963
+            }
+         ],
+         "url" : "https://app-sj02.marketo.com/js/forms2/js/forms2.min.js",
+         "when_comp_start" : -1,
+         "id" : "r139"
+      },
+      {
+         "download" : {
+            "receiveHeadersEnd" : 150,
+            "type" : "application/javascript",
+            "len" : 242,
+            "receivedTime" : 1464.78999999999,
+            "connectStart" : 0,
+            "s_time" : 846.131000000241,
+            "dnsStart" : 18,
+            "sendStart" : 137,
+            "connectEnd" : 137,
+            "sslStart" : 41,
+            "sendEnd" : 138,
+            "sslEnd" : 137,
+            "id" : "download_4",
+            "receiveLast" : 1314.78999999999,
+            "receiveFirst" : 12,
+            "dnsEnd" : 31,
+            "dns" : 13
+         },
+         "when_comp_start" : -1,
+         "id" : "r138",
+         "comps" : [
+            {
+               "s_time" : 1655.47700000025,
+               "id" : "comp_82",
+               "type" : null,
+               "time" : 7.12899999961996,
+               "e_time" : 1662.60599999987
+            },
+            {
+               "id" : "comp_85",
+               "type" : null,
+               "s_time" : 1662.80199999892,
+               "e_time" : 1669.10199999984,
+               "time" : 6.30000000091991
+            }
+         ],
+         "url" : "https://cdn.syndication.twimg.com/widgets/followbutton/info.jsoncallback=__twttr.setFollowersCountAndFollowing&lang=en&screen_names=sengineland"
+      },
+      {
+         "download" : {
+            "receiveFirst" : 17,
+            "receiveLast" : 1514.5959999991,
+            "id" : "download_5",
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "sendStart" : 1,
+            "dnsStart" : -1,
+            "s_time" : 1209.38399999977,
+            "connectStart" : 0,
+            "receivedTime" : 1532.5959999991,
+            "receiveHeadersEnd" : 18,
+            "len" : 43423,
+            "type" : "text/html",
+            "sslEnd" : -1,
+            "sendEnd" : 1,
+            "sslStart" : -1,
+            "connectEnd" : 1
+         },
+         "url" : "https://staticxx.facebook.com/connect/xd_arbiter/r/XBwzv5Yrm_1.jsversion=42#cb=f2f348bebc&domain=searchengineland.com&origin=http%3A%2F%2Fsearchengineland.com%2Ff90a4e6ac&relation=parent&error=unknown_user",
+         "comps" : [
+            {
+               "time" : 43.8169999997599,
+               "e_time" : 1635.96999999936,
+               "id" : "r137_c1",
+               "type" : "evalhtml",
+               "s_time" : 1592.1529999996
+            }
+         ],
+         "id" : "r137",
+         "when_comp_start" : 1
+      },
+      {
+         "download" : {
+            "sslStart" : -1,
+            "sendEnd" : 284,
+            "connectEnd" : 284,
+            "sslEnd" : -1,
+            "receivedTime" : 1694.5199999991,
+            "s_time" : 1065.02499999988,
+            "connectStart" : 0,
+            "type" : "image/gif",
+            "receiveHeadersEnd" : 536,
+            "len" : 43,
+            "sendStart" : 284,
+            "dnsStart" : 24,
+            "dnsEnd" : 40,
+            "dns" : 16,
+            "receiveFirst" : 252,
+            "id" : "download_6",
+            "receiveLast" : 1158.5199999991
+         },
+         "id" : "r140",
+         "when_comp_start" : -1,
+         "url" : "http://ping.chartbeat.net/pingh=searchengineland.com&p=%2Fgoogles-recent-rlsa-updates-mean-advertisers-260417&u=CmTmiu4bLYVDCVJYJ&d=searchengineland.com&g=14529&g0=Channel%3A%20SEM&g1=Andy%20Taylor&n=1&f=00001&c=0&x=0&m=0&y=9142&o=412&w=620&j=45&R=1&W=0&I=0&E=0&e=0&r=&b=12958&t=D7TQj3DPancPC96iHqDG",
+         "comps" : []
+      },
+      {
+         "id" : "r141",
+         "when_comp_start" : -1,
+         "url" : "http://pagead2.googlesyndication.com/activeviewavi=BkkmdCx1TWYbmMJWcqAG-_5fwDwAAAAAQATgByAECwAIC4AIAyAOZBOAEAaAGFNIIBQiAYRAB&cid=CAASBORoFY8&id=osdim&ti=1&r=u&adk=881903337&tt=3682&bs=412,620&mtos=0,0,0,0,0&tos=0,0,0,0,0&p=0,0,0,0&mcvt=0&rs=3&ht=0&mc=0&lte=-1&bas=0&bac=0&bos=412,620&ps=412,9142&ss=",
+         "comps" : [],
+         "download" : {
+            "sslEnd" : -1,
+            "sendEnd" : 7,
+            "sslStart" : -1,
+            "connectEnd" : 5,
+            "sendStart" : 5,
+            "dnsStart" : -1,
+            "connectStart" : 0,
+            "s_time" : 1565.96899999931,
+            "receivedTime" : 1699.57400000021,
+            "receiveHeadersEnd" : 113,
+            "len" : 42,
+            "type" : "image/gif",
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveFirst" : 106,
+            "receiveLast" : 1586.57400000021,
+            "id" : "download_7"
+         }
+      },
+      {
+         "comps" : [
+            {
+               "id" : "_c1",
+               "type" : "evalhtml",
+               "s_time" : 763.584000000264,
+               "time" : 83.366999999271,
+               "e_time" : 846.950999999535
+            }
+         ]
+      }
+   ]
+}

@@ -1,0 +1,322 @@
+{
+   "start_activity" : "download_0",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "id" : "r1",
+         "comps" : [
+            {
+               "e_time" : 1513.56600000145,
+               "time" : 1121.85699999828,
+               "s_time" : 391.709000003175,
+               "id" : "r1_c1",
+               "type" : "evalhtml"
+            }
+         ],
+         "url" : "https://searchengineland-com.cdn.ampproject.org/c/searchengineland.com/just-launched-search-engine-lands-new-martech-today-website-261253/amp",
+         "download" : {
+            "sslEnd" : 131,
+            "connectEnd" : 134,
+            "sendEnd" : 135,
+            "sslStart" : 0,
+            "dnsStart" : 0,
+            "sendStart" : 134,
+            "len" : 35060,
+            "receiveHeadersEnd" : 305,
+            "type" : "text/html",
+            "s_time" : 0,
+            "connectStart" : 0,
+            "receivedTime" : 390.034000000014,
+            "dns" : 0,
+            "dnsEnd" : 0,
+            "receiveLast" : 85.0340000000142,
+            "id" : "download_0",
+            "receiveFirst" : 170
+         }
+      },
+      {
+         "download" : {
+            "connectEnd" : 264,
+            "sslStart" : 97,
+            "sendEnd" : 264,
+            "sslEnd" : 248,
+            "len" : 4377,
+            "receiveHeadersEnd" : 392,
+            "type" : "text/javascript",
+            "receivedTime" : 841.39900000082,
+            "s_time" : 405.335000003106,
+            "connectStart" : 0,
+            "dnsStart" : 35,
+            "sendStart" : 264,
+            "dnsEnd" : 35,
+            "dns" : 0,
+            "id" : "download_1",
+            "receiveLast" : 449.39900000082,
+            "receiveFirst" : 128
+         },
+         "id" : "r5",
+         "when_comp_start" : -1,
+         "url" : "https://cdn.ampproject.org/rtv/011498506512561/v0/amp-anim-0.1.js",
+         "comps" : []
+      },
+      {
+         "download" : {
+            "receiveLast" : 447.091000002663,
+            "id" : "download_2",
+            "receiveFirst" : 132,
+            "dnsEnd" : 27,
+            "dns" : 0,
+            "type" : "text/javascript",
+            "receiveHeadersEnd" : 397,
+            "len" : 6687,
+            "connectStart" : 0,
+            "s_time" : 407.745000000432,
+            "receivedTime" : 844.091000002663,
+            "dnsStart" : 27,
+            "sendStart" : 264,
+            "connectEnd" : 264,
+            "sendEnd" : 265,
+            "sslStart" : 94,
+            "sslEnd" : 251
+         },
+         "when_comp_start" : -1,
+         "id" : "r7",
+         "comps" : [],
+         "url" : "https://cdn.ampproject.org/rtv/011498506512561/v0/amp-sidebar-0.1.js"
+      },
+      {
+         "download" : {
+            "dns" : 2,
+            "dnsEnd" : 35,
+            "receiveFirst" : 175,
+            "id" : "download_3",
+            "receiveLast" : 444.978000003466,
+            "sslEnd" : 253,
+            "sslStart" : 98,
+            "sendEnd" : 255,
+            "connectEnd" : 254,
+            "sendStart" : 254,
+            "dnsStart" : 33,
+            "receivedTime" : 874.978000003466,
+            "s_time" : 416.602000001149,
+            "connectStart" : 0,
+            "receiveHeadersEnd" : 430,
+            "type" : "text/css",
+            "len" : 734
+         },
+         "comps" : [],
+         "url" : "https://fonts.googleapis.com/cssfamily=Oswald:300,400,700",
+         "when_comp_start" : -1,
+         "id" : "r10"
+      },
+      {
+         "download" : {
+            "receiveHeadersEnd" : 429,
+            "type" : "text/css",
+            "len" : 1079,
+            "s_time" : 424.73500000051,
+            "connectStart" : 0,
+            "receivedTime" : 924.539999999979,
+            "dnsStart" : 32,
+            "sendStart" : 251,
+            "connectEnd" : 251,
+            "sendEnd" : 252,
+            "sslStart" : 96,
+            "sslEnd" : 249,
+            "receiveLast" : 495.539999999979,
+            "id" : "download_4",
+            "receiveFirst" : 177,
+            "dnsEnd" : 33,
+            "dns" : 1
+         },
+         "id" : "r11",
+         "when_comp_start" : -1,
+         "url" : "https://fonts.googleapis.com/cssfamily=Merriweather:400,400italic,700,700italic",
+         "comps" : []
+      },
+      {
+         "url" : "https://cdn.ampproject.org/rtv/011498506512561/v0/amp-video-0.1.js",
+         "comps" : [],
+         "id" : "r8",
+         "when_comp_start" : -1,
+         "download" : {
+            "connectEnd" : 428,
+            "sendEnd" : 429,
+            "sslStart" : -1,
+            "sslEnd" : -1,
+            "type" : "text/javascript",
+            "receiveHeadersEnd" : 492,
+            "len" : 10102,
+            "s_time" : 413.018000002921,
+            "connectStart" : 0,
+            "receivedTime" : 965.970000001107,
+            "dnsStart" : -1,
+            "sendStart" : 428,
+            "dnsEnd" : -1,
+            "dns" : 0,
+            "receiveLast" : 473.970000001107,
+            "id" : "download_5",
+            "receiveFirst" : 63
+         }
+      },
+      {
+         "comps" : [],
+         "url" : "https://cdn.ampproject.org/rtv/011498506512561/v0/amp-youtube-0.1.js",
+         "when_comp_start" : -1,
+         "id" : "r9",
+         "download" : {
+            "receiveFirst" : 77,
+            "id" : "download_6",
+            "receiveLast" : 462.029000003298,
+            "dnsEnd" : -1,
+            "dns" : 0,
+            "receivedTime" : 968.029000003298,
+            "connectStart" : 0,
+            "s_time" : 414.668000001257,
+            "receiveHeadersEnd" : 506,
+            "len" : 11166,
+            "type" : "text/javascript",
+            "sendStart" : 429,
+            "dnsStart" : -1,
+            "sslStart" : -1,
+            "sendEnd" : 429,
+            "connectEnd" : 429,
+            "sslEnd" : -1
+         }
+      },
+      {
+         "download" : {
+            "dnsEnd" : -1,
+            "dns" : 0,
+            "receiveFirst" : 68,
+            "receiveLast" : 493.59300000142,
+            "id" : "download_7",
+            "sendEnd" : 407,
+            "sslStart" : -1,
+            "connectEnd" : 407,
+            "sslEnd" : -1,
+            "connectStart" : 0,
+            "s_time" : 447.232000002259,
+            "receivedTime" : 968.59300000142,
+            "receiveHeadersEnd" : 475,
+            "type" : "text/javascript",
+            "len" : 38077,
+            "sendStart" : 407,
+            "dnsStart" : -1
+         },
+         "when_comp_start" : -1,
+         "id" : "r12",
+         "comps" : [],
+         "url" : "https://cdn.ampproject.org/rtv/011498506512561/v0/amp-mustache-0.1.js"
+      },
+      {
+         "comps" : [],
+         "url" : "https://searchengineland-com.cdn.ampproject.org/ii/w680/searchengineland.com/figz/wp-content/themes/searchengineland/img/logo/SEL-block.svg",
+         "when_comp_start" : -1,
+         "id" : "r20",
+         "download" : {
+            "dnsStart" : -1,
+            "sendStart" : 5,
+            "receiveHeadersEnd" : 107,
+            "len" : 7319,
+            "type" : "image/svg+xml",
+            "receivedTime" : 1697.51600000018,
+            "s_time" : 1501.98200000159,
+            "connectStart" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 5,
+            "sslStart" : -1,
+            "sendEnd" : 5,
+            "id" : "download_8",
+            "receiveLast" : 1590.51600000018,
+            "receiveFirst" : 102,
+            "dns" : 0,
+            "dnsEnd" : -1
+         }
+      },
+      {
+         "url" : "https://searchengineland-com.cdn.ampproject.org/i/searchengineland.com/figz/wp-content/themes/searchengineland/amp/img/icons/menu.png",
+         "comps" : [],
+         "id" : "r21",
+         "when_comp_start" : -1,
+         "download" : {
+            "connectEnd" : 6,
+            "sendEnd" : 7,
+            "sslStart" : -1,
+            "sslEnd" : -1,
+            "type" : "image/png",
+            "receiveHeadersEnd" : 109,
+            "len" : 111,
+            "s_time" : 1513.56600000145,
+            "connectStart" : 0,
+            "receivedTime" : 1727.67999999996,
+            "dnsStart" : -1,
+            "sendStart" : 6,
+            "dnsEnd" : -1,
+            "dns" : 0,
+            "receiveLast" : 1618.67999999996,
+            "id" : "download_9",
+            "receiveFirst" : 102
+         }
+      }
+   ],
+   "n_download_no_trigger" : 1,
+   "deps" : [
+      {
+         "a1" : "r1_c1",
+         "a2" : "download_9",
+         "time" : -1,
+         "id" : "dep1"
+      },
+      {
+         "a2" : "download_8",
+         "a1" : "r1_c1",
+         "time" : 1110.27299999841,
+         "id" : "dep2"
+      },
+      {
+         "time" : 55.522999999084,
+         "a2" : "download_7",
+         "a1" : "r1_c1",
+         "id" : "dep3"
+      },
+      {
+         "time" : 22.958999998082,
+         "a2" : "download_6",
+         "a1" : "r1_c1",
+         "id" : "dep4"
+      },
+      {
+         "id" : "dep5",
+         "time" : 21.308999999746,
+         "a2" : "download_5",
+         "a1" : "r1_c1"
+      },
+      {
+         "id" : "dep6",
+         "time" : 33.025999997335,
+         "a2" : "download_4",
+         "a1" : "r1_c1"
+      },
+      {
+         "id" : "dep7",
+         "time" : 24.892999997974,
+         "a2" : "download_3",
+         "a1" : "r1_c1"
+      },
+      {
+         "id" : "dep8",
+         "a1" : "r1_c1",
+         "a2" : "download_2",
+         "time" : 16.035999997257
+      },
+      {
+         "id" : "dep9",
+         "a1" : "r1_c1",
+         "a2" : "download_1",
+         "time" : 13.625999999931
+      }
+   ],
+   "name" : "searchengineland-com.cdn.ampproject.org_c_searchengineland.com_just-launched-search-engine-lands-new-martech-today-website-261253_amp"
+}

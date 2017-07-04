@@ -1,0 +1,89 @@
+{
+   "n_download_no_trigger" : 2,
+   "deps" : [],
+   "start_activity" : "download_0",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "id" : "r142",
+         "comps" : [
+            {
+               "s_time" : 241.448999999193,
+               "id" : "r142_c1",
+               "type" : "evalhtml",
+               "e_time" : 287.524999999732,
+               "time" : 46.076000000539
+            }
+         ],
+         "url" : "https://staticxx.facebook.com/connect/xd_arbiter/r/XBwzv5Yrm_1.jsversion=42#cb=f3b12ff4a4&domain=searchengineland.com&origin=http%3A%2F%2Fsearchengineland.com%2Ff3ee1a269&relation=parent&error=unknown_user",
+         "download" : {
+            "len" : 43423,
+            "receiveHeadersEnd" : 21,
+            "type" : "text/html",
+            "connectStart" : 0,
+            "s_time" : 0,
+            "receivedTime" : 207.549999999173,
+            "dnsStart" : -1,
+            "sendStart" : 1,
+            "connectEnd" : 1,
+            "sendEnd" : 1,
+            "sslStart" : -1,
+            "sslEnd" : -1,
+            "receiveLast" : 186.549999999173,
+            "id" : "download_0",
+            "receiveFirst" : 20,
+            "dnsEnd" : -1,
+            "dns" : 0
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "id" : "r146",
+         "comps" : [],
+         "url" : "http://ping.chartbeat.net/pingh=searchengineland.com&p=%2Fsee-google-showing-even-shopping-ads-desktop-season-262896&u=BfOdNgkjLn0Ci5fT&d=searchengineland.com&g=14529&g0=Channel%3A%20Retail&g1=Ginny%20Marvin&n=1&f=00001&c=0&x=0&m=0&y=7134&o=412&w=620&j=45&R=1&W=0&I=0&E=0&e=0&r=&b=13714&t=_7R80DiHrP",
+         "download" : {
+            "dnsEnd" : 27,
+            "dns" : 9,
+            "receiveFirst" : 204,
+            "id" : "download_1",
+            "receiveLast" : -221.250000000015,
+            "sslStart" : -1,
+            "sendEnd" : 227,
+            "connectEnd" : 226,
+            "sslEnd" : -1,
+            "receivedTime" : 209.749999999985,
+            "s_time" : -353.546000000279,
+            "connectStart" : 0,
+            "type" : "image/gif",
+            "receiveHeadersEnd" : 431,
+            "len" : 43,
+            "sendStart" : 226,
+            "dnsStart" : 18
+         }
+      },
+      {
+         "comps" : [
+            {
+               "s_time" : -313.356000000567,
+               "type" : "evalhtml",
+               "id" : "_c1",
+               "e_time" : -206.294999999955,
+               "time" : 107.061000000612
+            }
+         ]
+      },
+      {
+         "comps" : [
+            {
+               "e_time" : -88.2209999999759,
+               "time" : 116.617000000588,
+               "s_time" : -204.838000000564,
+               "type" : "evalhtml",
+               "id" : "_c1"
+            }
+         ]
+      }
+   ],
+   "name" : "staticxx.facebook.com_connect_xd_arbiter_r_XBwzv5Yrm_1.jsversion=42#cb=f3b12ff4a4&domain=searchengineland.com&origin=http%3A%2F%2Fsearchengineland.com%2Ff3ee1a269&relation=parent&error=unknown_user"
+}

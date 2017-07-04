@@ -1,0 +1,74 @@
+{
+   "deps" : [
+      {
+         "id" : "dep1",
+         "a1" : "r1_c1",
+         "a2" : "download_2",
+         "time" : -1
+      }
+   ],
+   "n_download_no_trigger" : 2,
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "download" : {
+            "dns" : 0,
+            "dnsEnd" : 0,
+            "receiveFirst" : 172,
+            "receiveLast" : 80.120000002411,
+            "id" : "download_0",
+            "sslEnd" : 113,
+            "sendEnd" : 114,
+            "sslStart" : 0,
+            "connectEnd" : 113,
+            "sendStart" : 113,
+            "dnsStart" : 0,
+            "connectStart" : 0,
+            "s_time" : 0,
+            "receivedTime" : 366.120000002411,
+            "receiveHeadersEnd" : 286,
+            "len" : 36598,
+            "type" : "text/html"
+         },
+         "url" : "https://searchengineland-com.cdn.ampproject.org/c/searchengineland.com/bing-product-ads-inventory-feed-search-query-product-level-273674/amp",
+         "comps" : [
+            {
+               "e_time" : 1534.95000000112,
+               "time" : 1162.83099999783,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "s_time" : 372.119000003295
+            }
+         ],
+         "id" : "r1",
+         "when_comp_start" : 1
+      },
+      {
+         "download" : {
+            "dnsStart" : -1,
+            "sendStart" : 21,
+            "receiveHeadersEnd" : 125,
+            "len" : 111,
+            "type" : "image/png",
+            "s_time" : 1534.95000000112,
+            "connectStart" : 0,
+            "receivedTime" : 1666.61300000123,
+            "sslEnd" : -1,
+            "connectEnd" : 21,
+            "sendEnd" : 21,
+            "sslStart" : -1,
+            "receiveLast" : 1541.61300000123,
+            "id" : "download_2",
+            "receiveFirst" : 104,
+            "dns" : 0,
+            "dnsEnd" : -1
+         },
+         "url" : "https://searchengineland-com.cdn.ampproject.org/i/searchengineland.com/figz/wp-content/themes/searchengineland/amp/img/icons/menu.png",
+         "comps" : [],
+         "id" : "r21",
+         "when_comp_start" : -1
+      }
+   ],
+   "start_activity" : "download_0",
+   "name" : "searchengineland-com.cdn.ampproject.org_c_searchengineland.com_bing-product-ads-inventory-feed-search-query-product-level-273674_amp"
+}

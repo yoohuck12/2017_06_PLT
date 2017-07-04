@@ -1,0 +1,373 @@
+{
+   "name" : "d-16930797611664748910.ampproject.net_1498506512561_frame.html",
+   "n_download_no_trigger" : 1,
+   "deps" : [
+      {
+         "a1" : "comp_3",
+         "a2" : "r33_c2",
+         "time" : -1,
+         "id" : "dep1"
+      },
+      {
+         "time" : -1,
+         "a2" : "r36_c2",
+         "a1" : "comp_27",
+         "id" : "dep2"
+      },
+      {
+         "id" : "dep3",
+         "a2" : "download_8",
+         "a1" : "r36_c1",
+         "time" : -1
+      },
+      {
+         "id" : "dep4",
+         "a1" : "r36_c1",
+         "a2" : "download_7",
+         "time" : 49.42200000005
+      },
+      {
+         "a1" : "r36_c1",
+         "a2" : "download_6",
+         "time" : 50.24599999979,
+         "id" : "dep5"
+      },
+      {
+         "a2" : "download_5",
+         "a1" : "comp_16",
+         "time" : 17.74699999987,
+         "id" : "dep6"
+      },
+      {
+         "id" : "dep7",
+         "time" : -1,
+         "a2" : "download_4",
+         "a1" : "r33_c2"
+      },
+      {
+         "a1" : "r33_c2",
+         "a2" : "download_3",
+         "time" : 484.128000000057,
+         "id" : "dep8"
+      },
+      {
+         "a2" : "download_2",
+         "a1" : "r33_c2",
+         "time" : 27.000000000044,
+         "id" : "dep9"
+      },
+      {
+         "a2" : "download_1",
+         "a1" : "r33_c1",
+         "time" : -1,
+         "id" : "dep10"
+      }
+   ],
+   "start_activity" : "download_0",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "id" : "r33",
+         "comps" : [
+            {
+               "time" : 2.14899999991803,
+               "e_time" : 400.924000000487,
+               "s_time" : 398.775000000569,
+               "type" : "evalhtml",
+               "id" : "r33_c1"
+            },
+            {
+               "id" : "r33_c2",
+               "type" : "evalhtml",
+               "s_time" : 925.618000000213,
+               "time" : 488.836999999877,
+               "e_time" : 1414.45500000009
+            }
+         ],
+         "url" : "https://d-16930797611664748910.ampproject.net/1498506512561/frame.html",
+         "download" : {
+            "dnsEnd" : 0,
+            "dns" : 0,
+            "receiveLast" : 6.95800000026065,
+            "id" : "download_0",
+            "receiveFirst" : 95,
+            "connectEnd" : 228,
+            "sendEnd" : 228,
+            "sslStart" : 58,
+            "sslEnd" : 227,
+            "len" : 375,
+            "receiveHeadersEnd" : 323,
+            "type" : "text/html",
+            "connectStart" : 0,
+            "s_time" : 0,
+            "receivedTime" : 329.958000000261,
+            "dnsStart" : 0,
+            "sendStart" : 228
+         }
+      },
+      {
+         "download" : {
+            "sslEnd" : 294,
+            "connectEnd" : 297,
+            "sendEnd" : 298,
+            "sslStart" : 71,
+            "dnsStart" : 8,
+            "sendStart" : 297,
+            "len" : 91779,
+            "receiveHeadersEnd" : 365,
+            "type" : "text/javascript",
+            "connectStart" : 0,
+            "s_time" : 400.924000000487,
+            "receivedTime" : 824.618000000555,
+            "dns" : 2,
+            "dnsEnd" : 10,
+            "receiveLast" : 459.618000000555,
+            "id" : "download_1",
+            "receiveFirst" : 67
+         },
+         "url" : "https://3p.ampproject.net/1498506512561/f.js",
+         "comps" : [
+            {
+               "type" : 1,
+               "id" : "comp_3",
+               "s_time" : 827.301000000261,
+               "time" : 98.316999999952,
+               "e_time" : 925.618000000213
+            }
+         ],
+         "id" : "r34",
+         "when_comp_start" : -1
+      },
+      {
+         "id" : "r35",
+         "when_comp_start" : -1,
+         "url" : "https://securepubads.g.doubleclick.net/static/glade.js",
+         "comps" : [
+            {
+               "id" : "comp_9",
+               "type" : null,
+               "s_time" : 1317.46100000055,
+               "e_time" : 1404.27200000067,
+               "time" : 86.81100000012
+            }
+         ],
+         "download" : {
+            "sslEnd" : 243,
+            "sendEnd" : 245,
+            "sslStart" : 68,
+            "connectEnd" : 244,
+            "sendStart" : 244,
+            "dnsStart" : 7,
+            "s_time" : 952.618000000257,
+            "connectStart" : 0,
+            "receivedTime" : 1310.01600000036,
+            "receiveHeadersEnd" : 344,
+            "len" : 19455,
+            "type" : "text/javascript",
+            "dns" : 1,
+            "dnsEnd" : 8,
+            "receiveFirst" : 99,
+            "receiveLast" : 966.01600000036,
+            "id" : "download_2"
+         }
+      },
+      {
+         "download" : {
+            "receivedTime" : 1496.72600000031,
+            "connectStart" : 0,
+            "s_time" : 1409.74600000027,
+            "type" : "text/javascript",
+            "receiveHeadersEnd" : 81,
+            "len" : 10944,
+            "sendStart" : 17,
+            "dnsStart" : -1,
+            "sslStart" : -1,
+            "sendEnd" : 17,
+            "connectEnd" : 17,
+            "sslEnd" : -1,
+            "receiveFirst" : 64,
+            "id" : "download_3",
+            "receiveLast" : 1415.72600000031,
+            "dnsEnd" : -1,
+            "dns" : 0
+         },
+         "comps" : [
+            {
+               "time" : 18.62600000004,
+               "e_time" : 1516.22100000077,
+               "s_time" : 1497.59500000073,
+               "id" : "comp_16",
+               "type" : null
+            }
+         ],
+         "url" : "https://securepubads.g.doubleclick.net/static/glade/extra_25.js",
+         "when_comp_start" : -1,
+         "id" : "r37"
+      },
+      {
+         "comps" : [
+            {
+               "id" : "r36_c1",
+               "type" : "evalhtml",
+               "s_time" : 1673.75700000048,
+               "time" : 55.5260000000999,
+               "e_time" : 1729.28300000058
+            },
+            {
+               "e_time" : 2145.30900000045,
+               "time" : 34.0519999999701,
+               "s_time" : 2111.25700000048,
+               "type" : "evalhtml",
+               "id" : "r36_c2"
+            }
+         ],
+         "url" : "https://securepubads.g.doubleclick.net/gampad/adsgdfp_req=1&glade_req=1&glv=25&output=html&iu=%2F1038259%2FSEL-amp-cube&sz=300x250&sfv=1-0-8&correlator=4397765393121280&eid=108809080&adk=2352184609&biw=412&bih=620&adx=56&ady=294&oid=3&u_sd=3.5&ifi=1&is_amp=1&amp_v=1498506512561&nhd=1&url=http%3A%2F",
+         "when_comp_start" : 1,
+         "id" : "r36",
+         "download" : {
+            "receiveFirst" : 119,
+            "receiveLast" : 1463.12200000013,
+            "id" : "download_4",
+            "dnsEnd" : -1,
+            "dns" : 0,
+            "connectStart" : 0,
+            "s_time" : 1414.45500000009,
+            "receivedTime" : 1664.12200000013,
+            "len" : 20205,
+            "receiveHeadersEnd" : 201,
+            "type" : "text/html",
+            "sendStart" : 82,
+            "dnsStart" : -1,
+            "sendEnd" : 82,
+            "sslStart" : -1,
+            "connectEnd" : 82,
+            "sslEnd" : -1
+         }
+      },
+      {
+         "download" : {
+            "type" : "text/javascript",
+            "receiveHeadersEnd" : 338,
+            "len" : 78842,
+            "receivedTime" : 1923.35800000001,
+            "connectStart" : 0,
+            "s_time" : 1515.3420000006,
+            "dnsStart" : 15,
+            "sendStart" : 272,
+            "connectEnd" : 272,
+            "sslStart" : 80,
+            "sendEnd" : 272,
+            "sslEnd" : 271,
+            "id" : "download_5",
+            "receiveLast" : 1585.35800000001,
+            "receiveFirst" : 66,
+            "dnsEnd" : 19,
+            "dns" : 4
+         },
+         "url" : "https://pagead2.googlesyndication.com/pagead/osd.js",
+         "comps" : [
+            {
+               "type" : 2,
+               "id" : "comp_23",
+               "s_time" : 1924.65400000037,
+               "e_time" : 2059.69300000015,
+               "time" : 135.03899999978
+            }
+         ],
+         "id" : "r38",
+         "when_comp_start" : -1
+      },
+      {
+         "url" : "https://tpc.googlesyndication.com/pagead/js/r20170619/r20110914/client/ext/m_window_focus_non_hydra.js",
+         "comps" : [
+            {
+               "time" : 11.8229999998202,
+               "e_time" : 2081.31099999991,
+               "s_time" : 2069.48800000009,
+               "id" : "comp_25",
+               "type" : 3
+            }
+         ],
+         "id" : "r41",
+         "when_comp_start" : -1,
+         "download" : {
+            "dnsStart" : 5,
+            "sendStart" : 221,
+            "len" : 4938,
+            "receiveHeadersEnd" : 316,
+            "type" : "text/javascript",
+            "receivedTime" : 2068.64100000075,
+            "s_time" : 1724.00300000027,
+            "connectStart" : 0,
+            "sslEnd" : 220,
+            "connectEnd" : 221,
+            "sslStart" : 66,
+            "sendEnd" : 222,
+            "id" : "download_6",
+            "receiveLast" : 1752.64100000075,
+            "receiveFirst" : 94,
+            "dns" : 0,
+            "dnsEnd" : 5
+         }
+      },
+      {
+         "id" : "r40",
+         "when_comp_start" : -1,
+         "url" : "https://tpc.googlesyndication.com/simgad/15574220160088980243",
+         "comps" : [],
+         "download" : {
+            "sendEnd" : 229,
+            "sslStart" : 74,
+            "connectEnd" : 228,
+            "sslEnd" : 227,
+            "s_time" : 1723.17900000053,
+            "connectStart" : 0,
+            "receivedTime" : 2167.80500000004,
+            "receiveHeadersEnd" : 330,
+            "type" : "image/jpeg",
+            "len" : 28786,
+            "sendStart" : 228,
+            "dnsStart" : 12,
+            "dnsEnd" : 13,
+            "dns" : 1,
+            "receiveFirst" : 101,
+            "receiveLast" : 1837.80500000004,
+            "id" : "download_7"
+         }
+      },
+      {
+         "id" : "r42",
+         "when_comp_start" : -1,
+         "url" : "https://tpc.googlesyndication.com/pagead/js/r20170619/r20110914/activeview/osd_listener.js",
+         "comps" : [
+            {
+               "e_time" : 2111.25700000048,
+               "time" : 24.9629999998497,
+               "id" : "comp_27",
+               "type" : 1,
+               "s_time" : 2086.29400000063
+            }
+         ],
+         "download" : {
+            "connectStart" : 0,
+            "s_time" : 1729.28300000058,
+            "receivedTime" : 2085.419,
+            "receiveHeadersEnd" : 331,
+            "len" : 26372,
+            "type" : "text/javascript",
+            "sendStart" : 221,
+            "dnsStart" : 0,
+            "sendEnd" : 221,
+            "sslStart" : 63,
+            "connectEnd" : 221,
+            "sslEnd" : 219,
+            "receiveFirst" : 110,
+            "receiveLast" : 1754.419,
+            "id" : "download_8",
+            "dnsEnd" : 0,
+            "dns" : 0
+         }
+      }
+   ]
+}

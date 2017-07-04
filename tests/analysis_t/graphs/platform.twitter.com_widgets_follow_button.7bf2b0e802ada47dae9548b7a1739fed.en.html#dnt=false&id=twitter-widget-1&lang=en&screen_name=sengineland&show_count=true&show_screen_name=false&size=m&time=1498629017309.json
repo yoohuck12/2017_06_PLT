@@ -1,0 +1,209 @@
+{
+   "start_activity" : "download_0",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "url" : "http://platform.twitter.com/widgets/follow_button.7bf2b0e802ada47dae9548b7a1739fed.en.html#dnt=false&id=twitter-widget-1&lang=en&screen_name=sengineland&show_count=true&show_screen_name=false&size=m&time=1498629017309",
+         "comps" : [
+            {
+               "e_time" : 1221.04099999706,
+               "time" : 68.19600000017,
+               "type" : "evalhtml",
+               "id" : "r138_c1",
+               "s_time" : 1152.84499999689
+            }
+         ],
+         "id" : "r138",
+         "when_comp_start" : 1,
+         "download" : {
+            "sslEnd" : -1,
+            "sslStart" : -1,
+            "sendEnd" : 164,
+            "connectEnd" : 164,
+            "sendStart" : 164,
+            "dnsStart" : -1,
+            "receivedTime" : 724.039999997331,
+            "connectStart" : 0,
+            "s_time" : 0,
+            "receiveHeadersEnd" : 309,
+            "len" : 33941,
+            "type" : "text/html",
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveFirst" : 145,
+            "id" : "download_0",
+            "receiveLast" : 415.039999997331
+         }
+      },
+      {
+         "download" : {
+            "dns" : 1,
+            "dnsEnd" : 4,
+            "receiveFirst" : 103,
+            "id" : "download_1",
+            "receiveLast" : 552.853999999643,
+            "sslEnd" : -1,
+            "sslStart" : -1,
+            "sendEnd" : 67,
+            "connectEnd" : 66,
+            "sendStart" : 66,
+            "dnsStart" : 3,
+            "receivedTime" : 722.853999999643,
+            "connectStart" : 0,
+            "s_time" : 151.948999999149,
+            "receiveHeadersEnd" : 170,
+            "type" : "image/gif",
+            "len" : 42
+         },
+         "comps" : [],
+         "url" : "http://pagead2.googlesyndication.com/activeviewavi=BPI9DkENTWYqPN9DiqAHX6Z_gBAAAAAAQATgByAECwAIC4AIAyAOZBOAEAaAGFNIIBQiAYRAB&cid=CAASBORoJlY&id=osdim&ti=1&r=u&adk=1793461615&tt=2094&bs=412,620&mtos=0,0,0,0,0&tos=0,0,0,0,0&p=0,0,0,0&mcvt=0&rs=3&ht=0&mc=0&lte=-1&bas=0&bac=0&bos=412,620&ps=412,8774&ss",
+         "when_comp_start" : -1,
+         "id" : "r140"
+      },
+      {
+         "download" : {
+            "receiveHeadersEnd" : 169,
+            "len" : 42,
+            "type" : "image/gif",
+            "connectStart" : 0,
+            "s_time" : 157.128999999259,
+            "receivedTime" : 723.731999998563,
+            "dnsStart" : 4,
+            "sendStart" : 67,
+            "connectEnd" : 67,
+            "sendEnd" : 68,
+            "sslStart" : -1,
+            "sslEnd" : -1,
+            "receiveLast" : 554.731999998563,
+            "id" : "download_2",
+            "receiveFirst" : 101,
+            "dnsEnd" : 4,
+            "dns" : 0
+         },
+         "comps" : [],
+         "url" : "http://pagead2.googlesyndication.com/activeviewavi=BjFMikENTWYuPN9DiqAHX6Z_gBAAAAAAQATgByAECwAIC4AIAyAOZBOAEAaAGFNIIBQiAYRAB&cid=CAASBORoLOM&id=osdim&ti=1&r=u&adk=2376149166&tt=2094&bs=412,620&mtos=0,0,0,0,0&tos=0,0,0,0,0&p=0,0,0,0&mcvt=0&rs=3&ht=0&mc=0&lte=-1&bas=0&bac=0&bos=412,620&ps=412,8774&ss",
+         "when_comp_start" : -1,
+         "id" : "r141"
+      },
+      {
+         "when_comp_start" : -1,
+         "id" : "r142",
+         "comps" : [
+            {
+               "type" : null,
+               "id" : "comp_39",
+               "s_time" : 1223.19599999901,
+               "e_time" : 1371.61399999968,
+               "time" : 148.41800000067
+            }
+         ],
+         "url" : "http://static.chartbeat.com/js/chartbeat.js",
+         "download" : {
+            "dnsEnd" : -1,
+            "dns" : 0,
+            "receiveFirst" : 35,
+            "id" : "download_3",
+            "receiveLast" : 682.365999998961,
+            "sslStart" : -1,
+            "sendEnd" : 9,
+            "connectEnd" : 9,
+            "sslEnd" : -1,
+            "receivedTime" : 726.365999998961,
+            "connectStart" : 0,
+            "s_time" : 521.306999999069,
+            "receiveHeadersEnd" : 44,
+            "len" : 33343,
+            "type" : "application/x-javascript",
+            "sendStart" : 9,
+            "dnsStart" : -1
+         }
+      },
+      {
+         "url" : "https://cdn.syndication.twimg.com/widgets/followbutton/info.jsoncallback=__twttr.setFollowersCountAndFollowing&lang=en&screen_names=sengineland",
+         "comps" : [
+            {
+               "type" : null,
+               "id" : "comp_49",
+               "s_time" : 1502.57999999667,
+               "time" : 7.49800000266987,
+               "e_time" : 1510.07799999934
+            },
+            {
+               "e_time" : 1516.79199999853,
+               "time" : 6.51300000027004,
+               "id" : "comp_52",
+               "type" : null,
+               "s_time" : 1510.27899999826
+            }
+         ],
+         "id" : "r144",
+         "when_comp_start" : -1,
+         "download" : {
+            "receiveFirst" : 9,
+            "receiveLast" : 1244.06599999728,
+            "id" : "download_4",
+            "dns" : 9,
+            "dnsEnd" : 20,
+            "sendStart" : 123,
+            "dnsStart" : 11,
+            "s_time" : 982.852999997704,
+            "connectStart" : 0,
+            "receivedTime" : 1377.06599999728,
+            "receiveHeadersEnd" : 133,
+            "len" : 242,
+            "type" : "application/javascript",
+            "sslEnd" : 122,
+            "sendEnd" : 124,
+            "sslStart" : 33,
+            "connectEnd" : 123
+         }
+      },
+      {
+         "comps" : [
+            {
+               "e_time" : 1575.94999999856,
+               "time" : 41.7989999987201,
+               "s_time" : 1534.15099999984,
+               "type" : "evalhtml",
+               "id" : "r143_c1"
+            }
+         ],
+         "url" : "https://staticxx.facebook.com/connect/xd_arbiter/r/XBwzv5Yrm_1.jsversion=42#cb=f2cc27e06&domain=searchengineland.com&origin=http%3A%2F%2Fsearchengineland.com%2Ff292038514&relation=parent&error=unknown_user",
+         "when_comp_start" : 1,
+         "id" : "r143",
+         "download" : {
+            "dnsEnd" : -1,
+            "dns" : 0,
+            "receiveFirst" : 4,
+            "id" : "download_5",
+            "receiveLast" : 1464.18099999655,
+            "sslStart" : -1,
+            "sendEnd" : 0,
+            "connectEnd" : 0,
+            "sslEnd" : -1,
+            "receivedTime" : 1468.18099999655,
+            "connectStart" : 0,
+            "s_time" : 1374.62400000004,
+            "len" : 43423,
+            "receiveHeadersEnd" : 4,
+            "type" : "text/html",
+            "sendStart" : 0,
+            "dnsStart" : -1
+         }
+      },
+      {
+         "comps" : [
+            {
+               "type" : "evalhtml",
+               "id" : "_c1",
+               "s_time" : 820.067999997264,
+               "time" : 163.512000002811,
+               "e_time" : 983.580000000075
+            }
+         ]
+      }
+   ],
+   "deps" : [],
+   "n_download_no_trigger" : 5,
+   "name" : "platform.twitter.com_widgets_follow_button.7bf2b0e802ada47dae9548b7a1739fed.en.html#dnt=false&id=twitter-widget-1&lang=en&screen_name=sengineland&show_count=true&show_screen_name=false&size=m&time=1498629017309"
+}

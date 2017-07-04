@@ -1,0 +1,74 @@
+{
+   "name" : "searchengineland-com.cdn.ampproject.org_c_searchengineland.com_advanced-google-shopping-price-proxy-quality-score-product-ads-253735_amp",
+   "n_download_no_trigger" : 1,
+   "deps" : [
+      {
+         "id" : "dep1",
+         "time" : -1,
+         "a1" : "r1_c1",
+         "a2" : "download_1"
+      }
+   ],
+   "objs" : [
+      {
+         "id" : "r1",
+         "when_comp_start" : 1,
+         "url" : "https://searchengineland-com.cdn.ampproject.org/c/searchengineland.com/advanced-google-shopping-price-proxy-quality-score-product-ads-253735/amp",
+         "comps" : [
+            {
+               "id" : "r1_c1",
+               "type" : "evalhtml",
+               "s_time" : 413.392000002204,
+               "time" : 5832.72299999954,
+               "e_time" : 6246.11500000174
+            }
+         ],
+         "download" : {
+            "receiveHeadersEnd" : 316,
+            "type" : "text/html",
+            "len" : 45006,
+            "receivedTime" : 411.422000001039,
+            "connectStart" : 0,
+            "s_time" : 0,
+            "dnsStart" : -1,
+            "sendStart" : 60,
+            "connectEnd" : 60,
+            "sslStart" : -1,
+            "sendEnd" : 60,
+            "sslEnd" : -1,
+            "id" : "download_0",
+            "receiveLast" : 95.4220000010391,
+            "receiveFirst" : 256,
+            "dnsEnd" : -1,
+            "dns" : 0
+         }
+      },
+      {
+         "id" : "r38",
+         "when_comp_start" : -1,
+         "url" : "https://tpc.googlesyndication.com/simgad/10468169707631168070",
+         "comps" : [],
+         "download" : {
+            "receiveHeadersEnd" : 258,
+            "type" : "image/jpeg",
+            "len" : 28381,
+            "s_time" : 6246.11500000174,
+            "connectStart" : 0,
+            "receivedTime" : 6658.55899999951,
+            "dnsStart" : 17,
+            "sendStart" : 185,
+            "connectEnd" : 185,
+            "sendEnd" : 185,
+            "sslStart" : 69,
+            "sslEnd" : 184,
+            "receiveLast" : 6400.55899999951,
+            "id" : "download_1",
+            "receiveFirst" : 73,
+            "dnsEnd" : 19,
+            "dns" : 2
+         }
+      }
+   ],
+   "load_activity" : -1,
+   "start_activity" : "download_0"
+}

@@ -1,0 +1,42 @@
+{
+   "n_download_no_trigger" : 1,
+   "deps" : [],
+   "load_activity" : -1,
+   "start_activity" : "download_0",
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "id" : "r1",
+         "comps" : [
+            {
+               "id" : "r1_c1",
+               "type" : "evalhtml",
+               "s_time" : 924.665999998979,
+               "time" : 75.418000000351,
+               "e_time" : 1000.08399999933
+            }
+         ],
+         "url" : "https://searchengineland-com.cdn.ampproject.org/c/searchengineland.com/googles-recent-rlsa-updates-mean-advertisers-260417/amp",
+         "download" : {
+            "dns" : 0,
+            "dnsEnd" : 0,
+            "id" : "download_0",
+            "receiveLast" : 122.028000000253,
+            "receiveFirst" : 213,
+            "sslEnd" : 581,
+            "connectEnd" : 583,
+            "sslStart" : 0,
+            "sendEnd" : 584,
+            "dnsStart" : 0,
+            "sendStart" : 583,
+            "type" : "text/html",
+            "receiveHeadersEnd" : 797,
+            "len" : 42624,
+            "receivedTime" : 919.028000000253,
+            "connectStart" : 0,
+            "s_time" : 0
+         }
+      }
+   ],
+   "name" : "searchengineland-com.cdn.ampproject.org_c_searchengineland.com_googles-recent-rlsa-updates-mean-advertisers-260417_amp"
+}

@@ -1,0 +1,353 @@
+{
+   "name" : "searchengineland-com.cdn.ampproject.org_c_searchengineland.com_antikythera-mechanism-google-doodle-honors-ancient-astronomical-tool-275178_amp",
+   "deps" : [
+      {
+         "id" : "dep1",
+         "time" : 44.250000000829,
+         "a1" : "r1_c1",
+         "a2" : "download_10"
+      },
+      {
+         "time" : 43.375000001106,
+         "a2" : "download_9",
+         "a1" : "r1_c1",
+         "id" : "dep2"
+      },
+      {
+         "a1" : "r1_c1",
+         "a2" : "download_8",
+         "time" : 46.215000000302,
+         "id" : "dep3"
+      },
+      {
+         "time" : 45.267999999851,
+         "a2" : "download_7",
+         "a1" : "r1_c1",
+         "id" : "dep4"
+      },
+      {
+         "time" : 42.559999999867,
+         "a1" : "r1_c1",
+         "a2" : "download_6",
+         "id" : "dep5"
+      },
+      {
+         "id" : "dep6",
+         "a1" : "r1_c1",
+         "a2" : "download_5",
+         "time" : 41.306999999506
+      },
+      {
+         "id" : "dep7",
+         "a2" : "download_4",
+         "a1" : "r1_c1",
+         "time" : 37.644
+      },
+      {
+         "time" : 31.149000000368,
+         "a2" : "download_3",
+         "a1" : "r1_c1",
+         "id" : "dep8"
+      },
+      {
+         "a2" : "download_2",
+         "a1" : "r1_c1",
+         "time" : 30.4429999996501,
+         "id" : "dep9"
+      },
+      {
+         "time" : 29.62800000023,
+         "a2" : "download_1",
+         "a1" : "r1_c1",
+         "id" : "dep10"
+      }
+   ],
+   "n_download_no_trigger" : 1,
+   "load_activity" : -1,
+   "start_activity" : "download_0",
+   "objs" : [
+      {
+         "download" : {
+            "connectEnd" : 78,
+            "sslStart" : 0,
+            "sendEnd" : 79,
+            "sslEnd" : 78,
+            "receiveHeadersEnd" : 303,
+            "type" : "text/html",
+            "len" : 36170,
+            "receivedTime" : 401.777000000948,
+            "s_time" : 0,
+            "connectStart" : 0,
+            "dnsStart" : 0,
+            "sendStart" : 78,
+            "dnsEnd" : 0,
+            "dns" : 0,
+            "id" : "download_0",
+            "receiveLast" : 98.7770000009477,
+            "receiveFirst" : 224
+         },
+         "id" : "r1",
+         "when_comp_start" : 1,
+         "url" : "https://searchengineland-com.cdn.ampproject.org/c/searchengineland.com/antikythera-mechanism-google-doodle-honors-ancient-astronomical-tool-275178/amp",
+         "comps" : [
+            {
+               "id" : "r1_c1",
+               "type" : "evalhtml",
+               "s_time" : 405.052000000069,
+               "e_time" : 480.960000000778,
+               "time" : 75.908000000709
+            }
+         ]
+      },
+      {
+         "download" : {
+            "connectEnd" : 310,
+            "sendEnd" : 311,
+            "sslStart" : 91,
+            "sslEnd" : 308,
+            "len" : 221178,
+            "receiveHeadersEnd" : 424,
+            "type" : "text/javascript",
+            "connectStart" : 0,
+            "s_time" : 434.680000000299,
+            "receivedTime" : 1040.23600000073,
+            "dnsStart" : 31,
+            "sendStart" : 310,
+            "dnsEnd" : 31,
+            "dns" : 0,
+            "receiveLast" : 616.236000000732,
+            "id" : "download_1",
+            "receiveFirst" : 113
+         },
+         "when_comp_start" : -1,
+         "id" : "r2",
+         "comps" : [],
+         "url" : "https://cdn.ampproject.org/rtv/011498506512561/v0.js"
+      },
+      {
+         "download" : {
+            "receiveHeadersEnd" : 430,
+            "type" : "text/javascript",
+            "len" : 54716,
+            "connectStart" : 0,
+            "s_time" : 435.494999999719,
+            "receivedTime" : 1038.18599999977,
+            "dnsStart" : 17,
+            "sendStart" : 313,
+            "connectEnd" : 313,
+            "sendEnd" : 313,
+            "sslStart" : 86,
+            "sslEnd" : 306,
+            "receiveLast" : 608.185999999769,
+            "id" : "download_2",
+            "receiveFirst" : 117,
+            "dnsEnd" : 26,
+            "dns" : 9
+         },
+         "when_comp_start" : -1,
+         "id" : "r3",
+         "comps" : [],
+         "url" : "https://cdn.ampproject.org/rtv/011498506512561/v0/amp-ad-0.1.js"
+      },
+      {
+         "comps" : [],
+         "url" : "https://cdn.ampproject.org/rtv/011498506512561/v0/amp-analytics-0.1.js",
+         "when_comp_start" : -1,
+         "id" : "r4",
+         "download" : {
+            "receiveLast" : 606.340000001175,
+            "id" : "download_3",
+            "receiveFirst" : 120,
+            "dnsEnd" : 26,
+            "dns" : 9,
+            "type" : "text/javascript",
+            "receiveHeadersEnd" : 433,
+            "len" : 84256,
+            "s_time" : 436.201000000437,
+            "connectStart" : 0,
+            "receivedTime" : 1039.34000000118,
+            "dnsStart" : 17,
+            "sendStart" : 312,
+            "connectEnd" : 312,
+            "sendEnd" : 313,
+            "sslStart" : 85,
+            "sslEnd" : 305
+         }
+      },
+      {
+         "url" : "https://cdn.ampproject.org/rtv/011498506512561/v0/amp-anim-0.1.js",
+         "comps" : [],
+         "id" : "r5",
+         "when_comp_start" : -1,
+         "download" : {
+            "id" : "download_4",
+            "receiveLast" : 482.687000000617,
+            "receiveFirst" : 126,
+            "dns" : 1,
+            "dnsEnd" : 24,
+            "dnsStart" : 23,
+            "sendStart" : 306,
+            "receiveHeadersEnd" : 433,
+            "len" : 4377,
+            "type" : "text/javascript",
+            "receivedTime" : 915.687000000617,
+            "s_time" : 442.696000000069,
+            "connectStart" : 0,
+            "sslEnd" : 299,
+            "connectEnd" : 306,
+            "sslStart" : 83,
+            "sendEnd" : 307
+         }
+      },
+      {
+         "download" : {
+            "dnsEnd" : 18,
+            "dns" : 8,
+            "receiveFirst" : 133,
+            "id" : "download_5",
+            "receiveLast" : 555.199000000866,
+            "sslStart" : 79,
+            "sendEnd" : 307,
+            "connectEnd" : 306,
+            "sslEnd" : 298,
+            "receivedTime" : 995.199000000866,
+            "connectStart" : 0,
+            "s_time" : 446.358999999575,
+            "receiveHeadersEnd" : 440,
+            "type" : "text/javascript",
+            "len" : 31561,
+            "sendStart" : 306,
+            "dnsStart" : 10
+         },
+         "when_comp_start" : -1,
+         "id" : "r6",
+         "comps" : [],
+         "url" : "https://cdn.ampproject.org/rtv/011498506512561/v0/amp-form-0.1.js"
+      },
+      {
+         "download" : {
+            "s_time" : 447.611999999936,
+            "connectStart" : 0,
+            "receivedTime" : 935.48600000031,
+            "len" : 6687,
+            "receiveHeadersEnd" : 449,
+            "type" : "text/javascript",
+            "sendStart" : 307,
+            "dnsStart" : 24,
+            "sendEnd" : 308,
+            "sslStart" : 86,
+            "connectEnd" : 307,
+            "sslEnd" : 302,
+            "receiveFirst" : 141,
+            "receiveLast" : 486.48600000031,
+            "id" : "download_6",
+            "dnsEnd" : 24,
+            "dns" : 0
+         },
+         "comps" : [],
+         "url" : "https://cdn.ampproject.org/rtv/011498506512561/v0/amp-sidebar-0.1.js",
+         "when_comp_start" : -1,
+         "id" : "r7"
+      },
+      {
+         "url" : "https://fonts.googleapis.com/cssfamily=Oswald:300,400,700",
+         "comps" : [],
+         "id" : "r10",
+         "when_comp_start" : -1,
+         "download" : {
+            "receivedTime" : 936.332999999649,
+            "connectStart" : 0,
+            "s_time" : 450.31999999992,
+            "receiveHeadersEnd" : 455,
+            "type" : "text/css",
+            "len" : 734,
+            "sendStart" : 279,
+            "dnsStart" : 32,
+            "sslStart" : 95,
+            "sendEnd" : 280,
+            "connectEnd" : 279,
+            "sslEnd" : 278,
+            "receiveFirst" : 175,
+            "id" : "download_7",
+            "receiveLast" : 481.332999999649,
+            "dnsEnd" : 37,
+            "dns" : 5
+         }
+      },
+      {
+         "id" : "r11",
+         "when_comp_start" : -1,
+         "url" : "https://fonts.googleapis.com/cssfamily=Merriweather:400,400italic,700,700italic",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 176,
+            "receiveLast" : 481.533000000258,
+            "id" : "download_8",
+            "dnsEnd" : 37,
+            "dns" : 0,
+            "connectStart" : 0,
+            "s_time" : 451.267000000371,
+            "receivedTime" : 937.533000000258,
+            "receiveHeadersEnd" : 456,
+            "len" : 1079,
+            "type" : "text/css",
+            "sendStart" : 280,
+            "dnsStart" : 37,
+            "sendEnd" : 280,
+            "sslStart" : 95,
+            "connectEnd" : 280,
+            "sslEnd" : 277
+         }
+      },
+      {
+         "url" : "https://cdn.ampproject.org/rtv/011498506512561/v0/amp-video-0.1.js",
+         "comps" : [],
+         "id" : "r8",
+         "when_comp_start" : -1,
+         "download" : {
+            "sslStart" : -1,
+            "sendEnd" : 467,
+            "connectEnd" : 467,
+            "sslEnd" : -1,
+            "receivedTime" : 1042.0180000001,
+            "s_time" : 448.427000001175,
+            "connectStart" : 0,
+            "receiveHeadersEnd" : 546,
+            "len" : 10102,
+            "type" : "text/javascript",
+            "sendStart" : 467,
+            "dnsStart" : -1,
+            "dnsEnd" : -1,
+            "dns" : 0,
+            "receiveFirst" : 79,
+            "id" : "download_9",
+            "receiveLast" : 496.018000000098
+         }
+      },
+      {
+         "download" : {
+            "dnsStart" : -1,
+            "sendStart" : 469,
+            "receiveHeadersEnd" : 547,
+            "len" : 11166,
+            "type" : "text/javascript",
+            "receivedTime" : 1041.91400000127,
+            "s_time" : 449.302000000898,
+            "connectStart" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 469,
+            "sslStart" : -1,
+            "sendEnd" : 469,
+            "id" : "download_10",
+            "receiveLast" : 494.91400000127,
+            "receiveFirst" : 78,
+            "dns" : 0,
+            "dnsEnd" : -1
+         },
+         "comps" : [],
+         "url" : "https://cdn.ampproject.org/rtv/011498506512561/v0/amp-youtube-0.1.js",
+         "when_comp_start" : -1,
+         "id" : "r9"
+      }
+   ]
+}

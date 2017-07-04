@@ -1,0 +1,105 @@
+{
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "name" : "original.testbed.localhost_test.html",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "url" : "http://original.testbed.localhost/test.html",
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 53.0160004273057,
+               "time" : 1.2399991974235,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 54.2559996247292
+            }
+         ],
+         "download" : {
+            "receiveFirst" : 2,
+            "len" : 80,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 12,
+            "sslEnd" : -1,
+            "connectEnd" : 10,
+            "connectStart" : 0,
+            "id" : "download_0",
+            "receivedTime" : "14.8790003731847",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 2.87900037318468,
+            "s_time" : 0,
+            "sendEnd" : 10,
+            "sendStart" : 10,
+            "type" : "text/html"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://original.testbed.localhost/a.jpg",
+         "id" : "r2",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 2,
+            "len" : 9337939,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 3,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_1",
+            "receivedTime" : "1360.67700013518",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1357.67700013518,
+            "s_time" : 53.9229996502399,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "image/jpeg"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "url" : "http://original.testbed.localhost/b.jpg",
+         "id" : "r3",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 2,
+            "len" : 16077783,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveHeadersEnd" : 3,
+            "sslEnd" : -1,
+            "connectEnd" : 1,
+            "connectStart" : 0,
+            "id" : "download_2",
+            "receivedTime" : "1480.37599958479",
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "receiveLast" : 1477.37599958479,
+            "s_time" : 54.2559996247292,
+            "sendEnd" : 1,
+            "sendStart" : 1,
+            "type" : "image/jpeg"
+         }
+      }
+   ],
+   "deps" : [
+      {
+         "a2" : "download_2",
+         "time" : -1,
+         "id" : "dep1",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_1",
+         "time" : 0.906999222934203,
+         "id" : "dep2",
+         "a1" : "r1_c1"
+      }
+   ]
+}

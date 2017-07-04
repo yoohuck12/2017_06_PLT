@@ -1,0 +1,279 @@
+{
+   "name" : "platform.twitter.com_widgets_follow_button.7bf2b0e802ada47dae9548b7a1739fed.en.html#dnt=false&id=twitter-widget-0&lang=en&screen_name=sengineland&show_count=true&show_screen_name=false&size=m&time=1498621052719",
+   "deps" : [
+      {
+         "time" : -1,
+         "a1" : "comp_57",
+         "a2" : "r101_c2",
+         "id" : "dep1"
+      },
+      {
+         "id" : "dep2",
+         "a1" : "r101_c1",
+         "a2" : "download_6",
+         "time" : -1
+      },
+      {
+         "time" : 82.7339999996229,
+         "a2" : "download_4",
+         "a1" : "r98_c1",
+         "id" : "dep3"
+      },
+      {
+         "id" : "dep4",
+         "time" : 84.7799999992319,
+         "a2" : "download_4",
+         "a1" : "r97_c1"
+      }
+   ],
+   "n_download_no_trigger" : 5,
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "id" : "r97",
+         "comps" : [
+            {
+               "e_time" : 1036.66499999963,
+               "time" : 85.387999999512,
+               "s_time" : 951.277000000118,
+               "id" : "r97_c1",
+               "type" : "evalhtml"
+            }
+         ],
+         "url" : "http://platform.twitter.com/widgets/follow_button.7bf2b0e802ada47dae9548b7a1739fed.en.html#dnt=false&id=twitter-widget-0&lang=en&screen_name=sengineland&show_count=true&show_screen_name=false&size=m&time=1498621052719",
+         "download" : {
+            "sslEnd" : -1,
+            "sslStart" : -1,
+            "sendEnd" : 14,
+            "connectEnd" : 14,
+            "sendStart" : 14,
+            "dnsStart" : -1,
+            "receivedTime" : 389.827999999397,
+            "connectStart" : 0,
+            "s_time" : 0,
+            "receiveHeadersEnd" : 156,
+            "len" : 33941,
+            "type" : "text/html",
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveFirst" : 142,
+            "id" : "download_0",
+            "receiveLast" : 233.827999999397
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "id" : "r98",
+         "comps" : [
+            {
+               "e_time" : 1125.19699999939,
+               "time" : 171.873999999663,
+               "s_time" : 953.322999999727,
+               "id" : "r98_c1",
+               "type" : "evalhtml"
+            }
+         ],
+         "url" : "http://platform.twitter.com/widgets/follow_button.7bf2b0e802ada47dae9548b7a1739fed.en.html#dnt=false&id=twitter-widget-1&lang=en&screen_name=sengineland&show_count=true&show_screen_name=false&size=m&time=1498621052725",
+         "download" : {
+            "receiveLast" : 246.372000000469,
+            "id" : "download_1",
+            "receiveFirst" : 144,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "dnsStart" : -1,
+            "sendStart" : 11,
+            "receiveHeadersEnd" : 156,
+            "type" : "text/html",
+            "len" : 33941,
+            "s_time" : -1.4260000007198,
+            "connectStart" : 0,
+            "receivedTime" : 402.372000000469,
+            "sslEnd" : -1,
+            "connectEnd" : 11,
+            "sendEnd" : 12,
+            "sslStart" : -1
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "id" : "r99",
+         "comps" : [
+            {
+               "type" : null,
+               "id" : "comp_40",
+               "s_time" : 1185.94099999973,
+               "time" : 112.03299999943,
+               "e_time" : 1297.97399999916
+            }
+         ],
+         "url" : "http://static.chartbeat.com/js/chartbeat.js",
+         "download" : {
+            "dnsEnd" : -1,
+            "dns" : 0,
+            "receiveFirst" : 38,
+            "id" : "download_2",
+            "receiveLast" : 364.230999999229,
+            "sslStart" : -1,
+            "sendEnd" : 5,
+            "connectEnd" : 5,
+            "sslEnd" : -1,
+            "receivedTime" : 407.230999999229,
+            "s_time" : 184.447999999975,
+            "connectStart" : 0,
+            "len" : 33343,
+            "receiveHeadersEnd" : 43,
+            "type" : "application/x-javascript",
+            "sendStart" : 5,
+            "dnsStart" : -1
+         }
+      },
+      {
+         "id" : "r101",
+         "when_comp_start" : 1,
+         "url" : "https://app-sj02.marketo.com/index.php/form/XDFrame",
+         "comps" : [
+            {
+               "time" : 6.54099999884011,
+               "e_time" : 1316.40499999958,
+               "type" : "evalhtml",
+               "id" : "r101_c1",
+               "s_time" : 1309.86400000074
+            },
+            {
+               "e_time" : 1912.74200000043,
+               "time" : 16.0130000003799,
+               "s_time" : 1896.72900000005,
+               "id" : "r101_c2",
+               "type" : "evalhtml"
+            }
+         ],
+         "download" : {
+            "sendStart" : 45,
+            "dnsStart" : 0,
+            "s_time" : 292.935999999827,
+            "connectStart" : 0,
+            "receivedTime" : 1168.44400000082,
+            "receiveHeadersEnd" : 360,
+            "len" : 1658,
+            "type" : "text/html",
+            "sslEnd" : 45,
+            "sendEnd" : 45,
+            "sslStart" : 5,
+            "connectEnd" : 45,
+            "receiveFirst" : 315,
+            "receiveLast" : 808.444000000818,
+            "id" : "download_3",
+            "dns" : 0,
+            "dnsEnd" : 0
+         }
+      },
+      {
+         "download" : {
+            "dnsEnd" : 21,
+            "dns" : 15,
+            "receiveFirst" : 10,
+            "id" : "download_4",
+            "receiveLast" : 1188.8230000006,
+            "sslStart" : 32,
+            "sendEnd" : 107,
+            "connectEnd" : 106,
+            "sslEnd" : 106,
+            "receivedTime" : 1305.8230000006,
+            "connectStart" : 0,
+            "s_time" : 1036.05699999935,
+            "receiveHeadersEnd" : 117,
+            "type" : "application/javascript",
+            "len" : 242,
+            "sendStart" : 106,
+            "dnsStart" : 6
+         },
+         "when_comp_start" : -1,
+         "id" : "r102",
+         "comps" : [
+            {
+               "time" : 10.52400000117,
+               "e_time" : 1949.79600000079,
+               "type" : null,
+               "id" : "comp_75",
+               "s_time" : 1939.27199999962
+            },
+            {
+               "id" : "comp_78",
+               "type" : null,
+               "s_time" : 1950.17200000075,
+               "e_time" : 1960.93199999996,
+               "time" : 10.7599999992101
+            }
+         ],
+         "url" : "https://cdn.syndication.twimg.com/widgets/followbutton/info.jsoncallback=__twttr.setFollowersCountAndFollowing&lang=en&screen_names=sengineland"
+      },
+      {
+         "download" : {
+            "receiveLast" : 1745.18100000004,
+            "id" : "download_5",
+            "receiveFirst" : 8,
+            "dnsEnd" : -1,
+            "dns" : 0,
+            "receiveHeadersEnd" : 8,
+            "len" : 43423,
+            "type" : "text/html",
+            "s_time" : 1300.88000000069,
+            "connectStart" : 0,
+            "receivedTime" : 1753.18100000004,
+            "dnsStart" : -1,
+            "sendStart" : 0,
+            "connectEnd" : 0,
+            "sendEnd" : 0,
+            "sslStart" : -1,
+            "sslEnd" : -1
+         },
+         "url" : "https://staticxx.facebook.com/connect/xd_arbiter/r/XBwzv5Yrm_1.jsversion=42#cb=f35bf8b6c&domain=searchengineland.com&origin=http%3A%2F%2Fsearchengineland.com%2Ff1b30c868c&relation=parent&error=unknown_user",
+         "comps" : [
+            {
+               "e_time" : 2014.81899999999,
+               "time" : 48.6920000002999,
+               "type" : "evalhtml",
+               "id" : "r100_c1",
+               "s_time" : 1966.12699999969
+            }
+         ],
+         "id" : "r100",
+         "when_comp_start" : 1
+      },
+      {
+         "download" : {
+            "id" : "download_6",
+            "receiveLast" : 1738.04399999975,
+            "receiveFirst" : 12,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "dnsStart" : -1,
+            "sendStart" : 5,
+            "len" : 168251,
+            "receiveHeadersEnd" : 18,
+            "type" : "application/x-javascript",
+            "receivedTime" : 1756.04399999975,
+            "s_time" : 1316.40499999958,
+            "connectStart" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 5,
+            "sslStart" : -1,
+            "sendEnd" : 6
+         },
+         "when_comp_start" : -1,
+         "id" : "r104",
+         "comps" : [
+            {
+               "e_time" : 1896.72900000005,
+               "time" : 140.17500000045,
+               "s_time" : 1756.5539999996,
+               "id" : "comp_57",
+               "type" : 1
+            }
+         ],
+         "url" : "https://app-sj02.marketo.com/js/forms2/js/forms2.min.js"
+      }
+   ],
+   "start_activity" : "download_0"
+}

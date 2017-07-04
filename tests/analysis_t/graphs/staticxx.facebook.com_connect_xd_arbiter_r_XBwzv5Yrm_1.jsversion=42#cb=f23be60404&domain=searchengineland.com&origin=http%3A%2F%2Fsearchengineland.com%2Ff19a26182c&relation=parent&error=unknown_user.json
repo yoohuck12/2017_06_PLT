@@ -1,0 +1,89 @@
+{
+   "load_activity" : -1,
+   "start_activity" : "download_0",
+   "objs" : [
+      {
+         "download" : {
+            "id" : "download_0",
+            "receiveLast" : 62.1230000007781,
+            "receiveFirst" : 39,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "dnsStart" : -1,
+            "sendStart" : 2,
+            "type" : "text/html",
+            "receiveHeadersEnd" : 41,
+            "len" : 43423,
+            "receivedTime" : 103.123000000778,
+            "connectStart" : 0,
+            "s_time" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 2,
+            "sslStart" : -1,
+            "sendEnd" : 2
+         },
+         "comps" : [
+            {
+               "time" : 39.461999998821,
+               "e_time" : 173.43400000027,
+               "s_time" : 133.972000001449,
+               "type" : "evalhtml",
+               "id" : "r136_c1"
+            }
+         ],
+         "url" : "https://staticxx.facebook.com/connect/xd_arbiter/r/XBwzv5Yrm_1.jsversion=42#cb=f23be60404&domain=searchengineland.com&origin=http%3A%2F%2Fsearchengineland.com%2Ff19a26182c&relation=parent&error=unknown_user",
+         "when_comp_start" : 1,
+         "id" : "r136"
+      },
+      {
+         "download" : {
+            "dnsEnd" : 40,
+            "dns" : 20,
+            "receiveFirst" : 273,
+            "receiveLast" : -484.058999998786,
+            "id" : "download_1",
+            "sendEnd" : 315,
+            "sslStart" : -1,
+            "connectEnd" : 315,
+            "sslEnd" : -1,
+            "s_time" : -520.047999998496,
+            "connectStart" : 0,
+            "receivedTime" : 103.941000001214,
+            "type" : "image/gif",
+            "receiveHeadersEnd" : 588,
+            "len" : 43,
+            "sendStart" : 315,
+            "dnsStart" : 20
+         },
+         "when_comp_start" : -1,
+         "id" : "r137",
+         "comps" : [],
+         "url" : "http://ping.chartbeat.net/pingh=searchengineland.com&p=%2Fgoogle-starts-giving-ranking-boost-secure-httpsssl-sites-199446&u=CXXQugB3I7SXBYTTza&d=searchengineland.com&g=14529&g0=Channel%3A%20SEO&g1=Barry%20Schwartz&n=1&f=00001&c=0&x=0&m=0&y=5848&o=412&w=620&j=45&R=1&W=0&I=0&E=0&e=0&r=&b=13126&t=DS20"
+      },
+      {
+         "comps" : [
+            {
+               "type" : "evalhtml",
+               "id" : "_c1",
+               "s_time" : -434.373000000051,
+               "e_time" : -341.59499999987,
+               "time" : 92.778000000181
+            }
+         ]
+      },
+      {
+         "comps" : [
+            {
+               "s_time" : -335.086999999476,
+               "id" : "_c1",
+               "type" : "evalhtml",
+               "e_time" : -237.795999999435,
+               "time" : 97.291000000041
+            }
+         ]
+      }
+   ],
+   "deps" : [],
+   "n_download_no_trigger" : 2,
+   "name" : "staticxx.facebook.com_connect_xd_arbiter_r_XBwzv5Yrm_1.jsversion=42#cb=f23be60404&domain=searchengineland.com&origin=http%3A%2F%2Fsearchengineland.com%2Ff19a26182c&relation=parent&error=unknown_user"
+}

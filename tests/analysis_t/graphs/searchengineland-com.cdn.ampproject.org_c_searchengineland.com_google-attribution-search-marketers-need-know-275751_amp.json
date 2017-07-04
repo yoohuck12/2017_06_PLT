@@ -1,0 +1,121 @@
+{
+   "n_download_no_trigger" : 1,
+   "deps" : [
+      {
+         "id" : "dep1",
+         "time" : 3.36100000095098,
+         "a1" : "r1_c1",
+         "a2" : "download_2"
+      },
+      {
+         "id" : "dep2",
+         "a1" : "r1_c1",
+         "a2" : "download_1",
+         "time" : 5.15000000086798
+      }
+   ],
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "download" : {
+            "sendStart" : 81,
+            "dnsStart" : 0,
+            "s_time" : 0,
+            "connectStart" : 0,
+            "receivedTime" : 364.707000000635,
+            "receiveHeadersEnd" : 271,
+            "type" : "text/html",
+            "len" : 44557,
+            "sslEnd" : 80,
+            "sendEnd" : 81,
+            "sslStart" : 0,
+            "connectEnd" : 81,
+            "receiveFirst" : 190,
+            "receiveLast" : 93.7070000006352,
+            "id" : "download_0",
+            "dns" : 0,
+            "dnsEnd" : 0
+         },
+         "url" : "https://searchengineland-com.cdn.ampproject.org/c/searchengineland.com/google-attribution-search-marketers-need-know-275751/amp",
+         "comps" : [
+            {
+               "s_time" : 366.432999999233,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "time" : 82.229000001462,
+               "e_time" : 448.662000000695
+            }
+         ],
+         "id" : "r1",
+         "when_comp_start" : 1
+      },
+      {
+         "when_comp_start" : -1,
+         "id" : "r3",
+         "comps" : [
+            {
+               "e_time" : 846.455999999307,
+               "time" : 22.0410000001719,
+               "id" : "comp_1",
+               "type" : null,
+               "s_time" : 824.414999999135
+            }
+         ],
+         "url" : "https://cdn.ampproject.org/rtv/011498506512561/v0/amp-ad-0.1.js",
+         "download" : {
+            "receiveFirst" : 99,
+            "id" : "download_1",
+            "receiveLast" : 435.806000000332,
+            "dns" : 0,
+            "dnsEnd" : 38,
+            "sendStart" : 288,
+            "dnsStart" : 38,
+            "receivedTime" : 823.806000000332,
+            "s_time" : 371.583000000101,
+            "connectStart" : 0,
+            "receiveHeadersEnd" : 388,
+            "len" : 54716,
+            "type" : "text/javascript",
+            "sslEnd" : 287,
+            "sslStart" : 96,
+            "sendEnd" : 289,
+            "connectEnd" : 288
+         }
+      },
+      {
+         "download" : {
+            "dnsEnd" : 21,
+            "dns" : 7,
+            "receiveLast" : 545.210000000661,
+            "id" : "download_2",
+            "receiveFirst" : 105,
+            "connectEnd" : 290,
+            "sendEnd" : 290,
+            "sslStart" : 81,
+            "sslEnd" : 289,
+            "len" : 221178,
+            "receiveHeadersEnd" : 395,
+            "type" : "text/javascript",
+            "connectStart" : 0,
+            "s_time" : 369.794000000184,
+            "receivedTime" : 940.210000000661,
+            "dnsStart" : 14,
+            "sendStart" : 290
+         },
+         "url" : "https://cdn.ampproject.org/rtv/011498506512561/v0.js",
+         "comps" : [
+            {
+               "e_time" : 1105.22999999921,
+               "time" : 144.65299999938,
+               "s_time" : 960.57699999983,
+               "id" : "comp_10",
+               "type" : null
+            }
+         ],
+         "id" : "r2",
+         "when_comp_start" : -1
+      }
+   ],
+   "start_activity" : "download_0",
+   "name" : "searchengineland-com.cdn.ampproject.org_c_searchengineland.com_google-attribution-search-marketers-need-know-275751_amp"
+}

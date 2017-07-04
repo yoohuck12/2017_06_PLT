@@ -1,0 +1,105 @@
+{
+   "name" : "searchengineland-com.cdn.ampproject.org_c_searchengineland.com_searchcap-offline-conversion-imports-adwords-google-business-updates-275341_amp",
+   "deps" : [
+      {
+         "id" : "dep1",
+         "a1" : "r1_c1",
+         "a2" : "download_2",
+         "time" : -1
+      },
+      {
+         "time" : 1071.87300000078,
+         "a1" : "r1_c1",
+         "a2" : "download_1",
+         "id" : "dep2"
+      }
+   ],
+   "n_download_no_trigger" : 1,
+   "objs" : [
+      {
+         "download" : {
+            "dns" : 0,
+            "dnsEnd" : 0,
+            "receiveFirst" : 201,
+            "id" : "download_0",
+            "receiveLast" : 104.199999999197,
+            "sslEnd" : 72,
+            "sslStart" : 0,
+            "sendEnd" : 73,
+            "connectEnd" : 72,
+            "sendStart" : 72,
+            "dnsStart" : 0,
+            "receivedTime" : 378.199999999197,
+            "s_time" : 0,
+            "connectStart" : 0,
+            "len" : 41975,
+            "receiveHeadersEnd" : 274,
+            "type" : "text/html"
+         },
+         "when_comp_start" : 1,
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 380.602999997791,
+               "id" : "r1_c1",
+               "type" : "evalhtml",
+               "time" : 1079.49900000313,
+               "e_time" : 1460.10200000092
+            }
+         ],
+         "url" : "https://searchengineland-com.cdn.ampproject.org/c/searchengineland.com/searchcap-offline-conversion-imports-adwords-google-business-updates-275341/amp"
+      },
+      {
+         "download" : {
+            "receiveFirst" : 132,
+            "id" : "download_1",
+            "receiveLast" : 1573.93099999946,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "sendStart" : 30,
+            "dnsStart" : -1,
+            "receivedTime" : 1736.93099999946,
+            "s_time" : 1452.47599999857,
+            "connectStart" : 0,
+            "len" : 7319,
+            "receiveHeadersEnd" : 163,
+            "type" : "image/svg+xml",
+            "sslEnd" : -1,
+            "sslStart" : -1,
+            "sendEnd" : 31,
+            "connectEnd" : 30
+         },
+         "when_comp_start" : -1,
+         "id" : "r20",
+         "comps" : [],
+         "url" : "https://searchengineland-com.cdn.ampproject.org/ii/w680/searchengineland.com/figz/wp-content/themes/searchengineland/img/logo/SEL-block.svg"
+      },
+      {
+         "id" : "r21",
+         "when_comp_start" : -1,
+         "url" : "https://searchengineland-com.cdn.ampproject.org/i/searchengineland.com/figz/wp-content/themes/searchengineland/amp/img/icons/menu.png",
+         "comps" : [],
+         "download" : {
+            "dnsEnd" : -1,
+            "dns" : 0,
+            "receiveLast" : 1609.867999999,
+            "id" : "download_2",
+            "receiveFirst" : 121,
+            "connectEnd" : 36,
+            "sendEnd" : 37,
+            "sslStart" : -1,
+            "sslEnd" : -1,
+            "receiveHeadersEnd" : 158,
+            "len" : 111,
+            "type" : "image/png",
+            "s_time" : 1460.10200000092,
+            "connectStart" : 0,
+            "receivedTime" : 1767.867999999,
+            "dnsStart" : -1,
+            "sendStart" : 36
+         }
+      }
+   ],
+   "load_activity" : -1,
+   "start_activity" : "download_0"
+}

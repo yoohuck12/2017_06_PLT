@@ -1,0 +1,198 @@
+{
+   "deps" : [
+      {
+         "id" : "dep1",
+         "a2" : "download_6",
+         "a1" : "r1_c1",
+         "time" : -1
+      },
+      {
+         "a2" : "download_5",
+         "a1" : "r1_c1",
+         "time" : 1159.95099999964,
+         "id" : "dep2"
+      },
+      {
+         "time" : 1155.73200000108,
+         "a2" : "download_4",
+         "a1" : "r1_c1",
+         "id" : "dep3"
+      },
+      {
+         "time" : 1151.35999999984,
+         "a2" : "download_3",
+         "a1" : "r1_c1",
+         "id" : "dep4"
+      },
+      {
+         "time" : 1138.95799999955,
+         "a1" : "r1_c1",
+         "a2" : "download_2",
+         "id" : "dep5"
+      }
+   ],
+   "n_download_no_trigger" : 2,
+   "start_activity" : "download_0",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 474.038000000292,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 1638.80900000004,
+               "time" : 1164.77099999975
+            }
+         ],
+         "url" : "https://searchengineland-com.cdn.ampproject.org/c/searchengineland.com/searchcap-amp-e-commerce-seo-audits-content-consumption-277701/amp",
+         "download" : {
+            "dns" : 0,
+            "dnsEnd" : 0,
+            "receiveFirst" : 211,
+            "receiveLast" : 97.0960000013147,
+            "id" : "download_0",
+            "sslEnd" : 154,
+            "sendEnd" : 155,
+            "sslStart" : 0,
+            "connectEnd" : 155,
+            "sendStart" : 155,
+            "dnsStart" : 0,
+            "connectStart" : 0,
+            "s_time" : 0,
+            "receivedTime" : 463.096000001315,
+            "type" : "text/html",
+            "receiveHeadersEnd" : 366,
+            "len" : 42223
+         }
+      },
+      {
+         "download" : {
+            "receiveFirst" : 132,
+            "id" : "download_2",
+            "receiveLast" : 1741.24000000086,
+            "dnsEnd" : -1,
+            "dns" : 0,
+            "receivedTime" : 1909.24000000086,
+            "connectStart" : 0,
+            "s_time" : 1612.99599999984,
+            "len" : 7319,
+            "receiveHeadersEnd" : 168,
+            "type" : "image/svg+xml",
+            "sendStart" : 36,
+            "dnsStart" : -1,
+            "sslStart" : -1,
+            "sendEnd" : 36,
+            "connectEnd" : 36,
+            "sslEnd" : -1
+         },
+         "url" : "https://searchengineland-com.cdn.ampproject.org/ii/w680/searchengineland.com/figz/wp-content/themes/searchengineland/img/logo/SEL-block.svg",
+         "comps" : [],
+         "id" : "r20",
+         "when_comp_start" : -1
+      },
+      {
+         "comps" : [],
+         "url" : "https://searchengineland-com.cdn.ampproject.org/i/searchengineland.com/figz/wp-content/themes/searchengineland/amp/img/icons/facebook.jpg",
+         "when_comp_start" : -1,
+         "id" : "r22",
+         "download" : {
+            "receiveFirst" : 100,
+            "receiveLast" : 1713.81400000084,
+            "id" : "download_3",
+            "dnsEnd" : 28,
+            "dns" : 0,
+            "connectStart" : 0,
+            "s_time" : 1625.39800000013,
+            "receivedTime" : 1964.81400000084,
+            "receiveHeadersEnd" : 251,
+            "type" : "image/webp",
+            "len" : 180,
+            "sendStart" : 151,
+            "dnsStart" : 28,
+            "sendEnd" : 151,
+            "sslStart" : 89,
+            "connectEnd" : 151,
+            "sslEnd" : 151
+         }
+      },
+      {
+         "comps" : [],
+         "url" : "https://searchengineland-com.cdn.ampproject.org/i/searchengineland.com/figz/wp-content/themes/searchengineland/amp/img/icons/twitter.jpg",
+         "when_comp_start" : -1,
+         "id" : "r23",
+         "download" : {
+            "receiveFirst" : 107,
+            "id" : "download_4",
+            "receiveLast" : 1708.56900000016,
+            "dnsEnd" : 27,
+            "dns" : 0,
+            "receivedTime" : 1966.56900000016,
+            "s_time" : 1629.77000000137,
+            "connectStart" : 0,
+            "receiveHeadersEnd" : 258,
+            "type" : "image/webp",
+            "len" : 248,
+            "sendStart" : 151,
+            "dnsStart" : 27,
+            "sslStart" : 88,
+            "sendEnd" : 151,
+            "connectEnd" : 151,
+            "sslEnd" : 148
+         }
+      },
+      {
+         "comps" : [],
+         "url" : "https://searchengineland-com.cdn.ampproject.org/i/searchengineland.com/figz/wp-content/themes/searchengineland/amp/img/icons/linkedin.jpg",
+         "when_comp_start" : -1,
+         "id" : "r24",
+         "download" : {
+            "connectEnd" : 146,
+            "sslStart" : 84,
+            "sendEnd" : 146,
+            "sslEnd" : 144,
+            "len" : 238,
+            "receiveHeadersEnd" : 255,
+            "type" : "image/webp",
+            "receivedTime" : 1967.11099999993,
+            "s_time" : 1633.98899999993,
+            "connectStart" : 0,
+            "dnsStart" : 25,
+            "sendStart" : 146,
+            "dnsEnd" : 25,
+            "dns" : 0,
+            "id" : "download_5",
+            "receiveLast" : 1712.11099999993,
+            "receiveFirst" : 109
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "id" : "r25",
+         "comps" : [],
+         "url" : "https://searchengineland-com.cdn.ampproject.org/i/searchengineland.com/figz/wp-content/seloads/2015/10/searchcap-header-v2-scap-800x450.png",
+         "download" : {
+            "connectEnd" : 142,
+            "sendEnd" : 142,
+            "sslStart" : 75,
+            "sslEnd" : 140,
+            "receiveHeadersEnd" : 467,
+            "type" : "image/png",
+            "len" : 6809,
+            "connectStart" : 0,
+            "s_time" : 1638.80900000004,
+            "receivedTime" : 2113.8690000007,
+            "dnsStart" : 14,
+            "sendStart" : 142,
+            "dnsEnd" : 15,
+            "dns" : 1,
+            "receiveLast" : 1646.8690000007,
+            "id" : "download_6",
+            "receiveFirst" : 325
+         }
+      }
+   ],
+   "name" : "searchengineland-com.cdn.ampproject.org_c_searchengineland.com_searchcap-amp-e-commerce-seo-audits-content-consumption-277701_amp"
+}

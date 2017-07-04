@@ -1,0 +1,167 @@
+{
+   "start_activity" : "download_0",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "download" : {
+            "sslEnd" : 116,
+            "connectEnd" : 116,
+            "sslStart" : 0,
+            "sendEnd" : 117,
+            "dnsStart" : 0,
+            "sendStart" : 116,
+            "receiveHeadersEnd" : 416,
+            "len" : 36911,
+            "type" : "text/html",
+            "receivedTime" : 535.799999999654,
+            "s_time" : 0,
+            "connectStart" : 0,
+            "dns" : 0,
+            "dnsEnd" : 0,
+            "id" : "download_0",
+            "receiveLast" : 119.799999999654,
+            "receiveFirst" : 299
+         },
+         "when_comp_start" : 1,
+         "id" : "r1",
+         "comps" : [
+            {
+               "time" : 1320.60499999989,
+               "e_time" : 1858.9979999997,
+               "id" : "r1_c1",
+               "type" : "evalhtml",
+               "s_time" : 538.392999999814
+            }
+         ],
+         "url" : "https://searchengineland-com.cdn.ampproject.org/c/searchengineland.com/bing-audience-targeting-in-market-custom-audiences-277080/amp"
+      },
+      {
+         "download" : {
+            "type" : "image/webp",
+            "receiveHeadersEnd" : 255,
+            "len" : 180,
+            "s_time" : 1827.13099999955,
+            "connectStart" : 0,
+            "receivedTime" : 2155.123,
+            "dnsStart" : -1,
+            "sendStart" : 129,
+            "connectEnd" : 129,
+            "sendEnd" : 129,
+            "sslStart" : -1,
+            "sslEnd" : -1,
+            "receiveLast" : 1900.123,
+            "id" : "download_2",
+            "receiveFirst" : 126,
+            "dnsEnd" : -1,
+            "dns" : 0
+         },
+         "comps" : [],
+         "url" : "https://searchengineland-com.cdn.ampproject.org/i/searchengineland.com/figz/wp-content/themes/searchengineland/amp/img/icons/facebook.jpg",
+         "when_comp_start" : -1,
+         "id" : "r23"
+      },
+      {
+         "id" : "r24",
+         "when_comp_start" : -1,
+         "url" : "https://searchengineland-com.cdn.ampproject.org/i/searchengineland.com/figz/wp-content/themes/searchengineland/amp/img/icons/twitter.jpg",
+         "comps" : [],
+         "download" : {
+            "connectEnd" : 118,
+            "sendEnd" : 118,
+            "sslStart" : -1,
+            "sslEnd" : -1,
+            "len" : 248,
+            "receiveHeadersEnd" : 241,
+            "type" : "image/webp",
+            "s_time" : 1838.35999999974,
+            "connectStart" : 0,
+            "receivedTime" : 2157.97899999961,
+            "dnsStart" : -1,
+            "sendStart" : 118,
+            "dnsEnd" : -1,
+            "dns" : 0,
+            "receiveLast" : 1916.97899999961,
+            "id" : "download_3",
+            "receiveFirst" : 123
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "id" : "r25",
+         "comps" : [],
+         "url" : "https://searchengineland-com.cdn.ampproject.org/i/searchengineland.com/figz/wp-content/themes/searchengineland/amp/img/icons/linkedin.jpg",
+         "download" : {
+            "dnsEnd" : 0,
+            "dns" : 0,
+            "receiveFirst" : 113,
+            "id" : "download_4",
+            "receiveLast" : 1923.19499999973,
+            "sslStart" : 52,
+            "sendEnd" : 123,
+            "connectEnd" : 122,
+            "sslEnd" : 122,
+            "receivedTime" : 2159.19499999973,
+            "connectStart" : 0,
+            "s_time" : 1852.30899999988,
+            "receiveHeadersEnd" : 236,
+            "len" : 238,
+            "type" : "image/webp",
+            "sendStart" : 122,
+            "dnsStart" : 0
+         }
+      },
+      {
+         "download" : {
+            "dns" : 0,
+            "dnsEnd" : 0,
+            "id" : "download_5",
+            "receiveLast" : 1863.75499999992,
+            "receiveFirst" : 229,
+            "sslEnd" : 123,
+            "connectEnd" : 124,
+            "sslStart" : 61,
+            "sendEnd" : 124,
+            "dnsStart" : 0,
+            "sendStart" : 124,
+            "receiveHeadersEnd" : 353,
+            "len" : 5506,
+            "type" : "image/webp",
+            "receivedTime" : 2216.75499999992,
+            "s_time" : 1858.9979999997,
+            "connectStart" : 0
+         },
+         "when_comp_start" : -1,
+         "id" : "r26",
+         "comps" : [],
+         "url" : "https://searchengineland-com.cdn.ampproject.org/i/searchengineland.com/figz/wp-content/seloads/2016/01/bing-teal-b1-1920-800x450.jpg"
+      }
+   ],
+   "deps" : [
+      {
+         "a2" : "download_5",
+         "a1" : "r1_c1",
+         "time" : -1,
+         "id" : "dep1"
+      },
+      {
+         "a2" : "download_4",
+         "a1" : "r1_c1",
+         "time" : 1313.91600000007,
+         "id" : "dep2"
+      },
+      {
+         "time" : 1299.96699999993,
+         "a2" : "download_3",
+         "a1" : "r1_c1",
+         "id" : "dep3"
+      },
+      {
+         "time" : 1288.73799999974,
+         "a1" : "r1_c1",
+         "a2" : "download_2",
+         "id" : "dep4"
+      }
+   ],
+   "n_download_no_trigger" : 2,
+   "name" : "searchengineland-com.cdn.ampproject.org_c_searchengineland.com_bing-audience-targeting-in-market-custom-audiences-277080_amp"
+}

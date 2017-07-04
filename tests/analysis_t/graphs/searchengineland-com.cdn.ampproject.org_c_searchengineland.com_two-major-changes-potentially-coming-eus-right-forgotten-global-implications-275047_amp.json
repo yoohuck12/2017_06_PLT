@@ -1,0 +1,268 @@
+{
+   "deps" : [
+      {
+         "a2" : "download_7",
+         "a1" : "r1_c1",
+         "time" : -1,
+         "id" : "dep1"
+      },
+      {
+         "time" : 985.212000000043,
+         "a2" : "download_6",
+         "a1" : "r1_c1",
+         "id" : "dep2"
+      },
+      {
+         "a2" : "download_5",
+         "a1" : "r1_c1",
+         "time" : 993.166000000203,
+         "id" : "dep3"
+      },
+      {
+         "id" : "dep4",
+         "time" : 980.317999999893,
+         "a2" : "download_4",
+         "a1" : "r1_c1"
+      },
+      {
+         "id" : "dep5",
+         "a1" : "r1_c1",
+         "a2" : "download_3",
+         "time" : 957.799000000253
+      },
+      {
+         "a1" : "r1_c1",
+         "a2" : "download_2",
+         "time" : 964.914000000133,
+         "id" : "dep6"
+      },
+      {
+         "id" : "dep7",
+         "a1" : "r1_c1",
+         "a2" : "download_1",
+         "time" : 11.403999999856
+      }
+   ],
+   "n_download_no_trigger" : 1,
+   "objs" : [
+      {
+         "comps" : [
+            {
+               "e_time" : 1404.35899999966,
+               "time" : 1001.74599999991,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "s_time" : 402.612999999747
+            }
+         ],
+         "url" : "https://searchengineland-com.cdn.ampproject.org/c/searchengineland.com/two-major-changes-potentially-coming-eus-right-forgotten-global-implications-275047/amp",
+         "when_comp_start" : 1,
+         "id" : "r1",
+         "download" : {
+            "len" : 40998,
+            "receiveHeadersEnd" : 284,
+            "type" : "text/html",
+            "s_time" : 0,
+            "connectStart" : 0,
+            "receivedTime" : 402.111999999761,
+            "dnsStart" : -1,
+            "sendStart" : 72,
+            "connectEnd" : 72,
+            "sendEnd" : 72,
+            "sslStart" : -1,
+            "sslEnd" : -1,
+            "receiveLast" : 118.111999999761,
+            "id" : "download_0",
+            "receiveFirst" : 212,
+            "dnsEnd" : -1,
+            "dns" : 0
+         }
+      },
+      {
+         "comps" : [
+            {
+               "e_time" : 1489.36799999956,
+               "time" : 8.99899999967988,
+               "id" : "comp_30",
+               "type" : 3,
+               "s_time" : 1480.36899999988
+            }
+         ],
+         "url" : "https://cdn.ampproject.org/rtv/011498506512561/v0/amp-youtube-0.1.js",
+         "when_comp_start" : -1,
+         "id" : "r9",
+         "download" : {
+            "dnsStart" : -1,
+            "sendStart" : 390,
+            "receiveHeadersEnd" : 468,
+            "type" : "text/javascript",
+            "len" : 11166,
+            "s_time" : 414.016999999603,
+            "connectStart" : 0,
+            "receivedTime" : 1110.74499999995,
+            "sslEnd" : -1,
+            "connectEnd" : 390,
+            "sendEnd" : 390,
+            "sslStart" : -1,
+            "receiveLast" : 642.744999999952,
+            "id" : "download_1",
+            "receiveFirst" : 78,
+            "dns" : 0,
+            "dnsEnd" : -1
+         }
+      },
+      {
+         "id" : "r21",
+         "when_comp_start" : -1,
+         "url" : "https://searchengineland-com.cdn.ampproject.org/i/searchengineland.com/figz/wp-content/themes/searchengineland/amp/img/icons/menu.png",
+         "comps" : [],
+         "download" : {
+            "receiveLast" : 1393.2809999996,
+            "id" : "download_2",
+            "receiveFirst" : 100,
+            "dnsEnd" : -1,
+            "dns" : 0,
+            "type" : "image/png",
+            "receiveHeadersEnd" : 118,
+            "len" : 111,
+            "s_time" : 1367.52699999988,
+            "connectStart" : 0,
+            "receivedTime" : 1511.2809999996,
+            "dnsStart" : -1,
+            "sendStart" : 18,
+            "connectEnd" : 18,
+            "sendEnd" : 18,
+            "sslStart" : -1,
+            "sslEnd" : -1
+         }
+      },
+      {
+         "id" : "r20",
+         "when_comp_start" : -1,
+         "url" : "https://searchengineland-com.cdn.ampproject.org/ii/w680/searchengineland.com/figz/wp-content/themes/searchengineland/img/logo/SEL-block.svg",
+         "comps" : [],
+         "download" : {
+            "dnsEnd" : -1,
+            "dns" : 0,
+            "receiveFirst" : 158,
+            "id" : "download_3",
+            "receiveLast" : 1467.31799999986,
+            "sslStart" : -1,
+            "sendEnd" : 20,
+            "connectEnd" : 19,
+            "sslEnd" : -1,
+            "receivedTime" : 1645.31799999986,
+            "s_time" : 1360.412,
+            "connectStart" : 0,
+            "receiveHeadersEnd" : 178,
+            "len" : 7319,
+            "type" : "image/svg+xml",
+            "sendStart" : 19,
+            "dnsStart" : -1
+         }
+      },
+      {
+         "download" : {
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveLast" : 1499.51199999975,
+            "id" : "download_4",
+            "receiveFirst" : 102,
+            "sslEnd" : -1,
+            "connectEnd" : 104,
+            "sendEnd" : 105,
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "sendStart" : 104,
+            "type" : "image/webp",
+            "receiveHeadersEnd" : 207,
+            "len" : 180,
+            "connectStart" : 0,
+            "s_time" : 1382.93099999964,
+            "receivedTime" : 1706.51199999975
+         },
+         "url" : "https://searchengineland-com.cdn.ampproject.org/i/searchengineland.com/figz/wp-content/themes/searchengineland/amp/img/icons/facebook.jpg",
+         "comps" : [],
+         "id" : "r22",
+         "when_comp_start" : -1
+      },
+      {
+         "when_comp_start" : -1,
+         "id" : "r24",
+         "comps" : [],
+         "url" : "https://searchengineland-com.cdn.ampproject.org/i/searchengineland.com/figz/wp-content/themes/searchengineland/amp/img/icons/linkedin.jpg",
+         "download" : {
+            "receiveLast" : 1502.91399999996,
+            "id" : "download_5",
+            "receiveFirst" : 108,
+            "dnsEnd" : 0,
+            "dns" : 0,
+            "receiveHeadersEnd" : 229,
+            "len" : 238,
+            "type" : "image/webp",
+            "s_time" : 1395.77899999995,
+            "connectStart" : 0,
+            "receivedTime" : 1731.91399999996,
+            "dnsStart" : 0,
+            "sendStart" : 121,
+            "connectEnd" : 121,
+            "sendEnd" : 121,
+            "sslStart" : 60,
+            "sslEnd" : 120
+         }
+      },
+      {
+         "download" : {
+            "receiveHeadersEnd" : 241,
+            "type" : "image/webp",
+            "len" : 248,
+            "s_time" : 1387.82499999979,
+            "connectStart" : 0,
+            "receivedTime" : 1732.37599999993,
+            "dnsStart" : 2,
+            "sendStart" : 127,
+            "connectEnd" : 127,
+            "sendEnd" : 127,
+            "sslStart" : 64,
+            "sslEnd" : 126,
+            "receiveLast" : 1491.37599999993,
+            "id" : "download_6",
+            "receiveFirst" : 114,
+            "dnsEnd" : 2,
+            "dns" : 0
+         },
+         "id" : "r23",
+         "when_comp_start" : -1,
+         "url" : "https://searchengineland-com.cdn.ampproject.org/i/searchengineland.com/figz/wp-content/themes/searchengineland/amp/img/icons/twitter.jpg",
+         "comps" : []
+      },
+      {
+         "when_comp_start" : -1,
+         "id" : "r25",
+         "comps" : [],
+         "url" : "https://searchengineland-com.cdn.ampproject.org/i/searchengineland.com/figz/wp-content/seloads/2014/08/rtbf-right-forgotten-erase-ss-800.jpg",
+         "download" : {
+            "dns" : 0,
+            "dnsEnd" : 0,
+            "receiveFirst" : 242,
+            "id" : "download_7",
+            "receiveLast" : 1469.0449999999,
+            "sslEnd" : 120,
+            "sslStart" : 58,
+            "sendEnd" : 120,
+            "connectEnd" : 120,
+            "sendStart" : 120,
+            "dnsStart" : 0,
+            "receivedTime" : 1831.0449999999,
+            "connectStart" : 0,
+            "s_time" : 1404.35899999966,
+            "len" : 25368,
+            "receiveHeadersEnd" : 362,
+            "type" : "image/webp"
+         }
+      }
+   ],
+   "load_activity" : -1,
+   "start_activity" : "download_0",
+   "name" : "searchengineland-com.cdn.ampproject.org_c_searchengineland.com_two-major-changes-potentially-coming-eus-right-forgotten-global-implications-275047_amp"
+}

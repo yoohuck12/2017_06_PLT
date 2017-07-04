@@ -1,0 +1,144 @@
+{
+   "objs" : [
+      {
+         "when_comp_start" : 1,
+         "id" : "r1",
+         "comps" : [
+            {
+               "s_time" : 355.966999999509,
+               "id" : "r1_c1",
+               "type" : "evalhtml",
+               "time" : -23219294.362,
+               "e_time" : -23218938.395
+            },
+            {
+               "e_time" : -23218938.395,
+               "time" : -23219824.114,
+               "s_time" : 885.718999998062,
+               "id" : "r1_c2",
+               "type" : "evalhtml"
+            },
+            {
+               "id" : "r1_c3",
+               "type" : "evalhtml",
+               "s_time" : 996.428999998898,
+               "e_time" : -23218938.395,
+               "time" : -23219934.824
+            },
+            {
+               "time" : 12580.5149999978,
+               "e_time" : 13841.3909999981,
+               "id" : "r1_c4",
+               "type" : "evalhtml",
+               "s_time" : 1260.87600000028
+            }
+         ],
+         "url" : "http://searchengineland.com/summer-solstice-2017-google-doodle-marks-longest-day-year-277555",
+         "download" : {
+            "receiveFirst" : 149,
+            "id" : "download_0",
+            "receiveLast" : 135.702999998874,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "sendStart" : 78,
+            "dnsStart" : -1,
+            "receivedTime" : 362.702999998874,
+            "connectStart" : 0,
+            "s_time" : 0,
+            "receiveHeadersEnd" : 227,
+            "len" : 91546,
+            "type" : "text/html",
+            "sslEnd" : -1,
+            "sslStart" : -1,
+            "sendEnd" : 78,
+            "connectEnd" : 78
+         }
+      },
+      {
+         "id" : "r146",
+         "when_comp_start" : -1,
+         "url" : "http://pagead2.googlesyndication.com/activeviewavi=BbGDQcUZTWf6QFJS-qAHD-avgCgAAAAAQATgByAEDwAIC4AIAyAOZBOAEAaAGFNIIBQiAYRAB&cid=CAASBORo9nY&id=osdim&ti=1&r=u&adk=696228357&tt=3521&bs=412,620&mtos=0,0,0,0,0&tos=0,0,0,0,0&p=0,0,0,0&mcvt=0&rs=3&ht=0&mc=0&lte=-1&bas=0&bac=0&bos=412,620&ps=412,5435&ss=",
+         "comps" : [],
+         "download" : {
+            "sendStart" : 79,
+            "dnsStart" : 19,
+            "s_time" : 13829.3389999999,
+            "connectStart" : 0,
+            "receivedTime" : 14083.1429999998,
+            "len" : 42,
+            "receiveHeadersEnd" : 224,
+            "type" : "image/gif",
+            "sslEnd" : -1,
+            "sendEnd" : 79,
+            "sslStart" : -1,
+            "connectEnd" : 79,
+            "receiveFirst" : 145,
+            "receiveLast" : 13859.1429999998,
+            "id" : "download_1",
+            "dns" : 0,
+            "dnsEnd" : 19
+         }
+      },
+      {
+         "download" : {
+            "dns" : 0,
+            "dnsEnd" : 14,
+            "id" : "download_2",
+            "receiveLast" : 13868.4450000002,
+            "receiveFirst" : 138,
+            "sslEnd" : -1,
+            "connectEnd" : 76,
+            "sslStart" : -1,
+            "sendEnd" : 77,
+            "dnsStart" : 14,
+            "sendStart" : 76,
+            "receiveHeadersEnd" : 215,
+            "len" : 42,
+            "type" : "image/gif",
+            "receivedTime" : 14083.4450000002,
+            "connectStart" : 0,
+            "s_time" : 13841.3909999981
+         },
+         "url" : "http://pagead2.googlesyndication.com/activeviewavi=B8TPqcUZTWYORFJS-qAHD-avgCgAAAAAQATgByAECwAIC4AIAyAOZBOAEAaAGFNIIBQiAYRAB&cid=CAASBORoDJ8&id=osdim&ti=1&r=u&adk=1108563014&tt=3521&bs=412,620&mtos=1512,1512,1512,1512,1512&tos=1512,0,0,0,0&p=340,56,590,356&mcvt=1512&rs=3&ht=0&tfs=2002&tls=3514&mc=1",
+         "comps" : [],
+         "id" : "r147",
+         "when_comp_start" : -1
+      }
+   ],
+   "load_activity" : -1,
+   "start_activity" : "download_0",
+   "n_download_no_trigger" : 1,
+   "deps" : [
+      {
+         "id" : "dep1",
+         "a2" : "r1_c2",
+         "a1" : "comp_5",
+         "time" : -1
+      },
+      {
+         "id" : "dep2",
+         "time" : -1,
+         "a1" : "comp_7",
+         "a2" : "r1_c3"
+      },
+      {
+         "id" : "dep3",
+         "a1" : "comp_11",
+         "a2" : "r1_c4",
+         "time" : -1
+      },
+      {
+         "a2" : "download_2",
+         "a1" : "r1_c4",
+         "time" : -1,
+         "id" : "dep4"
+      },
+      {
+         "a1" : "r1_c4",
+         "a2" : "download_1",
+         "time" : 12568.4629999996,
+         "id" : "dep5"
+      }
+   ],
+   "name" : "searchengineland.com_summer-solstice-2017-google-doodle-marks-longest-day-year-277555"
+}

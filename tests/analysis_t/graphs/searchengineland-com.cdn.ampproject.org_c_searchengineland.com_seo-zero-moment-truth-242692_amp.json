@@ -1,0 +1,74 @@
+{
+   "name" : "searchengineland-com.cdn.ampproject.org_c_searchengineland.com_seo-zero-moment-truth-242692_amp",
+   "n_download_no_trigger" : 1,
+   "deps" : [
+      {
+         "a1" : "r1_c1",
+         "a2" : "download_1",
+         "time" : 16.749999998865,
+         "id" : "dep1"
+      }
+   ],
+   "objs" : [
+      {
+         "id" : "r1",
+         "when_comp_start" : 1,
+         "url" : "https://searchengineland-com.cdn.ampproject.org/c/searchengineland.com/seo-zero-moment-truth-242692/amp",
+         "comps" : [
+            {
+               "time" : 69.951999998011,
+               "e_time" : 650.233999996999,
+               "s_time" : 580.281999998988,
+               "id" : "r1_c1",
+               "type" : "evalhtml"
+            }
+         ],
+         "download" : {
+            "dns" : 0,
+            "dnsEnd" : 0,
+            "receiveLast" : 96.5959999989718,
+            "id" : "download_0",
+            "receiveFirst" : 236,
+            "sslEnd" : 240,
+            "connectEnd" : 243,
+            "sendEnd" : 244,
+            "sslStart" : 0,
+            "dnsStart" : 0,
+            "sendStart" : 243,
+            "type" : "text/html",
+            "receiveHeadersEnd" : 480,
+            "len" : 58576,
+            "connectStart" : 0,
+            "s_time" : 0,
+            "receivedTime" : 576.595999998972
+         }
+      },
+      {
+         "download" : {
+            "len" : 221178,
+            "receiveHeadersEnd" : 350,
+            "type" : "text/javascript",
+            "s_time" : 597.031999997853,
+            "connectStart" : 0,
+            "receivedTime" : 2559.98099999852,
+            "dnsStart" : 28,
+            "sendStart" : 258,
+            "connectEnd" : 258,
+            "sendEnd" : 259,
+            "sslStart" : 94,
+            "sslEnd" : 255,
+            "receiveLast" : 2209.98099999852,
+            "id" : "download_1",
+            "receiveFirst" : 91,
+            "dnsEnd" : 33,
+            "dns" : 5
+         },
+         "id" : "r2",
+         "when_comp_start" : -1,
+         "url" : "https://cdn.ampproject.org/rtv/011498506512561/v0.js",
+         "comps" : []
+      }
+   ],
+   "load_activity" : -1,
+   "start_activity" : "download_0"
+}

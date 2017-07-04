@@ -1,0 +1,299 @@
+{
+   "deps" : [
+      {
+         "id" : "dep1",
+         "a2" : "download_8",
+         "a1" : "r1_c1",
+         "time" : -1
+      },
+      {
+         "time" : 29.596000000311,
+         "a2" : "download_7",
+         "a1" : "r1_c1",
+         "id" : "dep2"
+      },
+      {
+         "time" : 27.061999999205,
+         "a1" : "r1_c1",
+         "a2" : "download_6",
+         "id" : "dep3"
+      },
+      {
+         "id" : "dep4",
+         "time" : 26.395999999295,
+         "a1" : "r1_c1",
+         "a2" : "download_5"
+      },
+      {
+         "a2" : "download_4",
+         "a1" : "r1_c1",
+         "time" : 25.728999999046,
+         "id" : "dep5"
+      },
+      {
+         "a2" : "download_3",
+         "a1" : "r1_c1",
+         "time" : 25.000999999975,
+         "id" : "dep6"
+      },
+      {
+         "id" : "dep7",
+         "a1" : "r1_c1",
+         "a2" : "download_2",
+         "time" : 11.47999999921
+      },
+      {
+         "a1" : "r1_c1",
+         "a2" : "download_1",
+         "time" : 23.784999999407,
+         "id" : "dep8"
+      }
+   ],
+   "n_download_no_trigger" : 1,
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "download" : {
+            "dns" : 0,
+            "dnsEnd" : 0,
+            "receiveFirst" : 254,
+            "id" : "download_0",
+            "receiveLast" : 116.757000000289,
+            "sslEnd" : 60,
+            "sslStart" : 0,
+            "sendEnd" : 61,
+            "connectEnd" : 61,
+            "sendStart" : 61,
+            "dnsStart" : 0,
+            "receivedTime" : 431.757000000289,
+            "s_time" : 0,
+            "connectStart" : 0,
+            "type" : "text/html",
+            "receiveHeadersEnd" : 315,
+            "len" : 44810
+         },
+         "when_comp_start" : 1,
+         "id" : "r1",
+         "comps" : [
+            {
+               "e_time" : 1606.79999999957,
+               "time" : 1173.29099999916,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "s_time" : 433.509000000413
+            }
+         ],
+         "url" : "https://searchengineland-com.cdn.ampproject.org/c/searchengineland.com/dear-google-4-suggestions-fixing-massive-problem-fake-reviews-276445/amp"
+      },
+      {
+         "download" : {
+            "connectStart" : 0,
+            "s_time" : 457.29399999982,
+            "receivedTime" : 943.490999999995,
+            "len" : 54716,
+            "receiveHeadersEnd" : 415,
+            "type" : "text/javascript",
+            "sendStart" : 301,
+            "dnsStart" : 25,
+            "sendEnd" : 301,
+            "sslStart" : 83,
+            "connectEnd" : 301,
+            "sslEnd" : 301,
+            "receiveFirst" : 114,
+            "receiveLast" : 528.490999999995,
+            "id" : "download_1",
+            "dnsEnd" : 25,
+            "dns" : 0
+         },
+         "comps" : [],
+         "url" : "https://cdn.ampproject.org/rtv/011498506512561/v0/amp-ad-0.1.js",
+         "when_comp_start" : -1,
+         "id" : "r3"
+      },
+      {
+         "download" : {
+            "receivedTime" : 1114.23099999956,
+            "connectStart" : 0,
+            "s_time" : 444.988999999623,
+            "receiveHeadersEnd" : 435,
+            "len" : 221178,
+            "type" : "text/javascript",
+            "sendStart" : 313,
+            "dnsStart" : 27,
+            "sslStart" : 89,
+            "sendEnd" : 313,
+            "connectEnd" : 313,
+            "sslEnd" : 312,
+            "receiveFirst" : 122,
+            "id" : "download_2",
+            "receiveLast" : 679.230999999563,
+            "dnsEnd" : 30,
+            "dns" : 3
+         },
+         "when_comp_start" : -1,
+         "id" : "r2",
+         "comps" : [
+            {
+               "s_time" : 1139.52400000016,
+               "id" : "comp_0",
+               "type" : null,
+               "time" : 154.15700000086,
+               "e_time" : 1293.68100000102
+            }
+         ],
+         "url" : "https://cdn.ampproject.org/rtv/011498506512561/v0.js"
+      },
+      {
+         "download" : {
+            "connectEnd" : 299,
+            "sendEnd" : 299,
+            "sslStart" : 86,
+            "sslEnd" : 298,
+            "len" : 84256,
+            "receiveHeadersEnd" : 423,
+            "type" : "text/javascript",
+            "s_time" : 458.510000000388,
+            "connectStart" : 0,
+            "receivedTime" : 982.184000000416,
+            "dnsStart" : 27,
+            "sendStart" : 299,
+            "dnsEnd" : 28,
+            "dns" : 1,
+            "receiveLast" : 559.184000000416,
+            "id" : "download_3",
+            "receiveFirst" : 124
+         },
+         "when_comp_start" : -1,
+         "id" : "r4",
+         "comps" : [],
+         "url" : "https://cdn.ampproject.org/rtv/011498506512561/v0/amp-analytics-0.1.js"
+      },
+      {
+         "id" : "r5",
+         "when_comp_start" : -1,
+         "url" : "https://cdn.ampproject.org/rtv/011498506512561/v0/amp-anim-0.1.js",
+         "comps" : [],
+         "download" : {
+            "receiveLast" : 494.073000000732,
+            "id" : "download_4",
+            "receiveFirst" : 128,
+            "dnsEnd" : 21,
+            "dns" : 0,
+            "receiveHeadersEnd" : 424,
+            "len" : 4377,
+            "type" : "text/javascript",
+            "s_time" : 459.237999999459,
+            "connectStart" : 0,
+            "receivedTime" : 918.073000000732,
+            "dnsStart" : 21,
+            "sendStart" : 296,
+            "connectEnd" : 296,
+            "sendEnd" : 296,
+            "sslStart" : 81,
+            "sslEnd" : 294
+         }
+      },
+      {
+         "id" : "r6",
+         "when_comp_start" : -1,
+         "url" : "https://cdn.ampproject.org/rtv/011498506512561/v0/amp-form-0.1.js",
+         "comps" : [],
+         "download" : {
+            "id" : "download_5",
+            "receiveLast" : 547.08799999945,
+            "receiveFirst" : 130,
+            "dnsEnd" : 23,
+            "dns" : 0,
+            "len" : 31561,
+            "receiveHeadersEnd" : 438,
+            "type" : "text/javascript",
+            "receivedTime" : 985.08799999945,
+            "connectStart" : 0,
+            "s_time" : 459.904999999708,
+            "dnsStart" : 23,
+            "sendStart" : 307,
+            "connectEnd" : 307,
+            "sslStart" : 88,
+            "sendEnd" : 308,
+            "sslEnd" : 307
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "id" : "r7",
+         "comps" : [],
+         "url" : "https://cdn.ampproject.org/rtv/011498506512561/v0/amp-sidebar-0.1.js",
+         "download" : {
+            "dnsStart" : 25,
+            "sendStart" : 320,
+            "receiveHeadersEnd" : 439,
+            "type" : "text/javascript",
+            "len" : 6687,
+            "s_time" : 460.570999999618,
+            "connectStart" : 0,
+            "receivedTime" : 934.564999999566,
+            "sslEnd" : 319,
+            "connectEnd" : 320,
+            "sendEnd" : 320,
+            "sslStart" : 90,
+            "receiveLast" : 495.564999999566,
+            "id" : "download_6",
+            "receiveFirst" : 119,
+            "dns" : 0,
+            "dnsEnd" : 25
+         }
+      },
+      {
+         "download" : {
+            "id" : "download_7",
+            "receiveLast" : 500.61600000014,
+            "receiveFirst" : 163,
+            "dns" : 1,
+            "dnsEnd" : 31,
+            "dnsStart" : 30,
+            "sendStart" : 323,
+            "type" : "text/css",
+            "receiveHeadersEnd" : 486,
+            "len" : 734,
+            "receivedTime" : 986.61600000014,
+            "s_time" : 463.105000000724,
+            "connectStart" : 0,
+            "sslEnd" : 322,
+            "connectEnd" : 323,
+            "sslStart" : 90,
+            "sendEnd" : 323
+         },
+         "id" : "r10",
+         "when_comp_start" : -1,
+         "url" : "https://fonts.googleapis.com/cssfamily=Oswald:300,400,700",
+         "comps" : []
+      },
+      {
+         "download" : {
+            "receiveLast" : 1705.9590000004,
+            "id" : "download_8",
+            "receiveFirst" : 108,
+            "dnsEnd" : 19,
+            "dns" : 1,
+            "receiveHeadersEnd" : 248,
+            "type" : "image/webp",
+            "len" : 248,
+            "connectStart" : 0,
+            "s_time" : 1606.79999999957,
+            "receivedTime" : 1953.9590000004,
+            "dnsStart" : 18,
+            "sendStart" : 139,
+            "connectEnd" : 139,
+            "sendEnd" : 140,
+            "sslStart" : 77,
+            "sslEnd" : 139
+         },
+         "url" : "https://searchengineland-com.cdn.ampproject.org/i/searchengineland.com/figz/wp-content/themes/searchengineland/amp/img/icons/twitter.jpg",
+         "comps" : [],
+         "id" : "r23",
+         "when_comp_start" : -1
+      }
+   ],
+   "start_activity" : "download_0",
+   "name" : "searchengineland-com.cdn.ampproject.org_c_searchengineland.com_dear-google-4-suggestions-fixing-massive-problem-fake-reviews-276445_amp"
+}

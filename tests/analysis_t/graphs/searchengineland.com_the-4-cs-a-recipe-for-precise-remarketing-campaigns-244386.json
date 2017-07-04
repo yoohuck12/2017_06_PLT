@@ -1,0 +1,1991 @@
+{
+   "start_activity" : "download_0",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "download" : {
+            "sendStart" : 91,
+            "dnsStart" : 0,
+            "receivedTime" : 431.622000000061,
+            "connectStart" : 0,
+            "s_time" : 0,
+            "receiveHeadersEnd" : 282,
+            "len" : 101915,
+            "type" : "text/html",
+            "sslEnd" : -1,
+            "sslStart" : -1,
+            "sendEnd" : 91,
+            "connectEnd" : 91,
+            "receiveFirst" : 191,
+            "id" : "download_0",
+            "receiveLast" : 149.622000000061,
+            "dns" : 0,
+            "dnsEnd" : 0
+         },
+         "url" : "http://searchengineland.com/the-4-cs-a-recipe-for-precise-remarketing-campaigns-244386",
+         "comps" : [
+            {
+               "s_time" : 381.04299999759,
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "e_time" : 8837.27499999804,
+               "time" : 8456.23200000045
+            }
+         ],
+         "id" : "r1",
+         "when_comp_start" : 1
+      },
+      {
+         "id" : "r3",
+         "when_comp_start" : -1,
+         "url" : "http://fonts.googleapis.com/cssfamily=Oswald:300,400,700",
+         "comps" : [],
+         "download" : {
+            "sslEnd" : -1,
+            "sslStart" : -1,
+            "sendEnd" : 75,
+            "connectEnd" : 75,
+            "sendStart" : 75,
+            "dnsStart" : 11,
+            "receivedTime" : 632.019999997283,
+            "connectStart" : 0,
+            "s_time" : 396.385000000009,
+            "len" : 731,
+            "receiveHeadersEnd" : 212,
+            "type" : "text/css",
+            "dns" : 3,
+            "dnsEnd" : 14,
+            "receiveFirst" : 137,
+            "id" : "download_1",
+            "receiveLast" : 420.019999997283
+         }
+      },
+      {
+         "id" : "r2",
+         "when_comp_start" : -1,
+         "url" : "http://searchengineland.com/figz/wp-content/themes/searchengineland/css/searchengineland-bootstrap.css",
+         "comps" : [
+            {
+               "e_time" : 1010.31499999954,
+               "time" : 242.233000000855,
+               "s_time" : 768.081999998685,
+               "type" : 2,
+               "id" : "comp_0"
+            }
+         ],
+         "download" : {
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveFirst" : 216,
+            "id" : "download_2",
+            "receiveLast" : 532.610999998287,
+            "sslEnd" : -1,
+            "sslStart" : -1,
+            "sendEnd" : 14,
+            "connectEnd" : 13,
+            "sendStart" : 13,
+            "dnsStart" : -1,
+            "receivedTime" : 762.610999998287,
+            "connectStart" : 0,
+            "s_time" : 393.772999999783,
+            "type" : "text/css",
+            "receiveHeadersEnd" : 230,
+            "len" : 183342
+         }
+      },
+      {
+         "url" : "http://searchengineland.com/figz/wp-content/themes/searchengineland/style.css",
+         "comps" : [],
+         "id" : "r4",
+         "when_comp_start" : -1,
+         "download" : {
+            "sendStart" : 30,
+            "dnsStart" : -1,
+            "receivedTime" : 644.781999999395,
+            "s_time" : 399.124999999913,
+            "connectStart" : 0,
+            "receiveHeadersEnd" : 228,
+            "len" : 19752,
+            "type" : "text/css",
+            "sslEnd" : -1,
+            "sslStart" : -1,
+            "sendEnd" : 30,
+            "connectEnd" : 30,
+            "receiveFirst" : 198,
+            "id" : "download_3",
+            "receiveLast" : 416.781999999395,
+            "dns" : 0,
+            "dnsEnd" : -1
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "id" : "r10",
+         "comps" : [
+            {
+               "e_time" : 1592.67499999987,
+               "time" : 81.9420000007099,
+               "s_time" : 1510.73299999916,
+               "id" : "comp_8",
+               "type" : 2
+            }
+         ],
+         "url" : "http://static.chartbeat.com/js/chartbeat_mab.js",
+         "download" : {
+            "dnsEnd" : 111,
+            "dns" : 87,
+            "receiveFirst" : 96,
+            "id" : "download_4",
+            "receiveLast" : 434.299000000523,
+            "sslStart" : -1,
+            "sendEnd" : 190,
+            "connectEnd" : 190,
+            "sslEnd" : -1,
+            "receivedTime" : 720.299000000523,
+            "connectStart" : 0,
+            "s_time" : 420.330999997532,
+            "type" : "application/x-javascript",
+            "receiveHeadersEnd" : 286,
+            "len" : 14571,
+            "sendStart" : 190,
+            "dnsStart" : 24
+         }
+      },
+      {
+         "comps" : [],
+         "url" : "http://searchengineland.com/figz/wp-content/themes/searchengineland/js/lib/modernizr.custom.jsver=1.0",
+         "when_comp_start" : -1,
+         "id" : "r5",
+         "download" : {
+            "connectStart" : 0,
+            "s_time" : 417.489999999816,
+            "receivedTime" : 1011.22799999939,
+            "len" : 2368,
+            "receiveHeadersEnd" : 367,
+            "type" : "application/javascript",
+            "sendStart" : 178,
+            "dnsStart" : 21,
+            "sendEnd" : 178,
+            "sslStart" : -1,
+            "connectEnd" : 178,
+            "sslEnd" : -1,
+            "receiveFirst" : 189,
+            "receiveLast" : 644.227999999392,
+            "id" : "download_5",
+            "dnsEnd" : 21,
+            "dns" : 0
+         }
+      },
+      {
+         "download" : {
+            "sslEnd" : -1,
+            "connectEnd" : 184,
+            "sendEnd" : 184,
+            "sslStart" : -1,
+            "dnsStart" : 15,
+            "sendStart" : 184,
+            "len" : 96381,
+            "receiveHeadersEnd" : 390,
+            "type" : "application/javascript",
+            "connectStart" : 0,
+            "s_time" : 418.033999998443,
+            "receivedTime" : 1027.28699999716,
+            "dns" : 0,
+            "dnsEnd" : 15,
+            "receiveLast" : 637.286999997159,
+            "id" : "download_6",
+            "receiveFirst" : 206
+         },
+         "when_comp_start" : -1,
+         "id" : "r6",
+         "comps" : [],
+         "url" : "http://searchengineland.com/figz/wp-content/themes/searchengineland/js/lib/jquery-1.11.0.min.jsver=1.11.0"
+      },
+      {
+         "url" : "http://searchengineland.com/figz/wp-content/themes/searchengineland/js/lib/jquery-ui-1.10.3.custom.min.jsver=1.10.3",
+         "comps" : [
+            {
+               "e_time" : 1491.40099999931,
+               "time" : 272.43300000191,
+               "id" : "comp_3",
+               "type" : 2,
+               "s_time" : 1218.9679999974
+            }
+         ],
+         "id" : "r7",
+         "when_comp_start" : -1,
+         "download" : {
+            "id" : "download_7",
+            "receiveLast" : 821.290000000299,
+            "receiveFirst" : 212,
+            "dns" : 1,
+            "dnsEnd" : 17,
+            "dnsStart" : 16,
+            "sendStart" : 183,
+            "receiveHeadersEnd" : 395,
+            "len" : 228137,
+            "type" : "application/javascript",
+            "receivedTime" : 1216.2900000003,
+            "connectStart" : 0,
+            "s_time" : 418.566999996983,
+            "sslEnd" : -1,
+            "connectEnd" : 183,
+            "sslStart" : -1,
+            "sendEnd" : 183
+         }
+      },
+      {
+         "download" : {
+            "id" : "download_8",
+            "receiveLast" : 616.514999997336,
+            "receiveFirst" : 182,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "dnsStart" : -1,
+            "sendStart" : 225,
+            "receiveHeadersEnd" : 408,
+            "len" : 4552,
+            "type" : "application/javascript",
+            "receivedTime" : 1024.51499999734,
+            "connectStart" : 0,
+            "s_time" : 419.664999997622,
+            "sslEnd" : -1,
+            "connectEnd" : 225,
+            "sslStart" : -1,
+            "sendEnd" : 226
+         },
+         "id" : "r9",
+         "when_comp_start" : -1,
+         "url" : "http://searchengineland.com/figz/wp-content/themes/searchengineland/js/lib/jquery.countdown.min.jsver=2.0.4",
+         "comps" : []
+      },
+      {
+         "download" : {
+            "receiveLast" : 606.489999999991,
+            "id" : "download_9",
+            "receiveFirst" : 229,
+            "dnsEnd" : 0,
+            "dns" : 0,
+            "receiveHeadersEnd" : 419,
+            "type" : "application/javascript",
+            "len" : 731,
+            "connectStart" : 0,
+            "s_time" : 419.191999997565,
+            "receivedTime" : 1025.48999999999,
+            "dnsStart" : 0,
+            "sendStart" : 190,
+            "connectEnd" : 190,
+            "sendEnd" : 190,
+            "sslStart" : -1,
+            "sslEnd" : -1
+         },
+         "id" : "r8",
+         "when_comp_start" : -1,
+         "url" : "http://searchengineland.com/figz/wp-content/themes/searchengineland/js/lib/jquery.ba-throttle-debounce.min.jsver=1.1",
+         "comps" : []
+      },
+      {
+         "id" : "r17",
+         "when_comp_start" : -1,
+         "url" : "http://searchengineland.com/figz/wp-includes/js/wp-emoji-release.min.jsver=4.7.5",
+         "comps" : [],
+         "download" : {
+            "receiveHeadersEnd" : 242,
+            "type" : "application/javascript",
+            "len" : 11414,
+            "connectStart" : 0,
+            "s_time" : 1004.32299999738,
+            "receivedTime" : 1593.28099999766,
+            "dnsStart" : -1,
+            "sendStart" : 4,
+            "connectEnd" : 4,
+            "sendEnd" : 4,
+            "sslStart" : -1,
+            "sslEnd" : -1,
+            "receiveLast" : 1351.28099999766,
+            "id" : "download_10",
+            "receiveFirst" : 238,
+            "dnsEnd" : -1,
+            "dns" : 0
+         }
+      },
+      {
+         "comps" : [],
+         "url" : "http://edge.quantserve.com/quant.js",
+         "when_comp_start" : -1,
+         "id" : "r20",
+         "download" : {
+            "dnsEnd" : 31,
+            "dns" : 17,
+            "receiveFirst" : 14,
+            "receiveLast" : 1647.21599999725,
+            "id" : "download_11",
+            "sendEnd" : 38,
+            "sslStart" : -1,
+            "connectEnd" : 38,
+            "sslEnd" : -1,
+            "s_time" : 1504.48799999867,
+            "connectStart" : 0,
+            "receivedTime" : 1699.21599999725,
+            "len" : 11923,
+            "receiveHeadersEnd" : 52,
+            "type" : "application/x-javascript",
+            "sendStart" : 38,
+            "dnsStart" : 14
+         }
+      },
+      {
+         "comps" : [],
+         "url" : "https://connect.facebook.net/en_US/fbevents.js",
+         "when_comp_start" : -1,
+         "id" : "r21",
+         "download" : {
+            "sslEnd" : 108,
+            "sslStart" : 37,
+            "sendEnd" : 118,
+            "connectEnd" : 112,
+            "sendStart" : 112,
+            "dnsStart" : 16,
+            "receivedTime" : 1743.81199999698,
+            "connectStart" : 0,
+            "s_time" : 1507.65200000023,
+            "receiveHeadersEnd" : 167,
+            "type" : "application/x-javascript",
+            "len" : 34311,
+            "dns" : 13,
+            "dnsEnd" : 29,
+            "receiveFirst" : 49,
+            "id" : "download_12",
+            "receiveLast" : 1576.81199999698
+         }
+      },
+      {
+         "id" : "r29",
+         "when_comp_start" : -1,
+         "url" : "http://app-sj02.marketo.com/js/forms2/js/forms2.min.js",
+         "comps" : [
+            {
+               "time" : 1.2249999999799,
+               "e_time" : 2073.26999999714,
+               "type" : 2,
+               "id" : "comp_17",
+               "s_time" : 2072.04499999716
+            },
+            {
+               "s_time" : 2352.59099999894,
+               "type" : 2,
+               "id" : "comp_30",
+               "time" : 1.01699999868015,
+               "e_time" : 2353.60799999762
+            }
+         ],
+         "download" : {
+            "dns" : 19,
+            "dnsEnd" : 36,
+            "id" : "download_13",
+            "receiveLast" : 1775.94499999809,
+            "receiveFirst" : 11,
+            "sslEnd" : -1,
+            "connectEnd" : 45,
+            "sslStart" : -1,
+            "sendEnd" : 45,
+            "dnsStart" : 17,
+            "sendStart" : 45,
+            "receiveHeadersEnd" : 56,
+            "type" : "application/x-javascript",
+            "len" : 168251,
+            "receivedTime" : 1831.94499999809,
+            "s_time" : 1690.47999999748,
+            "connectStart" : 0
+         }
+      },
+      {
+         "download" : {
+            "sslEnd" : 248,
+            "sslStart" : 89,
+            "sendEnd" : 248,
+            "connectEnd" : 248,
+            "sendStart" : 248,
+            "dnsStart" : 14,
+            "receivedTime" : 2220.35499999765,
+            "s_time" : 1502.59299999743,
+            "connectStart" : 0,
+            "receiveHeadersEnd" : 326,
+            "len" : 30071,
+            "type" : "text/javascript",
+            "dns" : 8,
+            "dnsEnd" : 22,
+            "receiveFirst" : 78,
+            "id" : "download_14",
+            "receiveLast" : 1894.35499999765
+         },
+         "id" : "r19",
+         "when_comp_start" : -1,
+         "url" : "https://www.google-analytics.com/analytics.js",
+         "comps" : []
+      },
+      {
+         "download" : {
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveLast" : 1948.61599999882,
+            "id" : "download_15",
+            "receiveFirst" : 210,
+            "sslEnd" : -1,
+            "connectEnd" : 9,
+            "sendEnd" : 9,
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "sendStart" : 9,
+            "type" : "image/svg+xml",
+            "receiveHeadersEnd" : 219,
+            "len" : 9295,
+            "s_time" : 1613.61799999941,
+            "connectStart" : 0,
+            "receivedTime" : 2167.61599999882
+         },
+         "url" : "http://searchengineland.com/figz/wp-content/themes/searchengineland/img/logo/SEL-block-white.svg",
+         "comps" : [],
+         "id" : "r22",
+         "when_comp_start" : -1
+      },
+      {
+         "download" : {
+            "sslEnd" : -1,
+            "sslStart" : -1,
+            "sendEnd" : 18,
+            "connectEnd" : 18,
+            "sendStart" : 18,
+            "dnsStart" : -1,
+            "receivedTime" : 2240.63399999795,
+            "connectStart" : 0,
+            "s_time" : 1635.19599999927,
+            "receiveHeadersEnd" : 269,
+            "len" : 1570,
+            "type" : "image/png",
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveFirst" : 251,
+            "id" : "download_16",
+            "receiveLast" : 1971.63399999795
+         },
+         "id" : "r23",
+         "when_comp_start" : -1,
+         "url" : "http://searchengineland.com/images/icons/feeds_24x24.png",
+         "comps" : []
+      },
+      {
+         "url" : "https://connect.facebook.net/signals/config/423979991297359v=2.7.17",
+         "comps" : [],
+         "id" : "r39",
+         "when_comp_start" : -1,
+         "download" : {
+            "dnsEnd" : -1,
+            "dns" : 0,
+            "id" : "download_17",
+            "receiveLast" : 2161.21800000023,
+            "receiveFirst" : 74,
+            "connectEnd" : 10,
+            "sslStart" : -1,
+            "sendEnd" : 11,
+            "sslEnd" : -1,
+            "type" : "application/x-javascript",
+            "receiveHeadersEnd" : 85,
+            "len" : 28051,
+            "receivedTime" : 2246.21800000023,
+            "s_time" : 1825.28099999763,
+            "connectStart" : 0,
+            "dnsStart" : -1,
+            "sendStart" : 10
+         }
+      },
+      {
+         "download" : {
+            "type" : "application/json",
+            "receiveHeadersEnd" : 214,
+            "len" : 242,
+            "connectStart" : 0,
+            "s_time" : 1701.71099999789,
+            "receivedTime" : 2223.18199999791,
+            "dnsStart" : 25,
+            "sendStart" : 145,
+            "connectEnd" : 145,
+            "sendEnd" : 145,
+            "sslStart" : -1,
+            "sslEnd" : -1,
+            "receiveLast" : 2009.18199999791,
+            "id" : "download_18",
+            "receiveFirst" : 69,
+            "dnsEnd" : 66,
+            "dns" : 41
+         },
+         "url" : "http://mab.chartbeat.com/mab_strategy/headline_testing/get_strategy/host=searchengineland.com&domain=searchengineland.com&path=%2Fthe-4-cs-a-recipe-for-precise-remarketing-campaigns-244386",
+         "comps" : [],
+         "id" : "r37",
+         "when_comp_start" : -1
+      },
+      {
+         "id" : "r25",
+         "when_comp_start" : -1,
+         "url" : "http://searchengineland.com/images/icons/email-24x24.png",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 269,
+            "receiveLast" : 1944.59999999899,
+            "id" : "download_19",
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "sendStart" : 35,
+            "dnsStart" : -1,
+            "connectStart" : 0,
+            "s_time" : 1640.99399999759,
+            "receivedTime" : 2248.59999999899,
+            "len" : 393,
+            "receiveHeadersEnd" : 304,
+            "type" : "image/png",
+            "sslEnd" : -1,
+            "sendEnd" : 35,
+            "sslStart" : -1,
+            "connectEnd" : 35
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "id" : "r26",
+         "comps" : [],
+         "url" : "http://searchengineland.com/images/icons/linkedin_24x24.png",
+         "download" : {
+            "sslEnd" : -1,
+            "sslStart" : -1,
+            "sendEnd" : 33,
+            "connectEnd" : 32,
+            "sendStart" : 32,
+            "dnsStart" : -1,
+            "receivedTime" : 2249.09699999989,
+            "connectStart" : 0,
+            "s_time" : 1643.89999999912,
+            "type" : "image/png",
+            "receiveHeadersEnd" : 304,
+            "len" : 1616,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveFirst" : 271,
+            "id" : "download_20",
+            "receiveLast" : 1945.09699999989
+         }
+      },
+      {
+         "download" : {
+            "sslEnd" : -1,
+            "sslStart" : -1,
+            "sendEnd" : 18,
+            "connectEnd" : 17,
+            "sendStart" : 17,
+            "dnsStart" : -1,
+            "receivedTime" : 2250.87299999723,
+            "s_time" : 1638.03399999961,
+            "connectStart" : 0,
+            "receiveHeadersEnd" : 315,
+            "len" : 1964,
+            "type" : "image/png",
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveFirst" : 297,
+            "id" : "download_21",
+            "receiveLast" : 1935.87299999723
+         },
+         "when_comp_start" : -1,
+         "id" : "r24",
+         "comps" : [],
+         "url" : "http://searchengineland.com/images/icons/instagram_24x24.png"
+      },
+      {
+         "id" : "r18",
+         "when_comp_start" : -1,
+         "url" : "http://www.googletagservices.com/tag/js/gpt.js",
+         "comps" : [],
+         "download" : {
+            "receiveFirst" : 126,
+            "id" : "download_22",
+            "receiveLast" : 1796.19799999811,
+            "dnsEnd" : 269,
+            "dns" : 1,
+            "receivedTime" : 2251.19799999811,
+            "connectStart" : 0,
+            "s_time" : 1498.937999997,
+            "receiveHeadersEnd" : 455,
+            "len" : 3156,
+            "type" : "text/javascript",
+            "sendStart" : 329,
+            "dnsStart" : 268,
+            "sslStart" : -1,
+            "sendEnd" : 329,
+            "connectEnd" : 329,
+            "sslEnd" : -1
+         }
+      },
+      {
+         "download" : {
+            "receiveLast" : 1982.50500000018,
+            "id" : "download_23",
+            "receiveFirst" : 248,
+            "dnsEnd" : -1,
+            "dns" : 0,
+            "receiveHeadersEnd" : 269,
+            "len" : 7319,
+            "type" : "image/svg+xml",
+            "s_time" : 1692.28799999837,
+            "connectStart" : 0,
+            "receivedTime" : 2251.50500000018,
+            "dnsStart" : -1,
+            "sendStart" : 21,
+            "connectEnd" : 21,
+            "sendEnd" : 21,
+            "sslStart" : -1,
+            "sslEnd" : -1
+         },
+         "url" : "http://searchengineland.com/figz/wp-content/themes/searchengineland/img/logo/SEL-block.svg",
+         "comps" : [],
+         "id" : "r30",
+         "when_comp_start" : -1
+      },
+      {
+         "id" : "r11",
+         "when_comp_start" : -1,
+         "url" : "http://searchengineland.com/figz/wp-content/themes/searchengineland/fonts-icons/searchengineland.woff-cv2fyp",
+         "comps" : [],
+         "download" : {
+            "sendEnd" : 35,
+            "sslStart" : -1,
+            "connectEnd" : 35,
+            "sslEnd" : -1,
+            "connectStart" : 0,
+            "s_time" : 1827.39299999957,
+            "receivedTime" : 2301.20399999942,
+            "receiveHeadersEnd" : 215,
+            "len" : 3884,
+            "type" : "application/x-font-woff",
+            "sendStart" : 35,
+            "dnsStart" : -1,
+            "dnsEnd" : -1,
+            "dns" : 0,
+            "receiveFirst" : 180,
+            "receiveLast" : 2086.20399999942,
+            "id" : "download_24"
+         }
+      },
+      {
+         "download" : {
+            "dnsEnd" : -1,
+            "dns" : 0,
+            "receiveFirst" : 188,
+            "id" : "download_25",
+            "receiveLast" : 2127.04099999974,
+            "sslStart" : -1,
+            "sendEnd" : 62,
+            "connectEnd" : 61,
+            "sslEnd" : -1,
+            "receivedTime" : 2377.04099999974,
+            "connectStart" : 0,
+            "s_time" : 1862.15099999754,
+            "type" : "image/png",
+            "receiveHeadersEnd" : 250,
+            "len" : 963,
+            "sendStart" : 61,
+            "dnsStart" : -1
+         },
+         "id" : "r38",
+         "when_comp_start" : -1,
+         "url" : "http://searchengineland.com/figz/wp-content/themes/searchengineland/img/icons/share-header.png",
+         "comps" : []
+      },
+      {
+         "comps" : [
+            {
+               "e_time" : 2798.74399999972,
+               "time" : 130.78700000188,
+               "s_time" : 2667.95699999784,
+               "id" : "r42_c1",
+               "type" : "evalhtml"
+            }
+         ],
+         "url" : "http://platform.twitter.com/widgets/follow_button.1392079123.html#_=1392650032615&id=twitter-widget-0&lang=en&screen_name=suzyvirtual&show_count=true&show_screen_name=true&size=m",
+         "when_comp_start" : 1,
+         "id" : "r42",
+         "download" : {
+            "receiveLast" : 2372.30999999808,
+            "id" : "download_26",
+            "receiveFirst" : 16,
+            "dns" : 5,
+            "dnsEnd" : 5,
+            "dnsStart" : 0,
+            "sendStart" : 16,
+            "receiveHeadersEnd" : 32,
+            "len" : 92386,
+            "type" : "text/html",
+            "connectStart" : 0,
+            "s_time" : 2101.27699999794,
+            "receivedTime" : 2404.30999999808,
+            "sslEnd" : -1,
+            "connectEnd" : 16,
+            "sendEnd" : 16,
+            "sslStart" : -1
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "id" : "r31",
+         "comps" : [],
+         "url" : "http://searchengineland.com/figz/wp-content/seloads/2013/05/display-retargeting-bullseye-ss-1920-800x450.jpg",
+         "download" : {
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveFirst" : 193,
+            "id" : "download_27",
+            "receiveLast" : 2371.4739999983,
+            "sslEnd" : -1,
+            "sslStart" : -1,
+            "sendEnd" : 265,
+            "connectEnd" : 265,
+            "sendStart" : 265,
+            "dnsStart" : -1,
+            "receivedTime" : 2829.4739999983,
+            "connectStart" : 0,
+            "s_time" : 1693.55699999869,
+            "receiveHeadersEnd" : 458,
+            "type" : "image/jpeg",
+            "len" : 41323
+         }
+      },
+      {
+         "comps" : [],
+         "url" : "http://searchengineland.com/figz/wp-content/seloads/2016/03/content_and_cookie_duration-800x380.png",
+         "when_comp_start" : -1,
+         "id" : "r32",
+         "download" : {
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveFirst" : 202,
+            "receiveLast" : 2199.43099999803,
+            "id" : "download_28",
+            "sslEnd" : -1,
+            "sendEnd" : 266,
+            "sslStart" : -1,
+            "connectEnd" : 266,
+            "sendStart" : 266,
+            "dnsStart" : -1,
+            "s_time" : 1694.58999999915,
+            "connectStart" : 0,
+            "receivedTime" : 2667.43099999803,
+            "receiveHeadersEnd" : 468,
+            "len" : 16923,
+            "type" : "image/png"
+         }
+      },
+      {
+         "download" : {
+            "len" : 15433,
+            "receiveHeadersEnd" : 482,
+            "type" : "image/png",
+            "connectStart" : 0,
+            "s_time" : 1698.22299999942,
+            "receivedTime" : 2662.66099999848,
+            "dnsStart" : -1,
+            "sendStart" : 277,
+            "connectEnd" : 277,
+            "sendEnd" : 278,
+            "sslStart" : -1,
+            "sslEnd" : -1,
+            "receiveLast" : 2180.66099999848,
+            "id" : "download_29",
+            "receiveFirst" : 204,
+            "dnsEnd" : -1,
+            "dns" : 0
+         },
+         "id" : "r34",
+         "when_comp_start" : -1,
+         "url" : "http://searchengineland.com/figz/wp-content/seloads/2016/03/topical_content_layer-800x101.png",
+         "comps" : []
+      },
+      {
+         "when_comp_start" : -1,
+         "id" : "r33",
+         "comps" : [],
+         "url" : "http://searchengineland.com/figz/wp-content/seloads/2016/03/product_ad_groups.png",
+         "download" : {
+            "connectEnd" : 274,
+            "sendEnd" : 274,
+            "sslStart" : -1,
+            "sslEnd" : -1,
+            "type" : "image/png",
+            "receiveHeadersEnd" : 518,
+            "len" : 3504,
+            "s_time" : 1695.28100000025,
+            "connectStart" : 0,
+            "receivedTime" : 2663.95799999736,
+            "dnsStart" : -1,
+            "sendStart" : 274,
+            "dnsEnd" : -1,
+            "dns" : 0,
+            "receiveLast" : 2145.95799999736,
+            "id" : "download_30",
+            "receiveFirst" : 244
+         }
+      },
+      {
+         "download" : {
+            "dnsEnd" : -1,
+            "dns" : 0,
+            "id" : "download_31",
+            "receiveLast" : 2470.46599999757,
+            "receiveFirst" : 211,
+            "connectEnd" : 122,
+            "sslStart" : -1,
+            "sendEnd" : 122,
+            "sslEnd" : -1,
+            "type" : "image/jpeg",
+            "receiveHeadersEnd" : 333,
+            "len" : 30425,
+            "receivedTime" : 2803.46599999757,
+            "connectStart" : 0,
+            "s_time" : 1922.02899999756,
+            "dnsStart" : -1,
+            "sendStart" : 122
+         },
+         "when_comp_start" : -1,
+         "id" : "r35",
+         "comps" : [],
+         "url" : "http://searchengineland.com/figz/wp-content/seloads/2011/07/cookie-monster-google-logo.jpg"
+      },
+      {
+         "comps" : [],
+         "url" : "http://searchengineland.com/images/authors/SusanWaldes-lg.jpg",
+         "when_comp_start" : -1,
+         "id" : "r36",
+         "download" : {
+            "connectEnd" : 157,
+            "sslStart" : -1,
+            "sendEnd" : 158,
+            "sslEnd" : -1,
+            "len" : 10086,
+            "receiveHeadersEnd" : 349,
+            "type" : "image/jpeg",
+            "receivedTime" : 2666.8639999989,
+            "s_time" : 1957.74999999776,
+            "connectStart" : 0,
+            "dnsStart" : -1,
+            "sendStart" : 157,
+            "dnsEnd" : -1,
+            "dns" : 0,
+            "id" : "download_32",
+            "receiveLast" : 2317.8639999989,
+            "receiveFirst" : 191
+         }
+      },
+      {
+         "id" : "r55",
+         "when_comp_start" : -1,
+         "url" : "http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53e918f660794f37",
+         "comps" : [],
+         "download" : {
+            "sslEnd" : -1,
+            "connectEnd" : 28,
+            "sendEnd" : 28,
+            "sslStart" : -1,
+            "dnsStart" : 14,
+            "sendStart" : 28,
+            "type" : "text/javascript",
+            "receiveHeadersEnd" : 48,
+            "len" : 352506,
+            "s_time" : 2373.70599999849,
+            "connectStart" : 0,
+            "receivedTime" : 2813.4229999996,
+            "dns" : 6,
+            "dnsEnd" : 20,
+            "receiveLast" : 2765.4229999996,
+            "id" : "download_33",
+            "receiveFirst" : 20
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "id" : "r27",
+         "comps" : [
+            {
+               "s_time" : 2976.74799999731,
+               "type" : "evalhtml",
+               "id" : "r27_c1",
+               "e_time" : 3269.59599999827,
+               "time" : 292.84800000096
+            }
+         ],
+         "url" : "https://www.facebook.com/plugins/like.phphref=https%3A%2F%2Fwww.facebook.com%2Fsearchengineland&width&layout=button_count&action=like&show_faces=false&share=false&height=21",
+         "download" : {
+            "type" : "text/html",
+            "receiveHeadersEnd" : 262,
+            "len" : 28101,
+            "receivedTime" : 2831.74999999756,
+            "connectStart" : 0,
+            "s_time" : 2249.92399999974,
+            "dnsStart" : 0,
+            "sendStart" : 71,
+            "connectEnd" : 71,
+            "sslStart" : 3,
+            "sendEnd" : 71,
+            "sslEnd" : 67,
+            "id" : "download_34",
+            "receiveLast" : 2569.74999999756,
+            "receiveFirst" : 191,
+            "dnsEnd" : 0,
+            "dns" : 0
+         }
+      },
+      {
+         "download" : {
+            "dnsEnd" : -1,
+            "dns" : 0,
+            "receiveLast" : 2385.47699999815,
+            "id" : "download_35",
+            "receiveFirst" : 463,
+            "connectEnd" : 11,
+            "sendEnd" : 11,
+            "sslStart" : -1,
+            "sslEnd" : -1,
+            "len" : 3094,
+            "receiveHeadersEnd" : 474,
+            "type" : "application/javascript",
+            "s_time" : 2060.72800000038,
+            "connectStart" : 0,
+            "receivedTime" : 2859.47699999815,
+            "dnsStart" : -1,
+            "sendStart" : 11
+         },
+         "id" : "r40",
+         "when_comp_start" : -1,
+         "url" : "http://app-sj02.marketo.com/index.php/form/getFormmunchkinId=727-ZQE-044&form=5691&url=http%3A%2F%2Fsearchengineland.com%2Fthe-4-cs-a-recipe-for-precise-remarketing-campaigns-244386&callback=jQuery1102005337828048504889_1498634520082&_=1498634520083",
+         "comps" : [
+            {
+               "type" : null,
+               "id" : "comp_52",
+               "s_time" : 2888.99799999854,
+               "time" : 1.00100000053999,
+               "e_time" : 2889.99899999908
+            }
+         ]
+      },
+      {
+         "comps" : [],
+         "url" : "http://searchengineland.com/download/seotable/sel-seo-periodic-right-rail_v1.png",
+         "when_comp_start" : -1,
+         "id" : "r47",
+         "download" : {
+            "connectEnd" : 12,
+            "sslStart" : -1,
+            "sendEnd" : 12,
+            "sslEnd" : -1,
+            "receiveHeadersEnd" : 187,
+            "len" : 108710,
+            "type" : "image/png",
+            "receivedTime" : 3292.62100000051,
+            "s_time" : 2350.70099999939,
+            "connectStart" : 0,
+            "dnsStart" : -1,
+            "sendStart" : 12,
+            "dnsEnd" : -1,
+            "dns" : 0,
+            "id" : "download_36",
+            "receiveLast" : 3105.62100000051,
+            "receiveFirst" : 175
+         }
+      },
+      {
+         "download" : {
+            "receiveFirst" : 164,
+            "receiveLast" : 2682.99900000045,
+            "id" : "download_37",
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "sendStart" : 14,
+            "dnsStart" : -1,
+            "connectStart" : 0,
+            "s_time" : 2369.22699999923,
+            "receivedTime" : 2860.99900000045,
+            "len" : 3652,
+            "receiveHeadersEnd" : 178,
+            "type" : "image/png",
+            "sslEnd" : -1,
+            "sendEnd" : 14,
+            "sslStart" : -1,
+            "connectEnd" : 14
+         },
+         "url" : "http://searchengineland.com/figz/wp-content/themes/searchengineland/img/icons/black-google-play-badge.png",
+         "comps" : [],
+         "id" : "r51",
+         "when_comp_start" : -1
+      },
+      {
+         "download" : {
+            "sslEnd" : -1,
+            "sendEnd" : 11,
+            "sslStart" : -1,
+            "connectEnd" : 10,
+            "sendStart" : 10,
+            "dnsStart" : -1,
+            "connectStart" : 0,
+            "s_time" : 2366.01099999825,
+            "receivedTime" : 2865.98199999935,
+            "receiveHeadersEnd" : 198,
+            "len" : 3196,
+            "type" : "image/png",
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveFirst" : 187,
+            "receiveLast" : 2667.98199999935,
+            "id" : "download_38"
+         },
+         "comps" : [],
+         "url" : "http://searchengineland.com/figz/wp-content/themes/searchengineland/img/logo/SEL-logo.png",
+         "when_comp_start" : -1,
+         "id" : "r49"
+      },
+      {
+         "download" : {
+            "connectEnd" : 24,
+            "sslStart" : -1,
+            "sendEnd" : 24,
+            "sslEnd" : -1,
+            "len" : 3086,
+            "receiveHeadersEnd" : 489,
+            "type" : "application/javascript",
+            "receivedTime" : 2867.38799999875,
+            "s_time" : 2077.94499999727,
+            "connectStart" : 0,
+            "dnsStart" : 13,
+            "sendStart" : 24,
+            "dnsEnd" : 14,
+            "dns" : 1,
+            "id" : "download_39",
+            "receiveLast" : 2378.38799999875,
+            "receiveFirst" : 465
+         },
+         "when_comp_start" : -1,
+         "id" : "r41",
+         "comps" : [],
+         "url" : "http://app-sj02.marketo.com/index.php/form/getFormmunchkinId=727-ZQE-044&form=5685&url=http%3A%2F%2Fsearchengineland.com%2Fthe-4-cs-a-recipe-for-precise-remarketing-campaigns-244386&callback=jQuery1102005337828048504889_1498634520084&_=1498634520085"
+      },
+      {
+         "comps" : [],
+         "url" : "http://searchengineland.com/figz/wp-content/themes/searchengineland/img/icons/black-badge-appstore.png",
+         "when_comp_start" : -1,
+         "id" : "r50",
+         "download" : {
+            "connectEnd" : 14,
+            "sendEnd" : 14,
+            "sslStart" : -1,
+            "sslEnd" : -1,
+            "len" : 3232,
+            "receiveHeadersEnd" : 212,
+            "type" : "image/png",
+            "s_time" : 2368.263999997,
+            "connectStart" : 0,
+            "receivedTime" : 2869.08199999743,
+            "dnsStart" : -1,
+            "sendStart" : 14,
+            "dnsEnd" : -1,
+            "dns" : 0,
+            "receiveLast" : 2657.08199999743,
+            "id" : "download_40",
+            "receiveFirst" : 198
+         }
+      },
+      {
+         "download" : {
+            "dnsStart" : -1,
+            "sendStart" : 35,
+            "len" : 4980,
+            "receiveHeadersEnd" : 226,
+            "type" : "application/javascript",
+            "receivedTime" : 2870.39199999708,
+            "s_time" : 2372.87300000025,
+            "connectStart" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 35,
+            "sslStart" : -1,
+            "sendEnd" : 35,
+            "id" : "download_41",
+            "receiveLast" : 2644.39199999708,
+            "receiveFirst" : 191,
+            "dns" : 0,
+            "dnsEnd" : -1
+         },
+         "url" : "http://searchengineland.com/js/ga_social_tracking.js",
+         "comps" : [],
+         "id" : "r54",
+         "when_comp_start" : -1
+      },
+      {
+         "comps" : [],
+         "url" : "https://www.facebook.com/tr/id=423979991297359&ev=PageView&dl=http%3A%2F%2Fsearchengineland.com%2Fthe-4-cs-a-recipe-for-precise-remarketing-campaigns-244386&rl=&if=false&ts=1498634520731&v=2.7.17&ec=0&o=12",
+         "when_comp_start" : -1,
+         "id" : "r59",
+         "download" : {
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveLast" : 2862.0719999985,
+            "id" : "download_42",
+            "receiveFirst" : 7,
+            "sslEnd" : -1,
+            "connectEnd" : 4,
+            "sendEnd" : 4,
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "sendStart" : 4,
+            "type" : "image/gif",
+            "receiveHeadersEnd" : 11,
+            "len" : 44,
+            "s_time" : 2605.2729999974,
+            "connectStart" : 0,
+            "receivedTime" : 2873.0719999985
+         }
+      },
+      {
+         "url" : "http://searchengineland.com/figz/wp-content/themes/searchengineland/img/icons/facebook.jpg",
+         "comps" : [],
+         "id" : "r52",
+         "when_comp_start" : -1,
+         "download" : {
+            "type" : "image/jpeg",
+            "receiveHeadersEnd" : 271,
+            "len" : 17396,
+            "receivedTime" : 3237.69399999946,
+            "s_time" : 2370.42799999836,
+            "connectStart" : 0,
+            "dnsStart" : -1,
+            "sendStart" : 119,
+            "connectEnd" : 119,
+            "sslStart" : -1,
+            "sendEnd" : 119,
+            "sslEnd" : -1,
+            "id" : "download_43",
+            "receiveLast" : 2966.69399999946,
+            "receiveFirst" : 152,
+            "dnsEnd" : -1,
+            "dns" : 0
+         }
+      },
+      {
+         "download" : {
+            "id" : "download_44",
+            "receiveLast" : 2583.07799999983,
+            "receiveFirst" : 173,
+            "dnsEnd" : 18,
+            "dns" : 2,
+            "receiveHeadersEnd" : 358,
+            "len" : 12102,
+            "type" : "image/png",
+            "receivedTime" : 2941.07799999983,
+            "s_time" : 2309.68999999823,
+            "connectStart" : 0,
+            "dnsStart" : 16,
+            "sendStart" : 185,
+            "connectEnd" : 185,
+            "sslStart" : -1,
+            "sendEnd" : 185,
+            "sslEnd" : -1
+         },
+         "when_comp_start" : -1,
+         "id" : "r43",
+         "comps" : [],
+         "url" : "http://marketingland.com/images/partners/smxlogo_270x130.png"
+      },
+      {
+         "when_comp_start" : -1,
+         "id" : "r45",
+         "comps" : [],
+         "url" : "http://marketingland.com/images/mt-logo-updated.png",
+         "download" : {
+            "receivedTime" : 2975.45199999877,
+            "connectStart" : 0,
+            "s_time" : 2321.65899999745,
+            "type" : "image/png",
+            "receiveHeadersEnd" : 360,
+            "len" : 28619,
+            "sendStart" : 188,
+            "dnsStart" : 26,
+            "sslStart" : -1,
+            "sendEnd" : 188,
+            "connectEnd" : 188,
+            "sslEnd" : -1,
+            "receiveFirst" : 172,
+            "id" : "download_45",
+            "receiveLast" : 2615.45199999877,
+            "dnsEnd" : 26,
+            "dns" : 0
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "id" : "r28",
+         "comps" : [],
+         "url" : "https://www.facebook.com/plugins/like.phphref=https%3A%2F%2Fwww.facebook.com%2Fsearchengineland&width&layout=button_count&action=like&show_faces=false&share=false&height=21",
+         "download" : {
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveLast" : 2617.72300000052,
+            "id" : "download_46",
+            "receiveFirst" : 181,
+            "sslEnd" : -1,
+            "connectEnd" : 145,
+            "sendEnd" : 146,
+            "sslStart" : -1,
+            "dnsStart" : -1,
+            "sendStart" : 145,
+            "len" : 28100,
+            "receiveHeadersEnd" : 327,
+            "type" : "text/html",
+            "s_time" : 2383.25099999929,
+            "connectStart" : 0,
+            "receivedTime" : 2944.72300000052
+         }
+      },
+      {
+         "url" : "http://searchengineland.com/figz/wp-content/themes/searchengineland/img/icons/twitter.jpg",
+         "comps" : [],
+         "id" : "r53",
+         "when_comp_start" : -1,
+         "download" : {
+            "receiveFirst" : 173,
+            "id" : "download_47",
+            "receiveLast" : 2688.02000000016,
+            "dnsEnd" : -1,
+            "dns" : 0,
+            "receivedTime" : 3039.02000000016,
+            "s_time" : 2371.5059999995,
+            "connectStart" : 0,
+            "type" : "image/jpeg",
+            "receiveHeadersEnd" : 351,
+            "len" : 24430,
+            "sendStart" : 178,
+            "dnsStart" : -1,
+            "sslStart" : -1,
+            "sendEnd" : 178,
+            "connectEnd" : 178,
+            "sslEnd" : -1
+         }
+      },
+      {
+         "id" : "r56",
+         "when_comp_start" : -1,
+         "url" : "http://searchengineland.com/figz/wp-content/themes/searchengineland/img/placeholder/article/smx-video_650x255.png",
+         "comps" : [],
+         "download" : {
+            "connectStart" : 0,
+            "s_time" : 2500.05199999941,
+            "receivedTime" : 3974.90900000048,
+            "receiveHeadersEnd" : 261,
+            "type" : "image/png",
+            "len" : 188306,
+            "sendStart" : 65,
+            "dnsStart" : -1,
+            "sendEnd" : 65,
+            "sslStart" : -1,
+            "connectEnd" : 65,
+            "sslEnd" : -1,
+            "receiveFirst" : 196,
+            "receiveLast" : 3713.90900000048,
+            "id" : "download_48",
+            "dnsEnd" : -1,
+            "dns" : 0
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "id" : "r57",
+         "comps" : [],
+         "url" : "http://searchengineland.com/figz/wp-content/themes/searchengineland/img/placeholder/article/video_mtc_650w-v2.png",
+         "download" : {
+            "dnsStart" : -1,
+            "sendStart" : 79,
+            "receiveHeadersEnd" : 299,
+            "type" : "image/png",
+            "len" : 226070,
+            "s_time" : 2502.48799999827,
+            "connectStart" : 0,
+            "receivedTime" : 4326.99499999944,
+            "sslEnd" : -1,
+            "connectEnd" : 79,
+            "sendEnd" : 80,
+            "sslStart" : -1,
+            "receiveLast" : 4027.99499999944,
+            "id" : "download_49",
+            "receiveFirst" : 219,
+            "dns" : 0,
+            "dnsEnd" : -1
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "id" : "r63",
+         "comps" : [],
+         "url" : "https://www.facebook.com/tr/",
+         "download" : {
+            "dnsStart" : -1,
+            "sendStart" : 3,
+            "len" : 44,
+            "receiveHeadersEnd" : 13,
+            "type" : "image/gif",
+            "receivedTime" : 3110.62399999719,
+            "connectStart" : 0,
+            "s_time" : 2885.41299999997,
+            "sslEnd" : -1,
+            "connectEnd" : 3,
+            "sslStart" : -1,
+            "sendEnd" : 3,
+            "id" : "download_50",
+            "receiveLast" : 3097.62399999719,
+            "receiveFirst" : 10,
+            "dns" : 0,
+            "dnsEnd" : -1
+         }
+      },
+      {
+         "download" : {
+            "receiveFirst" : 73,
+            "id" : "download_51",
+            "receiveLast" : 3002.28599999848,
+            "dns" : 3,
+            "dnsEnd" : 6,
+            "sendStart" : 228,
+            "dnsStart" : 3,
+            "receivedTime" : 3303.28599999848,
+            "s_time" : 2658.82699999929,
+            "connectStart" : 0,
+            "receiveHeadersEnd" : 301,
+            "len" : 189817,
+            "type" : "text/javascript",
+            "sslEnd" : 228,
+            "sslStart" : 65,
+            "sendEnd" : 228,
+            "connectEnd" : 228
+         },
+         "when_comp_start" : -1,
+         "id" : "r60",
+         "comps" : [],
+         "url" : "https://securepubads.g.doubleclick.net/gpt/pubads_impl_121.js"
+      },
+      {
+         "when_comp_start" : -1,
+         "id" : "r48",
+         "comps" : [],
+         "url" : "http://app-sj02.marketo.com/index.php/form/getFormmunchkinId=727-ZQE-044&form=5673&url=http%3A%2F%2Fsearchengineland.com%2Fthe-4-cs-a-recipe-for-precise-remarketing-campaigns-244386&callback=jQuery1102005337828048504889_1498634520086&_=1498634520087",
+         "download" : {
+            "sslEnd" : -1,
+            "sendEnd" : 17,
+            "sslStart" : -1,
+            "connectEnd" : 17,
+            "sendStart" : 17,
+            "dnsStart" : 10,
+            "connectStart" : 0,
+            "s_time" : 2363.18499999834,
+            "receivedTime" : 3333.17399999942,
+            "receiveHeadersEnd" : 669,
+            "len" : 3126,
+            "type" : "application/javascript",
+            "dns" : 0,
+            "dnsEnd" : 10,
+            "receiveFirst" : 652,
+            "receiveLast" : 2664.17399999942,
+            "id" : "download_52"
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "id" : "r68",
+         "comps" : [],
+         "url" : "http://www.googleadservices.com/pagead/conversion.js",
+         "download" : {
+            "receiveLast" : 3222.85399999848,
+            "id" : "download_53",
+            "receiveFirst" : 100,
+            "dns" : 5,
+            "dnsEnd" : 120,
+            "dnsStart" : 115,
+            "sendStart" : 180,
+            "receiveHeadersEnd" : 280,
+            "len" : 13758,
+            "type" : "text/javascript",
+            "s_time" : 3036.53099999792,
+            "connectStart" : 0,
+            "receivedTime" : 3502.85399999848,
+            "sslEnd" : -1,
+            "connectEnd" : 180,
+            "sendEnd" : 180,
+            "sslStart" : -1
+         }
+      },
+      {
+         "comps" : [],
+         "url" : "https://www.youtube.com/yts/cssbin/www-embed-player-sprite-mode-vfl5G4Xm8.css",
+         "when_comp_start" : -1,
+         "id" : "r78",
+         "download" : {
+            "s_time" : 3471.3069999998,
+            "connectStart" : 0,
+            "receivedTime" : 4029.01699999711,
+            "len" : 265363,
+            "receiveHeadersEnd" : 78,
+            "type" : "text/css",
+            "sendStart" : 6,
+            "dnsStart" : -1,
+            "sendEnd" : 6,
+            "sslStart" : -1,
+            "connectEnd" : 6,
+            "sslEnd" : -1,
+            "receiveFirst" : 72,
+            "receiveLast" : 3951.01699999711,
+            "id" : "download_54",
+            "dnsEnd" : -1,
+            "dns" : 0
+         }
+      },
+      {
+         "url" : "https://www.youtube.com/yts/jsbin/www-embed-player-vfl_UY_j8/www-embed-player.js",
+         "comps" : [
+            {
+               "type" : 2,
+               "id" : "comp_76",
+               "s_time" : 4139.71499999752,
+               "e_time" : 4206.44899999752,
+               "time" : 66.7340000000004
+            }
+         ],
+         "id" : "r79",
+         "when_comp_start" : -1,
+         "download" : {
+            "connectEnd" : 9,
+            "sendEnd" : 9,
+            "sslStart" : -1,
+            "sslEnd" : -1,
+            "len" : 87886,
+            "receiveHeadersEnd" : 78,
+            "type" : "text/javascript",
+            "s_time" : 3472.4959999985,
+            "connectStart" : 0,
+            "receivedTime" : 4787.97699999996,
+            "dnsStart" : -1,
+            "sendStart" : 9,
+            "dnsEnd" : -1,
+            "dns" : 0,
+            "receiveLast" : 4709.97699999996,
+            "id" : "download_55",
+            "receiveFirst" : 69
+         }
+      },
+      {
+         "download" : {
+            "receiveLast" : 6966.71699999965,
+            "id" : "download_56",
+            "receiveFirst" : 303,
+            "dnsEnd" : 13,
+            "dns" : 5,
+            "len" : 24,
+            "receiveHeadersEnd" : 573,
+            "type" : "application/json",
+            "s_time" : 6176.71699999846,
+            "connectStart" : 0,
+            "receivedTime" : 7539.71699999965,
+            "dnsStart" : 8,
+            "sendStart" : 269,
+            "connectEnd" : 269,
+            "sendEnd" : 270,
+            "sslStart" : -1,
+            "sslEnd" : -1
+         },
+         "url" : "http://www.justuno.com/ajax/account_version_check.htmlid=828FA275-FF73-401E-AA39-40F5A6FAB6B1",
+         "comps" : [],
+         "id" : "r84",
+         "when_comp_start" : -1
+      },
+      {
+         "download" : {
+            "sendStart" : 8,
+            "dnsStart" : -1,
+            "connectStart" : 0,
+            "s_time" : 7978.79900000044,
+            "receivedTime" : 8061.04299999788,
+            "type" : "application/x-javascript",
+            "receiveHeadersEnd" : 22,
+            "len" : 168251,
+            "sslEnd" : -1,
+            "sendEnd" : 8,
+            "sslStart" : -1,
+            "connectEnd" : 8,
+            "receiveFirst" : 14,
+            "receiveLast" : 8039.04299999788,
+            "id" : "download_57",
+            "dns" : 0,
+            "dnsEnd" : -1
+         },
+         "url" : "https://app-sj02.marketo.com/js/forms2/js/forms2.min.js",
+         "comps" : [],
+         "id" : "r116",
+         "when_comp_start" : -1
+      },
+      {
+         "comps" : [
+            {
+               "time" : 2241.40000000261,
+               "e_time" : 5708.81100000042,
+               "type" : "evalhtml",
+               "id" : "_c1",
+               "s_time" : 3467.41099999781
+            }
+         ]
+      },
+      {
+         "comps" : [
+            {
+               "time" : 2379.3540000006,
+               "e_time" : 5871.46299999949,
+               "s_time" : 3492.10899999889,
+               "type" : "evalhtml",
+               "id" : "_c1"
+            }
+         ]
+      },
+      {
+         "comps" : [
+            {
+               "type" : "evalhtml",
+               "id" : "_c1",
+               "s_time" : 6755.27599999987,
+               "e_time" : 6755.27599999987,
+               "time" : 0
+            }
+         ]
+      },
+      {
+         "comps" : [
+            {
+               "e_time" : 8250.90400000045,
+               "time" : 108.57600000236,
+               "s_time" : 8142.32799999809,
+               "id" : "_c1",
+               "type" : "evalhtml"
+            }
+         ]
+      }
+   ],
+   "deps" : [
+      {
+         "time" : 7597.75600000285,
+         "a1" : "r1_c1",
+         "a2" : "download_57",
+         "id" : "dep1"
+      },
+      {
+         "id" : "dep2",
+         "a2" : "download_56",
+         "a1" : "r1_c1",
+         "time" : 5795.67400000087
+      },
+      {
+         "a2" : "download_55",
+         "a1" : "r1_c1",
+         "time" : 3091.45300000091,
+         "id" : "dep3"
+      },
+      {
+         "time" : 3091.45300000091,
+         "a1" : "r1_c1",
+         "a2" : "download_55",
+         "id" : "dep4"
+      },
+      {
+         "id" : "dep5",
+         "time" : 3090.26400000221,
+         "a1" : "r1_c1",
+         "a2" : "download_54"
+      },
+      {
+         "id" : "dep6",
+         "a1" : "r1_c1",
+         "a2" : "download_53",
+         "time" : 2655.48800000033
+      },
+      {
+         "time" : 59.7830000006097,
+         "a1" : "r27_c1",
+         "a2" : "download_53",
+         "id" : "dep7"
+      },
+      {
+         "a2" : "download_53",
+         "a1" : "r1_c1",
+         "time" : 2655.48800000033,
+         "id" : "dep8"
+      },
+      {
+         "a1" : "r1_c1",
+         "a2" : "download_52",
+         "time" : 1982.14200000075,
+         "id" : "dep9"
+      },
+      {
+         "time" : 2277.7840000017,
+         "a2" : "download_51",
+         "a1" : "r1_c1",
+         "id" : "dep10"
+      },
+      {
+         "id" : "dep11",
+         "a2" : "download_50",
+         "a1" : "r1_c1",
+         "time" : 2504.37000000238
+      },
+      {
+         "a1" : "r1_c1",
+         "a2" : "download_49",
+         "time" : 2121.44500000068,
+         "id" : "dep12"
+      },
+      {
+         "id" : "dep13",
+         "a1" : "r1_c1",
+         "a2" : "download_48",
+         "time" : 2119.00900000182
+      },
+      {
+         "id" : "dep14",
+         "time" : 1990.46300000191,
+         "a2" : "download_47",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_46",
+         "a1" : "r1_c1",
+         "time" : 2002.2080000017,
+         "id" : "dep15"
+      },
+      {
+         "a1" : "r1_c1",
+         "a2" : "download_45",
+         "time" : 1940.61599999986,
+         "id" : "dep16"
+      },
+      {
+         "id" : "dep17",
+         "time" : 1928.64700000064,
+         "a1" : "r1_c1",
+         "a2" : "download_44"
+      },
+      {
+         "id" : "dep18",
+         "a1" : "r1_c1",
+         "a2" : "download_43",
+         "time" : 1989.38500000077
+      },
+      {
+         "a1" : "r1_c1",
+         "a2" : "download_42",
+         "time" : 2224.22999999981,
+         "id" : "dep19"
+      },
+      {
+         "id" : "dep20",
+         "time" : 1991.83000000266,
+         "a2" : "download_41",
+         "a1" : "r1_c1"
+      },
+      {
+         "a1" : "r1_c1",
+         "a2" : "download_40",
+         "time" : 1987.22099999941,
+         "id" : "dep21"
+      },
+      {
+         "id" : "dep22",
+         "a1" : "r1_c1",
+         "a2" : "download_39",
+         "time" : 1696.90199999968
+      },
+      {
+         "time" : 1984.96800000066,
+         "a2" : "download_38",
+         "a1" : "r1_c1",
+         "id" : "dep23"
+      },
+      {
+         "id" : "dep24",
+         "time" : 1988.18400000164,
+         "a1" : "r1_c1",
+         "a2" : "download_37"
+      },
+      {
+         "id" : "dep25",
+         "a1" : "r1_c1",
+         "a2" : "download_36",
+         "time" : 1969.6580000018
+      },
+      {
+         "id" : "dep26",
+         "time" : 1679.68500000279,
+         "a2" : "download_35",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_34",
+         "a1" : "r1_c1",
+         "time" : 1868.88100000215,
+         "id" : "dep27"
+      },
+      {
+         "time" : 1992.6630000009,
+         "a2" : "download_33",
+         "a1" : "r1_c1",
+         "id" : "dep28"
+      },
+      {
+         "time" : 1992.6630000009,
+         "a2" : "download_33",
+         "a1" : "r1_c1",
+         "id" : "dep29"
+      },
+      {
+         "id" : "dep30",
+         "time" : 1576.70700000017,
+         "a1" : "r1_c1",
+         "a2" : "download_32"
+      },
+      {
+         "a1" : "r1_c1",
+         "a2" : "download_31",
+         "time" : 1540.98599999997,
+         "id" : "dep31"
+      },
+      {
+         "time" : 1314.23800000266,
+         "a1" : "r1_c1",
+         "a2" : "download_30",
+         "id" : "dep32"
+      },
+      {
+         "time" : 1317.18000000183,
+         "a1" : "r1_c1",
+         "a2" : "download_29",
+         "id" : "dep33"
+      },
+      {
+         "id" : "dep34",
+         "a2" : "download_28",
+         "a1" : "r1_c1",
+         "time" : 1313.54700000156
+      },
+      {
+         "time" : 1312.5140000011,
+         "a2" : "download_27",
+         "a1" : "r1_c1",
+         "id" : "dep35"
+      },
+      {
+         "id" : "dep36",
+         "time" : 1720.23400000035,
+         "a2" : "download_26",
+         "a1" : "r1_c1"
+      },
+      {
+         "time" : 1481.10799999995,
+         "a2" : "download_25",
+         "a1" : "r1_c1",
+         "id" : "dep37"
+      },
+      {
+         "a1" : "r1_c1",
+         "a2" : "download_24",
+         "time" : 1446.35000000198,
+         "id" : "dep38"
+      },
+      {
+         "time" : 1311.24500000078,
+         "a2" : "download_23",
+         "a1" : "r1_c1",
+         "id" : "dep39"
+      },
+      {
+         "time" : 1311.24500000078,
+         "a2" : "download_23",
+         "a1" : "r1_c1",
+         "id" : "dep40"
+      },
+      {
+         "time" : 1117.89499999941,
+         "a1" : "r1_c1",
+         "a2" : "download_22",
+         "id" : "dep41"
+      },
+      {
+         "id" : "dep42",
+         "time" : 1256.99100000202,
+         "a2" : "download_21",
+         "a1" : "r1_c1"
+      },
+      {
+         "a2" : "download_20",
+         "a1" : "r1_c1",
+         "time" : 1262.85700000153,
+         "id" : "dep43"
+      },
+      {
+         "a1" : "r1_c1",
+         "a2" : "download_19",
+         "time" : 1259.951,
+         "id" : "dep44"
+      },
+      {
+         "time" : 1320.6680000003,
+         "a1" : "r1_c1",
+         "a2" : "download_18",
+         "id" : "dep45"
+      },
+      {
+         "a2" : "download_17",
+         "a1" : "r1_c1",
+         "time" : 1444.23800000004,
+         "id" : "dep46"
+      },
+      {
+         "id" : "dep47",
+         "a1" : "r1_c1",
+         "a2" : "download_16",
+         "time" : 1254.15300000168
+      },
+      {
+         "a1" : "r1_c1",
+         "a2" : "download_15",
+         "time" : 1232.57500000182,
+         "id" : "dep48"
+      },
+      {
+         "id" : "dep49",
+         "a2" : "download_14",
+         "a1" : "r1_c1",
+         "time" : 1121.54999999984
+      },
+      {
+         "id" : "dep50",
+         "a2" : "download_13",
+         "a1" : "r1_c1",
+         "time" : 1309.43699999989
+      },
+      {
+         "id" : "dep51",
+         "a1" : "r1_c1",
+         "a2" : "download_12",
+         "time" : 1126.60900000264
+      },
+      {
+         "id" : "dep52",
+         "a2" : "download_11",
+         "a1" : "r1_c1",
+         "time" : 1123.44500000108
+      },
+      {
+         "a2" : "download_10",
+         "a1" : "r1_c1",
+         "time" : 623.27999999979,
+         "id" : "dep53"
+      },
+      {
+         "time" : 38.148999999975,
+         "a2" : "download_9",
+         "a1" : "r1_c1",
+         "id" : "dep54"
+      },
+      {
+         "id" : "dep55",
+         "time" : 38.148999999975,
+         "a2" : "download_9",
+         "a1" : "r1_c1"
+      },
+      {
+         "time" : 38.622000000032,
+         "a1" : "r1_c1",
+         "a2" : "download_8",
+         "id" : "dep56"
+      },
+      {
+         "id" : "dep57",
+         "time" : 38.622000000032,
+         "a1" : "r1_c1",
+         "a2" : "download_8"
+      },
+      {
+         "id" : "dep58",
+         "time" : 37.523999999393,
+         "a1" : "r1_c1",
+         "a2" : "download_7"
+      },
+      {
+         "id" : "dep59",
+         "a2" : "download_7",
+         "a1" : "r1_c1",
+         "time" : 37.523999999393
+      },
+      {
+         "time" : 36.991000000853,
+         "a1" : "r1_c1",
+         "a2" : "download_6",
+         "id" : "dep60"
+      },
+      {
+         "a2" : "download_6",
+         "a1" : "r1_c1",
+         "time" : 36.991000000853,
+         "id" : "dep61"
+      },
+      {
+         "time" : 36.447000002226,
+         "a2" : "download_5",
+         "a1" : "r1_c1",
+         "id" : "dep62"
+      },
+      {
+         "id" : "dep63",
+         "time" : 36.447000002226,
+         "a1" : "r1_c1",
+         "a2" : "download_5"
+      },
+      {
+         "a1" : "r1_c1",
+         "a2" : "download_4",
+         "time" : 39.287999999942,
+         "id" : "dep64"
+      },
+      {
+         "id" : "dep65",
+         "a2" : "download_4",
+         "a1" : "r1_c1",
+         "time" : 39.287999999942
+      },
+      {
+         "id" : "dep66",
+         "a2" : "download_3",
+         "a1" : "r1_c1",
+         "time" : 18.082000002323
+      },
+      {
+         "a2" : "download_2",
+         "a1" : "r1_c1",
+         "time" : 12.730000002193,
+         "id" : "dep67"
+      },
+      {
+         "time" : 15.342000002419,
+         "a1" : "r1_c1",
+         "a2" : "download_1",
+         "id" : "dep68"
+      }
+   ],
+   "n_download_no_trigger" : 1,
+   "name" : "searchengineland.com_the-4-cs-a-recipe-for-precise-remarketing-campaigns-244386"
+}

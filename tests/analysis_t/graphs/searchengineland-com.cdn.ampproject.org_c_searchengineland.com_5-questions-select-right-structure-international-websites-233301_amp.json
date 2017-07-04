@@ -1,0 +1,121 @@
+{
+   "deps" : [
+      {
+         "a1" : "r1_c1",
+         "a2" : "download_2",
+         "time" : 4.42899999870895,
+         "id" : "dep1"
+      },
+      {
+         "a1" : "r1_c1",
+         "a2" : "download_1",
+         "time" : 3.53299999915197,
+         "id" : "dep2"
+      }
+   ],
+   "n_download_no_trigger" : 1,
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "download" : {
+            "dnsEnd" : 0,
+            "dns" : 0,
+            "receiveFirst" : 221,
+            "receiveLast" : 99.5819999996747,
+            "id" : "download_0",
+            "sendEnd" : 122,
+            "sslStart" : 0,
+            "connectEnd" : 121,
+            "sslEnd" : 119,
+            "s_time" : 0,
+            "connectStart" : 0,
+            "receivedTime" : 442.581999999675,
+            "receiveHeadersEnd" : 343,
+            "len" : 52226,
+            "type" : "text/html",
+            "sendStart" : 121,
+            "dnsStart" : 0
+         },
+         "url" : "https://searchengineland-com.cdn.ampproject.org/c/searchengineland.com/5-questions-select-right-structure-international-websites-233301/amp",
+         "comps" : [
+            {
+               "time" : 50.068999998985,
+               "e_time" : 496.470000000045,
+               "id" : "r1_c1",
+               "type" : "evalhtml",
+               "s_time" : 446.40100000106
+            }
+         ],
+         "id" : "r1",
+         "when_comp_start" : 1
+      },
+      {
+         "when_comp_start" : -1,
+         "id" : "r2",
+         "comps" : [
+            {
+               "id" : "comp_17",
+               "type" : null,
+               "s_time" : 1241.61600000116,
+               "time" : 177.80099999982,
+               "e_time" : 1419.41700000098
+            }
+         ],
+         "url" : "https://cdn.ampproject.org/rtv/011498506512561/v0.js",
+         "download" : {
+            "sslEnd" : 301,
+            "sslStart" : 112,
+            "sendEnd" : 311,
+            "connectEnd" : 311,
+            "sendStart" : 311,
+            "dnsStart" : 35,
+            "receivedTime" : 1129.62300000072,
+            "s_time" : 449.934000000212,
+            "connectStart" : 0,
+            "receiveHeadersEnd" : 432,
+            "type" : "text/javascript",
+            "len" : 221178,
+            "dns" : 18,
+            "dnsEnd" : 53,
+            "receiveFirst" : 121,
+            "id" : "download_1",
+            "receiveLast" : 697.62300000072
+         }
+      },
+      {
+         "download" : {
+            "sslStart" : 113,
+            "sendEnd" : 309,
+            "connectEnd" : 308,
+            "sslEnd" : 299,
+            "receivedTime" : 991.111999999703,
+            "s_time" : 450.829999999769,
+            "connectStart" : 0,
+            "len" : 54716,
+            "receiveHeadersEnd" : 434,
+            "type" : "text/javascript",
+            "sendStart" : 308,
+            "dnsStart" : 43,
+            "dnsEnd" : 53,
+            "dns" : 10,
+            "receiveFirst" : 125,
+            "id" : "download_2",
+            "receiveLast" : 557.111999999703
+         },
+         "comps" : [
+            {
+               "e_time" : 1044.95099999986,
+               "time" : 30.36099999918,
+               "s_time" : 1014.59000000068,
+               "id" : "comp_10",
+               "type" : null
+            }
+         ],
+         "url" : "https://cdn.ampproject.org/rtv/011498506512561/v0/amp-ad-0.1.js",
+         "when_comp_start" : -1,
+         "id" : "r3"
+      }
+   ],
+   "start_activity" : "download_0",
+   "name" : "searchengineland-com.cdn.ampproject.org_c_searchengineland.com_5-questions-select-right-structure-international-websites-233301_amp"
+}

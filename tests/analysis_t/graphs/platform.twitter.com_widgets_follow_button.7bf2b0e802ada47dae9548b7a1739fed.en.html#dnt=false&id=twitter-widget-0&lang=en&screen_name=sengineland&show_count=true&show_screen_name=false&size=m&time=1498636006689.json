@@ -1,0 +1,625 @@
+{
+   "n_download_no_trigger" : 10,
+   "deps" : [
+      {
+         "a1" : "comp_5",
+         "a2" : "_c2",
+         "time" : -1,
+         "id" : "dep1"
+      },
+      {
+         "id" : "dep2",
+         "time" : -1,
+         "a1" : "comp_10",
+         "a2" : "_c3"
+      },
+      {
+         "a2" : "_c4",
+         "a1" : "comp_12",
+         "time" : -1,
+         "id" : "dep3"
+      },
+      {
+         "a2" : "_c5",
+         "a1" : "comp_15",
+         "time" : -1,
+         "id" : "dep4"
+      },
+      {
+         "a1" : "comp_17",
+         "a2" : "_c6",
+         "time" : -1,
+         "id" : "dep5"
+      },
+      {
+         "id" : "dep6",
+         "a2" : "_c7",
+         "a1" : "comp_44",
+         "time" : -1
+      },
+      {
+         "id" : "dep7",
+         "a1" : "comp_50",
+         "a2" : "_c8",
+         "time" : -1
+      },
+      {
+         "id" : "dep8",
+         "time" : -1,
+         "a2" : "_c9",
+         "a1" : "comp_87"
+      },
+      {
+         "a1" : "comp_352",
+         "a2" : "_c10",
+         "time" : -1,
+         "id" : "dep9"
+      },
+      {
+         "a2" : "_c11",
+         "a1" : "comp_355",
+         "time" : -1,
+         "id" : "dep10"
+      },
+      {
+         "time" : -1,
+         "a1" : "comp_364",
+         "a2" : "_c12",
+         "id" : "dep11"
+      },
+      {
+         "id" : "dep12",
+         "time" : -1,
+         "a2" : "_c13",
+         "a1" : "comp_367"
+      },
+      {
+         "id" : "dep13",
+         "time" : -1,
+         "a2" : "_c14",
+         "a1" : "comp_533"
+      },
+      {
+         "a1" : "comp_535",
+         "a2" : "_c15",
+         "time" : -1,
+         "id" : "dep14"
+      },
+      {
+         "id" : "dep15",
+         "a1" : "comp_537",
+         "a2" : "_c16",
+         "time" : -1
+      },
+      {
+         "a1" : "comp_539",
+         "a2" : "_c17",
+         "time" : -1,
+         "id" : "dep16"
+      },
+      {
+         "a1" : "comp_548",
+         "a2" : "_c18",
+         "time" : -1,
+         "id" : "dep17"
+      },
+      {
+         "id" : "dep18",
+         "time" : 86.2820000002099,
+         "a1" : "r135_c1",
+         "a2" : "download_10"
+      }
+   ],
+   "start_activity" : "download_0",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "url" : "http://platform.twitter.com/widgets/follow_button.7bf2b0e802ada47dae9548b7a1739fed.en.html#dnt=false&id=twitter-widget-0&lang=en&screen_name=sengineland&show_count=true&show_screen_name=false&size=m&time=1498636006689",
+         "comps" : [
+            {
+               "time" : 89.911000002758,
+               "e_time" : 915.092000002915,
+               "s_time" : 825.181000000157,
+               "type" : "evalhtml",
+               "id" : "r135_c1"
+            }
+         ],
+         "id" : "r135",
+         "when_comp_start" : 1,
+         "download" : {
+            "receiveLast" : 484.103000000556,
+            "id" : "download_0",
+            "receiveFirst" : 145,
+            "dnsEnd" : -1,
+            "dns" : 0,
+            "receiveHeadersEnd" : 169,
+            "len" : 33941,
+            "type" : "text/html",
+            "connectStart" : 0,
+            "s_time" : 0,
+            "receivedTime" : 653.103000000556,
+            "dnsStart" : -1,
+            "sendStart" : 24,
+            "connectEnd" : 24,
+            "sendEnd" : 24,
+            "sslStart" : -1,
+            "sslEnd" : -1
+         }
+      },
+      {
+         "when_comp_start" : 1,
+         "id" : "r136",
+         "comps" : [
+            {
+               "type" : "evalhtml",
+               "id" : "r136_c1",
+               "s_time" : 981.549000000086,
+               "time" : 63.817000002014,
+               "e_time" : 1045.3660000021
+            }
+         ],
+         "url" : "http://platform.twitter.com/widgets/follow_button.7bf2b0e802ada47dae9548b7a1739fed.en.html#dnt=false&id=twitter-widget-1&lang=en&screen_name=sengineland&show_count=true&show_screen_name=false&size=m&time=1498636006694",
+         "download" : {
+            "dnsEnd" : 21,
+            "dns" : 0,
+            "id" : "download_1",
+            "receiveLast" : 373.473000000959,
+            "receiveFirst" : 146,
+            "connectEnd" : 163,
+            "sslStart" : -1,
+            "sendEnd" : 164,
+            "sslEnd" : -1,
+            "len" : 33941,
+            "receiveHeadersEnd" : 310,
+            "type" : "text/html",
+            "receivedTime" : 683.473000000959,
+            "connectStart" : 0,
+            "s_time" : 5.48100000014529,
+            "dnsStart" : 21,
+            "sendStart" : 163
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "id" : "r137",
+         "comps" : [
+            {
+               "id" : "comp_736",
+               "type" : null,
+               "s_time" : 734.638000001723,
+               "e_time" : 824.687000000267,
+               "time" : 90.048999998544
+            }
+         ],
+         "url" : "http://static.chartbeat.com/js/chartbeat.js",
+         "download" : {
+            "dnsEnd" : -1,
+            "dns" : 0,
+            "id" : "download_2",
+            "receiveLast" : 587.040000000503,
+            "receiveFirst" : 90,
+            "connectEnd" : 8,
+            "sslStart" : -1,
+            "sendEnd" : 9,
+            "sslEnd" : -1,
+            "type" : "application/x-javascript",
+            "receiveHeadersEnd" : 99,
+            "len" : 33343,
+            "receivedTime" : 686.040000000503,
+            "s_time" : 510.551999999734,
+            "connectStart" : 0,
+            "dnsStart" : -1,
+            "sendStart" : 8
+         }
+      },
+      {
+         "download" : {
+            "connectStart" : 0,
+            "s_time" : 1070.90000000244,
+            "receivedTime" : 1292.88400000223,
+            "receiveHeadersEnd" : 123,
+            "type" : "image/gif",
+            "len" : 42,
+            "sendStart" : 20,
+            "dnsStart" : -1,
+            "sendEnd" : 20,
+            "sslStart" : -1,
+            "connectEnd" : 20,
+            "sslEnd" : -1,
+            "receiveFirst" : 103,
+            "receiveLast" : 1169.88400000223,
+            "id" : "download_3",
+            "dnsEnd" : -1,
+            "dns" : 0
+         },
+         "id" : "r141",
+         "when_comp_start" : -1,
+         "url" : "http://pagead2.googlesyndication.com/activeviewavi=BLBI03l5TWfagFsbp2AS_4LWoBAAAAAAQATgByAECwAIC4AIAyAOZBOAEAaAGFNIIBQiAYRAB&cid=CAASBORoxYI&id=osdim&ti=1&r=u&adk=881903337&tt=3749&bs=412,620&mtos=0,0,0,0,0&tos=0,0,0,0,0&p=0,0,0,0&mcvt=0&rs=3&ht=0&mc=0&lte=-1&bas=0&bac=0&bos=412,620&ps=412,8087&ss=",
+         "comps" : []
+      },
+      {
+         "when_comp_start" : 1,
+         "id" : "r138",
+         "comps" : [
+            {
+               "type" : "evalhtml",
+               "id" : "r138_c1",
+               "s_time" : 1383.35500000176,
+               "e_time" : 1422.5460000016,
+               "time" : 39.1909999998402
+            }
+         ],
+         "url" : "https://staticxx.facebook.com/connect/xd_arbiter/r/XBwzv5Yrm_1.jsversion=42#cb=f25635a7d4&domain=searchengineland.com&origin=http%3A%2F%2Fsearchengineland.com%2Ff36e1a8b3&relation=parent&error=unknown_user",
+         "download" : {
+            "receiveFirst" : 49,
+            "receiveLast" : 1296.40900000138,
+            "id" : "download_4",
+            "dnsEnd" : -1,
+            "dns" : 0,
+            "connectStart" : 0,
+            "s_time" : 1254.44600000264,
+            "receivedTime" : 1345.40900000138,
+            "receiveHeadersEnd" : 49,
+            "type" : "text/html",
+            "len" : 43423,
+            "sendStart" : 0,
+            "dnsStart" : -1,
+            "sendEnd" : 0,
+            "sslStart" : -1,
+            "connectEnd" : 0,
+            "sslEnd" : -1
+         }
+      },
+      {
+         "comps" : [],
+         "url" : "http://pagead2.googlesyndication.com/activeviewavi=BYh1U3l5TWfegFsbp2AS_4LWoBAAAAAAQATgByAECwAIC4AIAyAOZBOAEAaAGFNIIBQiAYRAB&cid=CAASBORoJ8s&id=osdim&ti=1&r=u&adk=1793461615&tt=3749&bs=412,620&mtos=0,0,0,0,0&tos=0,0,0,0,0&p=0,0,0,0&mcvt=0&rs=3&ht=0&mc=0&lte=-1&bas=0&bac=0&bos=412,620&ps=412,8087&ss",
+         "when_comp_start" : -1,
+         "id" : "r142",
+         "download" : {
+            "connectEnd" : 37,
+            "sslStart" : -1,
+            "sendEnd" : 37,
+            "sslEnd" : -1,
+            "type" : "image/gif",
+            "receiveHeadersEnd" : 137,
+            "len" : 42,
+            "receivedTime" : 1440.52400000146,
+            "connectStart" : 0,
+            "s_time" : 1251.27900000007,
+            "dnsStart" : -1,
+            "sendStart" : 37,
+            "dnsEnd" : -1,
+            "dns" : 0,
+            "id" : "download_5",
+            "receiveLast" : 1303.52400000146,
+            "receiveFirst" : 100
+         }
+      },
+      {
+         "url" : "http://ping.chartbeat.net/pingh=searchengineland.com&p=%2F10-local-link-building-tips-2016-240915&u=B-Pxc5D_ED4AD-bOFd&d=searchengineland.com&g=14529&g0=Channel%3A%20Local&g1=Greg%20Gifford&n=1&f=00001&c=0&x=0&m=0&y=8087&o=412&w=620&j=45&R=1&W=0&I=0&E=0&e=0&r=&b=13461&t=CYe0kjCvOFM5CB584lsisUcDa7Os",
+         "comps" : [],
+         "id" : "r139",
+         "when_comp_start" : -1,
+         "download" : {
+            "dns" : 155,
+            "dnsEnd" : 181,
+            "receiveFirst" : 215,
+            "receiveLast" : 833.858000002772,
+            "id" : "download_6",
+            "sslEnd" : -1,
+            "sendEnd" : 397,
+            "sslStart" : -1,
+            "connectEnd" : 397,
+            "sendStart" : 397,
+            "dnsStart" : 26,
+            "s_time" : 825.157999999647,
+            "connectStart" : 0,
+            "receivedTime" : 1445.85800000277,
+            "type" : "image/gif",
+            "receiveHeadersEnd" : 612,
+            "len" : 43
+         }
+      },
+      {
+         "download" : {
+            "sendStart" : 104,
+            "dnsStart" : 44,
+            "receivedTime" : 1467.19099999973,
+            "connectStart" : 0,
+            "s_time" : 1254.7790000026,
+            "type" : "image/gif",
+            "receiveHeadersEnd" : 202,
+            "len" : 42,
+            "sslEnd" : -1,
+            "sslStart" : -1,
+            "sendEnd" : 104,
+            "connectEnd" : 104,
+            "receiveFirst" : 98,
+            "id" : "download_7",
+            "receiveLast" : 1265.19099999973,
+            "dns" : 1,
+            "dnsEnd" : 45
+         },
+         "id" : "r143",
+         "when_comp_start" : -1,
+         "url" : "http://pagead2.googlesyndication.com/activeviewavi=BInay3l5TWfigFsbp2AS_4LWoBAAAAAAQATgByAECwAIC4AIAyAOZBOAEAaAGFNIIBQiAYRAB&cid=CAASBORooVQ&id=osdim&ti=1&r=u&adk=2376149166&tt=3749&bs=412,620&mtos=0,0,0,0,0&tos=0,0,0,0,0&p=0,0,0,0&mcvt=0&rs=3&ht=0&mc=0&lte=-1&bas=0&bac=0&bos=412,620&ps=412,8087&ss",
+         "comps" : []
+      },
+      {
+         "download" : {
+            "receiveFirst" : 99,
+            "receiveLast" : 1270.58900000088,
+            "id" : "download_8",
+            "dnsEnd" : 43,
+            "dns" : 1,
+            "s_time" : 1260.64000000042,
+            "connectStart" : 0,
+            "receivedTime" : 1472.58900000088,
+            "type" : "image/gif",
+            "receiveHeadersEnd" : 202,
+            "len" : 42,
+            "sendStart" : 103,
+            "dnsStart" : 42,
+            "sendEnd" : 103,
+            "sslStart" : -1,
+            "connectEnd" : 103,
+            "sslEnd" : -1
+         },
+         "comps" : [],
+         "url" : "http://pagead2.googlesyndication.com/activeviewavi=B-IP13l5TWYChFsbp2AS_4LWoBAAAAAAQATgByAECwAIC4AIAyAOZBOAEAaAGFNIIBQiAYRAB&cid=CAASBORoc1w&id=osdim&ti=1&r=u&adk=3679792583&tt=3749&bs=412,620&mtos=1816,1816,1816,1816,1816&tos=1816,0,0,0,0&p=340,56,590,356&mcvt=1816&rs=3&ht=0&tfs=1928&tls=3744&mc=1",
+         "when_comp_start" : -1,
+         "id" : "r145"
+      },
+      {
+         "id" : "r144",
+         "when_comp_start" : -1,
+         "url" : "http://pagead2.googlesyndication.com/activeviewavi=Bnd7Y3l5TWfugFsbp2AS_4LWoBAAAAAAQATgByAEDwAIC4AIAyAOZBOAEAaAGFNIIBQiAYRAB&cid=CAASBORoIXE&id=osdim&ti=1&r=u&adk=151316376&tt=3749&bs=412,620&mtos=0,0,0,0,0&tos=0,0,0,0,0&p=0,0,0,0&mcvt=0&rs=3&ht=0&mc=0&lte=-1&bas=0&bac=0&bos=412,620&ps=412,8087&ss=",
+         "comps" : [],
+         "download" : {
+            "connectEnd" : 101,
+            "sendEnd" : 101,
+            "sslStart" : -1,
+            "sslEnd" : -1,
+            "type" : "image/gif",
+            "receiveHeadersEnd" : 210,
+            "len" : 42,
+            "connectStart" : 0,
+            "s_time" : 1257.86599999992,
+            "receivedTime" : 1473.80200000043,
+            "dnsStart" : 36,
+            "sendStart" : 101,
+            "dnsEnd" : 37,
+            "dns" : 1,
+            "receiveLast" : 1263.80200000043,
+            "id" : "download_9",
+            "receiveFirst" : 109
+         }
+      },
+      {
+         "download" : {
+            "sslStart" : 21,
+            "sendEnd" : 67,
+            "connectEnd" : 66,
+            "sslEnd" : 66,
+            "receivedTime" : 1780.67500000179,
+            "s_time" : 911.463000000367,
+            "connectStart" : 0,
+            "receiveHeadersEnd" : 752,
+            "type" : "application/javascript",
+            "len" : 242,
+            "sendStart" : 66,
+            "dnsStart" : 6,
+            "dnsEnd" : 12,
+            "dns" : 6,
+            "receiveFirst" : 685,
+            "id" : "download_10",
+            "receiveLast" : 1028.67500000179
+         },
+         "comps" : [
+            {
+               "type" : null,
+               "id" : "comp_801",
+               "s_time" : 1794.41900000165,
+               "e_time" : 1802.51800000042,
+               "time" : 8.09899999877007
+            },
+            {
+               "e_time" : 1808.94600000101,
+               "time" : 6.20599999820001,
+               "id" : "comp_804",
+               "type" : null,
+               "s_time" : 1802.74000000281
+            }
+         ],
+         "url" : "https://cdn.syndication.twimg.com/widgets/followbutton/info.jsoncallback=__twttr.setFollowersCountAndFollowing&lang=en&screen_names=sengineland",
+         "when_comp_start" : -1,
+         "id" : "r140"
+      },
+      {
+         "comps" : [
+            {
+               "s_time" : -12444.5989999986,
+               "id" : "_c1",
+               "type" : "evalhtml",
+               "e_time" : -29484946.405,
+               "time" : -29472501.806
+            },
+            {
+               "id" : "_c2",
+               "type" : "evalhtml",
+               "s_time" : -11755.9879999972,
+               "e_time" : -29484946.405,
+               "time" : -29473190.417
+            },
+            {
+               "e_time" : -29484946.405,
+               "time" : -29473300.247,
+               "s_time" : -11646.1579999996,
+               "id" : "_c3",
+               "type" : "evalhtml"
+            },
+            {
+               "s_time" : -11488.0909999993,
+               "id" : "_c4",
+               "type" : "evalhtml",
+               "time" : -29473458.314,
+               "e_time" : -29484946.405
+            },
+            {
+               "id" : "_c5",
+               "type" : "evalhtml",
+               "s_time" : -11480.1420000003,
+               "time" : -29473466.263,
+               "e_time" : -29484946.405
+            },
+            {
+               "id" : "_c6",
+               "type" : "evalhtml",
+               "s_time" : -11464.345999997,
+               "time" : -29473482.059,
+               "e_time" : -29484946.405
+            },
+            {
+               "e_time" : -29484946.405,
+               "time" : -29473972.731,
+               "id" : "_c7",
+               "type" : "evalhtml",
+               "s_time" : -10973.6739999971
+            },
+            {
+               "e_time" : -29484946.405,
+               "time" : -29473994.9,
+               "type" : "evalhtml",
+               "id" : "_c8",
+               "s_time" : -10951.5049999973
+            },
+            {
+               "time" : -29474226.776,
+               "e_time" : -29484946.405,
+               "s_time" : -10719.6289999993,
+               "type" : "evalhtml",
+               "id" : "_c9"
+            },
+            {
+               "s_time" : -8295.51999999967,
+               "type" : "evalhtml",
+               "id" : "_c10",
+               "e_time" : -29484946.405,
+               "time" : -29476650.885
+            },
+            {
+               "id" : "_c11",
+               "type" : "evalhtml",
+               "s_time" : -8067.28499999736,
+               "time" : -29476879.12,
+               "e_time" : -29484946.405
+            },
+            {
+               "e_time" : -29484946.405,
+               "time" : -29476881.869,
+               "s_time" : -8064.53599999804,
+               "type" : "evalhtml",
+               "id" : "_c12"
+            },
+            {
+               "type" : "evalhtml",
+               "id" : "_c13",
+               "s_time" : -8049.52899999989,
+               "e_time" : -29484946.405,
+               "time" : -29476896.876
+            },
+            {
+               "time" : -29481053.926,
+               "e_time" : -29484946.405,
+               "s_time" : -3892.47899999827,
+               "id" : "_c14",
+               "type" : "evalhtml"
+            },
+            {
+               "time" : -29481065.219,
+               "e_time" : -29484946.405,
+               "s_time" : -3881.18599999871,
+               "type" : "evalhtml",
+               "id" : "_c15"
+            },
+            {
+               "e_time" : -29484946.405,
+               "time" : -29481076.964,
+               "id" : "_c16",
+               "type" : "evalhtml",
+               "s_time" : -3869.44099999891
+            },
+            {
+               "time" : -29481086.023,
+               "e_time" : -29484946.405,
+               "type" : "evalhtml",
+               "id" : "_c17",
+               "s_time" : -3860.38199999894
+            },
+            {
+               "id" : "_c18",
+               "type" : "evalhtml",
+               "s_time" : -3815.90999999753,
+               "time" : 572.51299999916,
+               "e_time" : -3243.39699999837
+            }
+         ]
+      },
+      {
+         "comps" : [
+            {
+               "s_time" : -8815.28599999729,
+               "type" : "evalhtml",
+               "id" : "_c1",
+               "time" : 0,
+               "e_time" : -8815.28599999729
+            }
+         ]
+      },
+      {
+         "comps" : [
+            {
+               "s_time" : -9700.31899999958,
+               "id" : "_c1",
+               "type" : "evalhtml",
+               "e_time" : -9053.53999999716,
+               "time" : 646.77900000242
+            }
+         ]
+      },
+      {
+         "comps" : [
+            {
+               "id" : "_c1",
+               "type" : "evalhtml",
+               "s_time" : -5542.97399999996,
+               "time" : 0.59200000032979,
+               "e_time" : -5542.38199999963
+            }
+         ]
+      },
+      {
+         "comps" : [
+            {
+               "s_time" : -5364.2039999977,
+               "id" : "_c1",
+               "type" : "evalhtml",
+               "e_time" : -5242.57299999954,
+               "time" : 121.630999998159
+            }
+         ]
+      },
+      {
+         "comps" : [
+            {
+               "s_time" : -236.684999999852,
+               "type" : "evalhtml",
+               "id" : "_c1",
+               "e_time" : -235.516999997344,
+               "time" : 1.16800000250802
+            }
+         ]
+      }
+   ],
+   "name" : "platform.twitter.com_widgets_follow_button.7bf2b0e802ada47dae9548b7a1739fed.en.html#dnt=false&id=twitter-widget-0&lang=en&screen_name=sengineland&show_count=true&show_screen_name=false&size=m&time=1498636006689"
+}

@@ -1,0 +1,472 @@
+{
+   "n_download_no_trigger" : 1,
+   "deps" : [
+      {
+         "id" : "dep1",
+         "time" : 32.9300000012202,
+         "a1" : "r1_c1",
+         "a2" : "download_11"
+      },
+      {
+         "id" : "dep2",
+         "a2" : "download_10",
+         "a1" : "r1_c1",
+         "time" : 17.3690000010602
+      },
+      {
+         "a2" : "download_9",
+         "a1" : "r1_c1",
+         "time" : 15.5589999994902,
+         "id" : "dep3"
+      },
+      {
+         "id" : "dep4",
+         "time" : 22.3509999996202,
+         "a1" : "r1_c1",
+         "a2" : "download_8"
+      },
+      {
+         "time" : 20.3189999992901,
+         "a1" : "r1_c1",
+         "a2" : "download_7",
+         "id" : "dep5"
+      },
+      {
+         "a2" : "download_6",
+         "a1" : "r1_c1",
+         "time" : 11.27199999974,
+         "id" : "dep6"
+      },
+      {
+         "time" : 13.5000000009302,
+         "a2" : "download_5",
+         "a1" : "r1_c1",
+         "id" : "dep7"
+      },
+      {
+         "a1" : "r1_c1",
+         "a2" : "download_4",
+         "time" : 9.70700000107013,
+         "id" : "dep8"
+      },
+      {
+         "a2" : "download_3",
+         "a1" : "r1_c1",
+         "time" : 6.81800000166004,
+         "id" : "dep9"
+      },
+      {
+         "id" : "dep10",
+         "a2" : "download_2",
+         "a1" : "r1_c1",
+         "time" : 8.22400000107018
+      },
+      {
+         "id" : "dep11",
+         "a2" : "download_1",
+         "a1" : "r1_c1",
+         "time" : 4.72300000183009
+      }
+   ],
+   "objs" : [
+      {
+         "url" : "https://searchengineland-com.cdn.ampproject.org/c/searchengineland.com/35-ways-improve-seo-sem-performance-smx-advanced-275130/amp",
+         "comps" : [
+            {
+               "s_time" : 1109.45100000026,
+               "id" : "r1_c1",
+               "type" : "evalhtml",
+               "time" : 73.2920000009501,
+               "e_time" : 1182.74300000121
+            }
+         ],
+         "id" : "r1",
+         "when_comp_start" : 1,
+         "download" : {
+            "dnsEnd" : 0,
+            "dns" : 0,
+            "id" : "download_0",
+            "receiveLast" : 136.685000002879,
+            "receiveFirst" : 234,
+            "connectEnd" : 737,
+            "sslStart" : 492,
+            "sendEnd" : 738,
+            "sslEnd" : 734,
+            "receiveHeadersEnd" : 972,
+            "type" : "text/html",
+            "len" : 39662,
+            "receivedTime" : 1108.68500000288,
+            "connectStart" : 0,
+            "s_time" : 0,
+            "dnsStart" : 0,
+            "sendStart" : 737
+         }
+      },
+      {
+         "download" : {
+            "receiveHeadersEnd" : 390,
+            "len" : 221178,
+            "type" : "text/javascript",
+            "receivedTime" : 1733.12699999951,
+            "connectStart" : 0,
+            "s_time" : 1114.17400000209,
+            "dnsStart" : 43,
+            "sendStart" : 319,
+            "connectEnd" : 319,
+            "sslStart" : 108,
+            "sendEnd" : 320,
+            "sslEnd" : 310,
+            "id" : "download_1",
+            "receiveLast" : 1343.12699999951,
+            "receiveFirst" : 70,
+            "dnsEnd" : 43,
+            "dns" : 0
+         },
+         "url" : "https://cdn.ampproject.org/rtv/011498506512561/v0.js",
+         "comps" : [
+            {
+               "time" : 142.24800000011,
+               "e_time" : 1876.18400000065,
+               "type" : null,
+               "id" : "comp_16",
+               "s_time" : 1733.93600000054
+            }
+         ],
+         "id" : "r2",
+         "when_comp_start" : -1
+      },
+      {
+         "when_comp_start" : -1,
+         "id" : "r4",
+         "comps" : [
+            {
+               "time" : 38.8930000008199,
+               "e_time" : 1654.03800000058,
+               "id" : "comp_8",
+               "type" : null,
+               "s_time" : 1615.14499999976
+            }
+         ],
+         "url" : "https://cdn.ampproject.org/rtv/011498506512561/v0/amp-analytics-0.1.js",
+         "download" : {
+            "sslEnd" : 307,
+            "connectEnd" : 318,
+            "sslStart" : 114,
+            "sendEnd" : 319,
+            "dnsStart" : 48,
+            "sendStart" : 318,
+            "receiveHeadersEnd" : 420,
+            "type" : "text/javascript",
+            "len" : 84256,
+            "receivedTime" : 1612.59799999971,
+            "connectStart" : 0,
+            "s_time" : 1117.67500000133,
+            "dns" : 1,
+            "dnsEnd" : 49,
+            "id" : "download_2",
+            "receiveLast" : 1192.59799999971,
+            "receiveFirst" : 101
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "id" : "r3",
+         "comps" : [
+            {
+               "e_time" : 1676.36499999935,
+               "time" : 22.1109999983998,
+               "s_time" : 1654.25400000095,
+               "type" : null,
+               "id" : "comp_10"
+            }
+         ],
+         "url" : "https://cdn.ampproject.org/rtv/011498506512561/v0/amp-ad-0.1.js",
+         "download" : {
+            "s_time" : 1116.26900000192,
+            "connectStart" : 0,
+            "receivedTime" : 1614.55800000113,
+            "len" : 54716,
+            "receiveHeadersEnd" : 455,
+            "type" : "text/javascript",
+            "sendStart" : 318,
+            "dnsStart" : 36,
+            "sendEnd" : 319,
+            "sslStart" : 106,
+            "connectEnd" : 318,
+            "sslEnd" : 308,
+            "receiveFirst" : 136,
+            "receiveLast" : 1159.55800000113,
+            "id" : "download_3",
+            "dnsEnd" : 40,
+            "dns" : 4
+         }
+      },
+      {
+         "download" : {
+            "dns" : 0,
+            "dnsEnd" : 53,
+            "id" : "download_4",
+            "receiveLast" : 1138.60500000225,
+            "receiveFirst" : 136,
+            "sslEnd" : 306,
+            "connectEnd" : 320,
+            "sslStart" : 116,
+            "sendEnd" : 321,
+            "dnsStart" : 53,
+            "sendStart" : 320,
+            "type" : "text/javascript",
+            "receiveHeadersEnd" : 457,
+            "len" : 4377,
+            "receivedTime" : 1595.60500000225,
+            "s_time" : 1119.15800000133,
+            "connectStart" : 0
+         },
+         "url" : "https://cdn.ampproject.org/rtv/011498506512561/v0/amp-anim-0.1.js",
+         "comps" : [
+            {
+               "type" : null,
+               "id" : "comp_4",
+               "s_time" : 1602.88500000024,
+               "time" : 4.10800000099994,
+               "e_time" : 1606.99300000124
+            }
+         ],
+         "id" : "r5",
+         "when_comp_start" : -1
+      },
+      {
+         "download" : {
+            "receiveFirst" : 135,
+            "receiveLast" : 1143.60000000117,
+            "id" : "download_5",
+            "dnsEnd" : 53,
+            "dns" : 0,
+            "connectStart" : 0,
+            "s_time" : 1122.95100000119,
+            "receivedTime" : 1598.60000000117,
+            "len" : 6687,
+            "receiveHeadersEnd" : 455,
+            "type" : "text/javascript",
+            "sendStart" : 319,
+            "dnsStart" : 53,
+            "sendEnd" : 320,
+            "sslStart" : 118,
+            "connectEnd" : 319,
+            "sslEnd" : 306
+         },
+         "url" : "https://cdn.ampproject.org/rtv/011498506512561/v0/amp-sidebar-0.1.js",
+         "comps" : [
+            {
+               "s_time" : 1607.30700000204,
+               "type" : null,
+               "id" : "comp_6",
+               "time" : 4.31599999864989,
+               "e_time" : 1611.62300000069
+            }
+         ],
+         "id" : "r7",
+         "when_comp_start" : -1
+      },
+      {
+         "download" : {
+            "dnsEnd" : 42,
+            "dns" : 0,
+            "id" : "download_6",
+            "receiveLast" : 1214.25300000166,
+            "receiveFirst" : 142,
+            "connectEnd" : 320,
+            "sslStart" : 111,
+            "sendEnd" : 321,
+            "sslEnd" : 304,
+            "receiveHeadersEnd" : 463,
+            "len" : 31561,
+            "type" : "text/javascript",
+            "receivedTime" : 1677.25300000166,
+            "s_time" : 1120.723,
+            "connectStart" : 0,
+            "dnsStart" : 42,
+            "sendStart" : 320
+         },
+         "when_comp_start" : -1,
+         "id" : "r6",
+         "comps" : [
+            {
+               "time" : 11.9080000004101,
+               "e_time" : 1690.33900000068,
+               "id" : "comp_14",
+               "type" : null,
+               "s_time" : 1678.43100000027
+            }
+         ],
+         "url" : "https://cdn.ampproject.org/rtv/011498506512561/v0/amp-form-0.1.js"
+      },
+      {
+         "comps" : [
+            {
+               "time" : 0.366000000210079,
+               "e_time" : 1677.07800000062,
+               "type" : null,
+               "id" : "comp_12",
+               "s_time" : 1676.71200000041
+            }
+         ],
+         "url" : "https://fonts.googleapis.com/cssfamily=Oswald:300,400,700",
+         "when_comp_start" : -1,
+         "id" : "r10",
+         "download" : {
+            "sslEnd" : 318,
+            "connectEnd" : 318,
+            "sendEnd" : 318,
+            "sslStart" : 128,
+            "dnsStart" : 56,
+            "sendStart" : 318,
+            "type" : "text/css",
+            "receiveHeadersEnd" : 463,
+            "len" : 734,
+            "s_time" : 1129.76999999955,
+            "connectStart" : 0,
+            "receivedTime" : 1613.36099999971,
+            "dns" : 4,
+            "dnsEnd" : 60,
+            "receiveLast" : 1150.36099999971,
+            "id" : "download_7",
+            "receiveFirst" : 145
+         }
+      },
+      {
+         "download" : {
+            "dnsEnd" : 59,
+            "dns" : 2,
+            "receiveLast" : 1150.67700000119,
+            "id" : "download_8",
+            "receiveFirst" : 146,
+            "connectEnd" : 317,
+            "sendEnd" : 317,
+            "sslStart" : 128,
+            "sslEnd" : 316,
+            "receiveHeadersEnd" : 463,
+            "len" : 1079,
+            "type" : "text/css",
+            "s_time" : 1131.80199999988,
+            "connectStart" : 0,
+            "receivedTime" : 1613.67700000119,
+            "dnsStart" : 57,
+            "sendStart" : 317
+         },
+         "comps" : [
+            {
+               "e_time" : 2495.56400000074,
+               "time" : 85.8650000009202,
+               "s_time" : 2409.69899999982,
+               "id" : "comp_25",
+               "type" : null
+            }
+         ],
+         "url" : "https://fonts.googleapis.com/cssfamily=Merriweather:400,400italic,700,700italic",
+         "when_comp_start" : -1,
+         "id" : "r11"
+      },
+      {
+         "download" : {
+            "receiveLast" : 1296.1940000006,
+            "id" : "download_9",
+            "receiveFirst" : 114,
+            "dnsEnd" : -1,
+            "dns" : 0,
+            "receiveHeadersEnd" : 581,
+            "type" : "text/javascript",
+            "len" : 10102,
+            "s_time" : 1125.00999999975,
+            "connectStart" : 0,
+            "receivedTime" : 1877.1940000006,
+            "dnsStart" : -1,
+            "sendStart" : 466,
+            "connectEnd" : 466,
+            "sendEnd" : 467,
+            "sslStart" : -1,
+            "sslEnd" : -1
+         },
+         "id" : "r8",
+         "when_comp_start" : -1,
+         "url" : "https://cdn.ampproject.org/rtv/011498506512561/v0/amp-video-0.1.js",
+         "comps" : [
+            {
+               "time" : 4.54999999783013,
+               "e_time" : 1902.42299999954,
+               "type" : null,
+               "id" : "comp_20",
+               "s_time" : 1897.87300000171
+            }
+         ]
+      },
+      {
+         "when_comp_start" : -1,
+         "id" : "r9",
+         "comps" : [
+            {
+               "s_time" : 1892.58500000142,
+               "type" : null,
+               "id" : "comp_18",
+               "e_time" : 1897.64800000194,
+               "time" : 5.06300000052011
+            }
+         ],
+         "url" : "https://cdn.ampproject.org/rtv/011498506512561/v0/amp-youtube-0.1.js",
+         "download" : {
+            "dnsEnd" : -1,
+            "dns" : 0,
+            "id" : "download_10",
+            "receiveLast" : 1295.73899999936,
+            "receiveFirst" : 115,
+            "connectEnd" : 465,
+            "sslStart" : -1,
+            "sendEnd" : 466,
+            "sslEnd" : -1,
+            "type" : "text/javascript",
+            "receiveHeadersEnd" : 581,
+            "len" : 11166,
+            "receivedTime" : 1876.73899999936,
+            "s_time" : 1126.82000000132,
+            "connectStart" : 0,
+            "dnsStart" : -1,
+            "sendStart" : 465
+         }
+      },
+      {
+         "download" : {
+            "receiveLast" : 1307.53300000259,
+            "id" : "download_11",
+            "receiveFirst" : 114,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "dnsStart" : -1,
+            "sendStart" : 456,
+            "len" : 38077,
+            "receiveHeadersEnd" : 570,
+            "type" : "text/javascript",
+            "s_time" : 1142.38100000148,
+            "connectStart" : 0,
+            "receivedTime" : 1877.53300000259,
+            "sslEnd" : -1,
+            "connectEnd" : 456,
+            "sendEnd" : 456,
+            "sslStart" : -1
+         },
+         "comps" : [
+            {
+               "e_time" : 1918.3660000017,
+               "time" : 15.73099999951,
+               "id" : "comp_22",
+               "type" : null,
+               "s_time" : 1902.63500000219
+            }
+         ],
+         "url" : "https://cdn.ampproject.org/rtv/011498506512561/v0/amp-mustache-0.1.js",
+         "when_comp_start" : -1,
+         "id" : "r12"
+      }
+   ],
+   "load_activity" : -1,
+   "start_activity" : "download_0",
+   "name" : "searchengineland-com.cdn.ampproject.org_c_searchengineland.com_35-ways-improve-seo-sem-performance-smx-advanced-275130_amp"
+}

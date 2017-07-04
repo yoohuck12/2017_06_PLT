@@ -1,0 +1,268 @@
+{
+   "deps" : [
+      {
+         "id" : "dep1",
+         "a1" : "r1_c1",
+         "a2" : "download_7",
+         "time" : -1
+      },
+      {
+         "id" : "dep2",
+         "time" : 1149.31499999875,
+         "a1" : "r1_c1",
+         "a2" : "download_6"
+      },
+      {
+         "time" : 1145.47300000049,
+         "a1" : "r1_c1",
+         "a2" : "download_5",
+         "id" : "dep3"
+      },
+      {
+         "a2" : "download_4",
+         "a1" : "r1_c1",
+         "time" : 1140.49399999931,
+         "id" : "dep4"
+      },
+      {
+         "id" : "dep5",
+         "a2" : "download_3",
+         "a1" : "r1_c1",
+         "time" : 1139.17800000126
+      },
+      {
+         "id" : "dep6",
+         "a1" : "r1_c1",
+         "a2" : "download_2",
+         "time" : 1129.33200000043
+      },
+      {
+         "a2" : "download_1",
+         "a1" : "r1_c1",
+         "time" : 3.51600000067299,
+         "id" : "dep7"
+      }
+   ],
+   "n_download_no_trigger" : 1,
+   "start_activity" : "download_0",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "comps" : [
+            {
+               "e_time" : 1650.38099999947,
+               "time" : 1152.71399999983,
+               "s_time" : 497.666999999637,
+               "id" : "r1_c1",
+               "type" : "evalhtml"
+            }
+         ],
+         "url" : "https://searchengineland-com.cdn.ampproject.org/c/searchengineland.com/organic-food-thought-top-things-seo-columns-2015-237859/amp",
+         "when_comp_start" : 1,
+         "id" : "r1",
+         "download" : {
+            "sslEnd" : 138,
+            "connectEnd" : 141,
+            "sslStart" : 0,
+            "sendEnd" : 141,
+            "dnsStart" : 0,
+            "sendStart" : 141,
+            "receiveHeadersEnd" : 374,
+            "len" : 41078,
+            "type" : "text/html",
+            "receivedTime" : 495.31399999978,
+            "connectStart" : 0,
+            "s_time" : 0,
+            "dns" : 0,
+            "dnsEnd" : 0,
+            "id" : "download_0",
+            "receiveLast" : 121.31399999978,
+            "receiveFirst" : 233
+         }
+      },
+      {
+         "download" : {
+            "receiveLast" : 902.205999998638,
+            "id" : "download_1",
+            "receiveFirst" : 126,
+            "dns" : 6,
+            "dnsEnd" : 38,
+            "dnsStart" : 32,
+            "sendStart" : 372,
+            "receiveHeadersEnd" : 499,
+            "type" : "text/javascript",
+            "len" : 221178,
+            "connectStart" : 0,
+            "s_time" : 501.18300000031,
+            "receivedTime" : 1401.20599999864,
+            "sslEnd" : 371,
+            "connectEnd" : 372,
+            "sendEnd" : 373,
+            "sslStart" : 97
+         },
+         "when_comp_start" : -1,
+         "id" : "r2",
+         "comps" : [
+            {
+               "type" : 3,
+               "id" : "comp_18",
+               "s_time" : 1226.76399999909,
+               "e_time" : 1390.94100000148,
+               "time" : 164.17700000239
+            }
+         ],
+         "url" : "https://cdn.ampproject.org/rtv/011498506512561/v0.js"
+      },
+      {
+         "id" : "r20",
+         "when_comp_start" : -1,
+         "url" : "https://searchengineland-com.cdn.ampproject.org/ii/w680/searchengineland.com/figz/wp-content/themes/searchengineland/img/logo/SEL-block.svg",
+         "comps" : [],
+         "download" : {
+            "sslStart" : -1,
+            "sendEnd" : 36,
+            "connectEnd" : 35,
+            "sslEnd" : -1,
+            "receivedTime" : 1968.49999999904,
+            "s_time" : 1626.99900000007,
+            "connectStart" : 0,
+            "receiveHeadersEnd" : 150,
+            "type" : "image/svg+xml",
+            "len" : 7319,
+            "sendStart" : 35,
+            "dnsStart" : -1,
+            "dnsEnd" : -1,
+            "dns" : 0,
+            "receiveFirst" : 114,
+            "id" : "download_2",
+            "receiveLast" : 1818.49999999904
+         }
+      },
+      {
+         "download" : {
+            "s_time" : 1636.8450000009,
+            "connectStart" : 0,
+            "receivedTime" : 2010.45299999896,
+            "receiveHeadersEnd" : 154,
+            "type" : "image/png",
+            "len" : 111,
+            "sendStart" : 38,
+            "dnsStart" : -1,
+            "sendEnd" : 39,
+            "sslStart" : -1,
+            "connectEnd" : 38,
+            "sslEnd" : -1,
+            "receiveFirst" : 115,
+            "receiveLast" : 1856.45299999896,
+            "id" : "download_3",
+            "dnsEnd" : -1,
+            "dns" : 0
+         },
+         "comps" : [],
+         "url" : "https://searchengineland-com.cdn.ampproject.org/i/searchengineland.com/figz/wp-content/themes/searchengineland/amp/img/icons/menu.png",
+         "when_comp_start" : -1,
+         "id" : "r21"
+      },
+      {
+         "download" : {
+            "receiveFirst" : 102,
+            "receiveLast" : 1762.53999999951,
+            "id" : "download_4",
+            "dnsEnd" : -1,
+            "dns" : 0,
+            "s_time" : 1638.16099999895,
+            "connectStart" : 0,
+            "receivedTime" : 2011.53999999951,
+            "type" : "image/webp",
+            "receiveHeadersEnd" : 249,
+            "len" : 180,
+            "sendStart" : 147,
+            "dnsStart" : -1,
+            "sendEnd" : 147,
+            "sslStart" : -1,
+            "connectEnd" : 147,
+            "sslEnd" : -1
+         },
+         "id" : "r22",
+         "when_comp_start" : -1,
+         "url" : "https://searchengineland-com.cdn.ampproject.org/i/searchengineland.com/figz/wp-content/themes/searchengineland/amp/img/icons/facebook.jpg",
+         "comps" : []
+      },
+      {
+         "id" : "r23",
+         "when_comp_start" : -1,
+         "url" : "https://searchengineland-com.cdn.ampproject.org/i/searchengineland.com/figz/wp-content/themes/searchengineland/amp/img/icons/twitter.jpg",
+         "comps" : [],
+         "download" : {
+            "sslEnd" : 145,
+            "sslStart" : 85,
+            "sendEnd" : 145,
+            "connectEnd" : 145,
+            "sendStart" : 145,
+            "dnsStart" : 22,
+            "receivedTime" : 2012.44700000098,
+            "s_time" : 1643.14000000013,
+            "connectStart" : 0,
+            "receiveHeadersEnd" : 248,
+            "type" : "image/webp",
+            "len" : 248,
+            "dns" : 1,
+            "dnsEnd" : 23,
+            "receiveFirst" : 103,
+            "id" : "download_5",
+            "receiveLast" : 1764.44700000098
+         }
+      },
+      {
+         "url" : "https://searchengineland-com.cdn.ampproject.org/i/searchengineland.com/figz/wp-content/themes/searchengineland/amp/img/icons/linkedin.jpg",
+         "comps" : [],
+         "id" : "r24",
+         "when_comp_start" : -1,
+         "download" : {
+            "receivedTime" : 2042.83900000155,
+            "connectStart" : 0,
+            "s_time" : 1646.98199999839,
+            "receiveHeadersEnd" : 251,
+            "type" : "image/webp",
+            "len" : 238,
+            "sendStart" : 143,
+            "dnsStart" : -1,
+            "sslStart" : -1,
+            "sendEnd" : 144,
+            "connectEnd" : 143,
+            "sslEnd" : -1,
+            "receiveFirst" : 107,
+            "id" : "download_6",
+            "receiveLast" : 1791.83900000155,
+            "dnsEnd" : -1,
+            "dns" : 0
+         }
+      },
+      {
+         "id" : "r25",
+         "when_comp_start" : -1,
+         "url" : "https://searchengineland-com.cdn.ampproject.org/i/searchengineland.com/figz/wp-content/seloads/2015/12/sel_yir_2015_1920x1080_seo-800x450.jpg",
+         "comps" : [],
+         "download" : {
+            "dns" : 0,
+            "dnsEnd" : 21,
+            "receiveFirst" : 348,
+            "receiveLast" : 1711.98900000085,
+            "id" : "download_7",
+            "sslEnd" : 140,
+            "sendEnd" : 141,
+            "sslStart" : 81,
+            "connectEnd" : 141,
+            "sendStart" : 141,
+            "dnsStart" : 21,
+            "s_time" : 1650.38099999947,
+            "connectStart" : 0,
+            "receivedTime" : 2200.98900000085,
+            "receiveHeadersEnd" : 489,
+            "type" : "image/webp",
+            "len" : 21418
+         }
+      }
+   ],
+   "name" : "searchengineland-com.cdn.ampproject.org_c_searchengineland.com_organic-food-thought-top-things-seo-columns-2015-237859_amp"
+}

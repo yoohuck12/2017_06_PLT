@@ -1,0 +1,269 @@
+{
+   "n_download_no_trigger" : 2,
+   "deps" : [
+      {
+         "id" : "dep1",
+         "time" : 26.067999999213,
+         "a1" : "r1_c1",
+         "a2" : "download_7"
+      },
+      {
+         "time" : 25.05100000053,
+         "a2" : "download_6",
+         "a1" : "r1_c1",
+         "id" : "dep2"
+      },
+      {
+         "id" : "dep3",
+         "time" : 27.508999999554,
+         "a1" : "r1_c1",
+         "a2" : "download_5"
+      },
+      {
+         "id" : "dep4",
+         "time" : 20.285999999032,
+         "a2" : "download_4",
+         "a1" : "r1_c1"
+      },
+      {
+         "id" : "dep5",
+         "a1" : "r1_c1",
+         "a2" : "download_3",
+         "time" : 23.84499999971
+      },
+      {
+         "id" : "dep6",
+         "a2" : "download_2",
+         "a1" : "r1_c1",
+         "time" : 22.013000001607
+      }
+   ],
+   "start_activity" : "download_0",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "id" : "r1",
+         "when_comp_start" : 1,
+         "url" : "https://searchengineland-com.cdn.ampproject.org/c/searchengineland.com/baidu-becomes-googles-biggest-ally-mobile-page-speed-271275/amp",
+         "comps" : [
+            {
+               "e_time" : 525.537999998051,
+               "time" : 86.494999999559,
+               "s_time" : 439.042999998492,
+               "type" : "evalhtml",
+               "id" : "r1_c1"
+            }
+         ],
+         "download" : {
+            "dnsEnd" : -1,
+            "dns" : 0,
+            "id" : "download_0",
+            "receiveLast" : 149.025999999198,
+            "receiveFirst" : 218,
+            "connectEnd" : 68,
+            "sslStart" : -1,
+            "sendEnd" : 68,
+            "sslEnd" : -1,
+            "len" : 40986,
+            "receiveHeadersEnd" : 286,
+            "type" : "text/html",
+            "receivedTime" : 435.025999999198,
+            "connectStart" : 0,
+            "s_time" : 0,
+            "dnsStart" : -1,
+            "sendStart" : 68
+         }
+      },
+      {
+         "when_comp_start" : -1,
+         "id" : "r6",
+         "comps" : [
+            {
+               "time" : 20.4340000018419,
+               "e_time" : 914.63400000066,
+               "id" : "comp_4",
+               "type" : 2,
+               "s_time" : 894.199999998818
+            }
+         ],
+         "url" : "https://cdn.ampproject.org/rtv/011498506512561/v0/amp-form-0.1.js",
+         "download" : {
+            "receiveFirst" : 102,
+            "receiveLast" : 514.431000000419,
+            "id" : "download_2",
+            "dns" : 1,
+            "dnsEnd" : 53,
+            "sendStart" : 277,
+            "dnsStart" : 52,
+            "s_time" : 461.056000000099,
+            "connectStart" : 0,
+            "receivedTime" : 893.431000000419,
+            "receiveHeadersEnd" : 379,
+            "type" : "text/javascript",
+            "len" : 31561,
+            "sslEnd" : 277,
+            "sendEnd" : 277,
+            "sslStart" : 112,
+            "connectEnd" : 277
+         }
+      },
+      {
+         "download" : {
+            "sslStart" : 120,
+            "sendEnd" : 296,
+            "connectEnd" : 295,
+            "sslEnd" : 292,
+            "receivedTime" : 866.235999998025,
+            "s_time" : 462.887999998202,
+            "connectStart" : 0,
+            "len" : 6687,
+            "receiveHeadersEnd" : 390,
+            "type" : "text/javascript",
+            "sendStart" : 295,
+            "dnsStart" : 54,
+            "dnsEnd" : 54,
+            "dns" : 0,
+            "receiveFirst" : 94,
+            "id" : "download_3",
+            "receiveLast" : 476.235999998025
+         },
+         "when_comp_start" : -1,
+         "id" : "r7",
+         "comps" : [
+            {
+               "s_time" : 868.902999998681,
+               "id" : "comp_2",
+               "type" : 3,
+               "e_time" : 887.366999999358,
+               "time" : 18.4640000006769
+            }
+         ],
+         "url" : "https://cdn.ampproject.org/rtv/011498506512561/v0/amp-sidebar-0.1.js"
+      },
+      {
+         "url" : "https://cdn.ampproject.org/rtv/011498506512561/v0/amp-anim-0.1.js",
+         "comps" : [],
+         "id" : "r5",
+         "when_comp_start" : -1,
+         "download" : {
+            "dnsEnd" : 51,
+            "dns" : 0,
+            "receiveFirst" : 148,
+            "receiveLast" : 564.110999998957,
+            "id" : "download_4",
+            "sendEnd" : 277,
+            "sslStart" : 111,
+            "connectEnd" : 277,
+            "sslEnd" : 275,
+            "s_time" : 459.328999997524,
+            "connectStart" : 0,
+            "receivedTime" : 989.110999998957,
+            "len" : 4377,
+            "receiveHeadersEnd" : 425,
+            "type" : "text/javascript",
+            "sendStart" : 277,
+            "dnsStart" : 51
+         }
+      },
+      {
+         "download" : {
+            "receiveFirst" : 100,
+            "receiveLast" : 534.378999998531,
+            "id" : "download_5",
+            "dns" : 3,
+            "dnsEnd" : 61,
+            "sendStart" : 353,
+            "dnsStart" : 58,
+            "s_time" : 466.551999998046,
+            "connectStart" : 0,
+            "receivedTime" : 988.378999998531,
+            "receiveHeadersEnd" : 454,
+            "len" : 734,
+            "type" : "text/css",
+            "sslEnd" : 352,
+            "sendEnd" : 354,
+            "sslStart" : 123,
+            "connectEnd" : 353
+         },
+         "when_comp_start" : -1,
+         "id" : "r10",
+         "comps" : [
+            {
+               "s_time" : 988.617999999406,
+               "id" : "comp_8",
+               "type" : 2,
+               "time" : 0.345000000378946,
+               "e_time" : 988.962999999785
+            }
+         ],
+         "url" : "https://fonts.googleapis.com/cssfamily=Oswald:300,400,700"
+      },
+      {
+         "id" : "r8",
+         "when_comp_start" : -1,
+         "url" : "https://cdn.ampproject.org/rtv/011498506512561/v0/amp-video-0.1.js",
+         "comps" : [
+            {
+               "s_time" : 1639.15300000008,
+               "type" : 3,
+               "id" : "comp_16",
+               "e_time" : 1643.713999998,
+               "time" : 4.56099999791991
+            }
+         ],
+         "download" : {
+            "sendEnd" : 401,
+            "sslStart" : -1,
+            "connectEnd" : 401,
+            "sslEnd" : -1,
+            "connectStart" : 0,
+            "s_time" : 464.093999999022,
+            "receivedTime" : 1167.10099999909,
+            "len" : 10102,
+            "receiveHeadersEnd" : 478,
+            "type" : "text/javascript",
+            "sendStart" : 401,
+            "dnsStart" : -1,
+            "dnsEnd" : -1,
+            "dns" : 0,
+            "receiveFirst" : 77,
+            "receiveLast" : 689.100999999093,
+            "id" : "download_6"
+         }
+      },
+      {
+         "download" : {
+            "dnsEnd" : -1,
+            "dns" : 0,
+            "receiveLast" : 1666.0189999986,
+            "id" : "download_7",
+            "receiveFirst" : 85,
+            "connectEnd" : 406,
+            "sendEnd" : 407,
+            "sslStart" : -1,
+            "sslEnd" : -1,
+            "type" : "text/javascript",
+            "receiveHeadersEnd" : 492,
+            "len" : 11166,
+            "connectStart" : 0,
+            "s_time" : 465.110999997705,
+            "receivedTime" : 2158.0189999986,
+            "dnsStart" : -1,
+            "sendStart" : 406
+         },
+         "comps" : [
+            {
+               "time" : 5.19300000087014,
+               "e_time" : 1649.1019999994,
+               "id" : "comp_18",
+               "type" : 3,
+               "s_time" : 1643.90899999853
+            }
+         ],
+         "url" : "https://cdn.ampproject.org/rtv/011498506512561/v0/amp-youtube-0.1.js",
+         "when_comp_start" : -1,
+         "id" : "r9"
+      }
+   ],
+   "name" : "searchengineland-com.cdn.ampproject.org_c_searchengineland.com_baidu-becomes-googles-biggest-ally-mobile-page-speed-271275_amp"
+}

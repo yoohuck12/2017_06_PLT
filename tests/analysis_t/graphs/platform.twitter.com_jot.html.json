@@ -1,0 +1,42 @@
+{
+   "name" : "platform.twitter.com_jot.html",
+   "objs" : [
+      {
+         "download" : {
+            "dnsStart" : -1,
+            "sendStart" : 21,
+            "len" : 80,
+            "receiveHeadersEnd" : 72,
+            "type" : "text/html",
+            "receivedTime" : 97.0119999992676,
+            "connectStart" : 0,
+            "s_time" : 0,
+            "sslEnd" : -1,
+            "connectEnd" : 21,
+            "sslStart" : -1,
+            "sendEnd" : 22,
+            "id" : "download_0",
+            "receiveLast" : 25.0119999992676,
+            "receiveFirst" : 50,
+            "dns" : 0,
+            "dnsEnd" : -1
+         },
+         "id" : "r142",
+         "when_comp_start" : 1,
+         "url" : "https://platform.twitter.com/jot.html",
+         "comps" : [
+            {
+               "time" : 0.473999999485983,
+               "e_time" : 181.479999999283,
+               "s_time" : 181.005999999797,
+               "type" : "evalhtml",
+               "id" : "r142_c1"
+            }
+         ]
+      }
+   ],
+   "load_activity" : -1,
+   "start_activity" : "download_0",
+   "n_download_no_trigger" : 1,
+   "deps" : []
+}

@@ -1,0 +1,375 @@
+{
+   "n_download_no_trigger" : 3,
+   "deps" : [
+      {
+         "id" : "dep1",
+         "a2" : "r132_c2",
+         "a1" : "comp_52",
+         "time" : -1
+      },
+      {
+         "id" : "dep2",
+         "time" : -1,
+         "a2" : "download_9",
+         "a1" : "r132_c1"
+      },
+      {
+         "id" : "dep3",
+         "time" : 38.016999998945,
+         "a1" : "r132_c1",
+         "a2" : "download_7"
+      },
+      {
+         "time" : 36.199999998644,
+         "a2" : "download_6",
+         "a1" : "r132_c1",
+         "id" : "dep4"
+      },
+      {
+         "time" : 34.3759999996111,
+         "a2" : "download_5",
+         "a1" : "r132_c1",
+         "id" : "dep5"
+      },
+      {
+         "id" : "dep6",
+         "a2" : "download_4",
+         "a1" : "r132_c1",
+         "time" : 32.632999998896
+      },
+      {
+         "id" : "dep7",
+         "a2" : "download_3",
+         "a1" : "r132_c1",
+         "time" : 0.944999999774041
+      }
+   ],
+   "load_activity" : -1,
+   "start_activity" : "download_0",
+   "objs" : [
+      {
+         "download" : {
+            "dnsStart" : 22,
+            "sendStart" : 171,
+            "type" : "text/html",
+            "receiveHeadersEnd" : 313,
+            "len" : 33941,
+            "s_time" : 0,
+            "connectStart" : 0,
+            "receivedTime" : 626.831000001403,
+            "sslEnd" : -1,
+            "connectEnd" : 171,
+            "sendEnd" : 171,
+            "sslStart" : -1,
+            "receiveLast" : 313.831000001403,
+            "id" : "download_0",
+            "receiveFirst" : 142,
+            "dns" : 1,
+            "dnsEnd" : 23
+         },
+         "comps" : [
+            {
+               "e_time" : 939.855000000534,
+               "time" : 88.082000002032,
+               "id" : "r131_c1",
+               "type" : "evalhtml",
+               "s_time" : 851.772999998502
+            }
+         ],
+         "url" : "http://platform.twitter.com/widgets/follow_button.7bf2b0e802ada47dae9548b7a1739fed.en.html#dnt=false&id=twitter-widget-1&lang=en&screen_name=sengineland&show_count=true&show_screen_name=false&size=m&time=1498637411155",
+         "when_comp_start" : 1,
+         "id" : "r131"
+      },
+      {
+         "download" : {
+            "connectEnd" : 60,
+            "sendEnd" : 60,
+            "sslStart" : 4,
+            "sslEnd" : 60,
+            "receiveHeadersEnd" : 347,
+            "len" : 1658,
+            "type" : "text/html",
+            "connectStart" : 0,
+            "s_time" : 54.5710000005784,
+            "receivedTime" : 627.954999999929,
+            "dnsStart" : 0,
+            "sendStart" : 60,
+            "dnsEnd" : 0,
+            "dns" : 0,
+            "receiveLast" : 280.954999999929,
+            "id" : "download_1",
+            "receiveFirst" : 287
+         },
+         "url" : "https://app-sj02.marketo.com/index.php/form/XDFrame",
+         "comps" : [
+            {
+               "time" : 344.03499999826,
+               "e_time" : 1285.80499999953,
+               "type" : "evalhtml",
+               "id" : "r132_c1",
+               "s_time" : 941.77000000127
+            },
+            {
+               "id" : "r132_c2",
+               "type" : "evalhtml",
+               "s_time" : 1448.1080000005,
+               "time" : 15.80000000104,
+               "e_time" : 1463.90800000154
+            }
+         ],
+         "id" : "r132",
+         "when_comp_start" : 1
+      },
+      {
+         "url" : "http://static.chartbeat.com/js/chartbeat.js",
+         "comps" : [
+            {
+               "e_time" : 1131.09700000132,
+               "time" : 152.925000002144,
+               "id" : "comp_38",
+               "type" : 2,
+               "s_time" : 978.171999999176
+            }
+         ],
+         "id" : "r133",
+         "when_comp_start" : -1,
+         "download" : {
+            "receiveFirst" : 84,
+            "id" : "download_2",
+            "receiveLast" : 638.726000000985,
+            "dnsEnd" : -1,
+            "dns" : 0,
+            "receivedTime" : 727.726000000985,
+            "s_time" : 377.840000001015,
+            "connectStart" : 0,
+            "receiveHeadersEnd" : 89,
+            "type" : "application/x-javascript",
+            "len" : 33343,
+            "sendStart" : 5,
+            "dnsStart" : -1,
+            "sslStart" : -1,
+            "sendEnd" : 5,
+            "connectEnd" : 5,
+            "sslEnd" : -1
+         }
+      },
+      {
+         "download" : {
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "receiveFirst" : 52,
+            "receiveLast" : 1218.63000000131,
+            "id" : "download_3",
+            "sslEnd" : -1,
+            "sendEnd" : 11,
+            "sslStart" : -1,
+            "connectEnd" : 10,
+            "sendStart" : 10,
+            "dnsStart" : -1,
+            "connectStart" : 0,
+            "s_time" : 942.715000001044,
+            "receivedTime" : 1281.63000000131,
+            "receiveHeadersEnd" : 63,
+            "type" : "application/x-javascript",
+            "len" : 168251
+         },
+         "when_comp_start" : -1,
+         "id" : "r136",
+         "comps" : [
+            {
+               "e_time" : 1448.1080000005,
+               "time" : 165.92400000081,
+               "s_time" : 1282.18399999969,
+               "id" : "comp_52",
+               "type" : 1
+            }
+         ],
+         "url" : "https://app-sj02.marketo.com/js/forms2/js/forms2.min.js"
+      },
+      {
+         "download" : {
+            "sendStart" : 13,
+            "dnsStart" : -1,
+            "connectStart" : 0,
+            "s_time" : 974.403000000166,
+            "receivedTime" : 1470.73100000125,
+            "len" : 42,
+            "receiveHeadersEnd" : 121,
+            "type" : "image/gif",
+            "sslEnd" : -1,
+            "sendEnd" : 13,
+            "sslStart" : -1,
+            "connectEnd" : 13,
+            "receiveFirst" : 108,
+            "receiveLast" : 1349.73100000125,
+            "id" : "download_4",
+            "dns" : 0,
+            "dnsEnd" : -1
+         },
+         "when_comp_start" : -1,
+         "id" : "r137",
+         "comps" : [],
+         "url" : "http://pagead2.googlesyndication.com/activeviewavi=BrxwWWmRTWfuaPNS1qAHXx7_gDAAAAAAQATgByAECwAIC4AIAyAOZBOAEAaAGFNIIBQiAYRAB&cid=CAASBORoE3o&id=osdim&ti=1&r=u&adk=881903337&tt=3533&bs=412,620&mtos=0,0,0,0,0&tos=0,0,0,0,0&p=0,0,0,0&mcvt=0&rs=3&ht=0&mc=0&lte=-1&bas=0&bac=0&bos=412,620&ps=412,5087&ss="
+      },
+      {
+         "download" : {
+            "connectEnd" : 78,
+            "sslStart" : -1,
+            "sendEnd" : 78,
+            "sslEnd" : -1,
+            "len" : 42,
+            "receiveHeadersEnd" : 176,
+            "type" : "image/gif",
+            "receivedTime" : 1499.54900000012,
+            "connectStart" : 0,
+            "s_time" : 976.146000000881,
+            "dnsStart" : 17,
+            "sendStart" : 78,
+            "dnsEnd" : 17,
+            "dns" : 0,
+            "id" : "download_5",
+            "receiveLast" : 1323.54900000012,
+            "receiveFirst" : 98
+         },
+         "id" : "r138",
+         "when_comp_start" : -1,
+         "url" : "http://pagead2.googlesyndication.com/activeviewavi=BISrYWmRTWfyaPNS1qAHXx7_gDAAAAAAQATgByAECwAIC4AIAyAOZBOAEAaAGFNIIBQiAYRAB&cid=CAASBORoYH0&id=osdim&ti=1&r=u&adk=1793461615&tt=3533&bs=412,620&mtos=0,0,0,0,0&tos=0,0,0,0,0&p=0,0,0,0&mcvt=0&rs=3&ht=0&mc=0&lte=-1&bas=0&bac=0&bos=412,620&ps=412,5087&ss",
+         "comps" : []
+      },
+      {
+         "download" : {
+            "receivedTime" : 1500.33500000063,
+            "s_time" : 977.969999999914,
+            "connectStart" : 0,
+            "type" : "image/gif",
+            "receiveHeadersEnd" : 182,
+            "len" : 42,
+            "sendStart" : 79,
+            "dnsStart" : 19,
+            "sslStart" : -1,
+            "sendEnd" : 79,
+            "connectEnd" : 79,
+            "sslEnd" : -1,
+            "receiveFirst" : 103,
+            "id" : "download_6",
+            "receiveLast" : 1318.33500000063,
+            "dnsEnd" : 19,
+            "dns" : 0
+         },
+         "comps" : [],
+         "url" : "http://pagead2.googlesyndication.com/activeviewavi=B-Q6uWmRTWf2aPNS1qAHXx7_gDAAAAAAQATgByAECwAIC4AIAyAOZBOAEAaAGFNIIBQiAYRAB&cid=CAASBORo8wA&id=osdim&ti=1&r=u&adk=2376149166&tt=3533&bs=412,620&mtos=0,0,0,0,0&tos=0,0,0,0,0&p=0,0,0,0&mcvt=0&rs=3&ht=0&mc=0&lte=-1&bas=0&bac=0&bos=412,620&ps=412,5087&ss",
+         "when_comp_start" : -1,
+         "id" : "r139"
+      },
+      {
+         "download" : {
+            "id" : "download_7",
+            "receiveLast" : 1312.1110000014,
+            "receiveFirst" : 108,
+            "dns" : 0,
+            "dnsEnd" : 21,
+            "dnsStart" : 21,
+            "sendStart" : 81,
+            "type" : "image/gif",
+            "receiveHeadersEnd" : 189,
+            "len" : 42,
+            "receivedTime" : 1501.1110000014,
+            "connectStart" : 0,
+            "s_time" : 979.787000000215,
+            "sslEnd" : -1,
+            "connectEnd" : 81,
+            "sslStart" : -1,
+            "sendEnd" : 81
+         },
+         "comps" : [],
+         "url" : "http://pagead2.googlesyndication.com/activeviewavi=BQoKbWmRTWYWbPNS1qAHXx7_gDAAAAAAQATgByAECwAIC4AIAyAOZBOAEAaAGFNIIBQiAYRAB&cid=CAASBORoOp4&id=osdim&ti=1&r=u&adk=1683201377&tt=3533&bs=412,620&mtos=3451,3451,3451,3451,3451&tos=3451,0,0,0,0&p=340,56,590,356&mcvt=3451&rs=3&ht=0&tfs=77&tls=3528&mc=1&l",
+         "when_comp_start" : -1,
+         "id" : "r140"
+      },
+      {
+         "download" : {
+            "receiveLast" : 1120.01799999923,
+            "id" : "download_8",
+            "receiveFirst" : 277,
+            "dns" : 13,
+            "dnsEnd" : 27,
+            "dnsStart" : 14,
+            "sendStart" : 104,
+            "receiveHeadersEnd" : 382,
+            "type" : "application/javascript",
+            "len" : 242,
+            "s_time" : 849.489000000176,
+            "connectStart" : 0,
+            "receivedTime" : 1502.01799999923,
+            "sslEnd" : 100,
+            "connectEnd" : 104,
+            "sendEnd" : 105,
+            "sslStart" : 37
+         },
+         "url" : "https://cdn.syndication.twimg.com/widgets/followbutton/info.jsoncallback=__twttr.setFollowersCountAndFollowing&lang=en&screen_names=sengineland",
+         "comps" : [
+            {
+               "time" : 6.08900000225003,
+               "e_time" : 1555.68900000071,
+               "type" : null,
+               "id" : "comp_76",
+               "s_time" : 1549.59999999846
+            },
+            {
+               "e_time" : 1562.79899999936,
+               "time" : 6.92699999853994,
+               "id" : "comp_79",
+               "type" : null,
+               "s_time" : 1555.87200000082
+            }
+         ],
+         "id" : "r135",
+         "when_comp_start" : -1
+      },
+      {
+         "url" : "https://staticxx.facebook.com/connect/xd_arbiter/r/XBwzv5Yrm_1.jsversion=42#cb=f3a7616ad&domain=searchengineland.com&origin=http%3A%2F%2Fsearchengineland.com%2Ff3b38afc8&relation=parent&error=unknown_user",
+         "comps" : [
+            {
+               "e_time" : 1607.43599999842,
+               "time" : 43.8189999986298,
+               "id" : "r134_c1",
+               "type" : "evalhtml",
+               "s_time" : 1563.61699999979
+            }
+         ],
+         "id" : "r134",
+         "when_comp_start" : 1,
+         "download" : {
+            "dnsEnd" : -1,
+            "dns" : 0,
+            "receiveFirst" : 29,
+            "receiveLast" : 1487.12000000064,
+            "id" : "download_9",
+            "sendEnd" : 2,
+            "sslStart" : -1,
+            "connectEnd" : 2,
+            "sslEnd" : -1,
+            "connectStart" : 0,
+            "s_time" : 1285.80499999953,
+            "receivedTime" : 1518.12000000064,
+            "len" : 43423,
+            "receiveHeadersEnd" : 31,
+            "type" : "text/html",
+            "sendStart" : 2,
+            "dnsStart" : -1
+         }
+      },
+      {
+         "comps" : [
+            {
+               "s_time" : 763.21100000132,
+               "type" : "evalhtml",
+               "id" : "_c1",
+               "e_time" : 850.27799999807,
+               "time" : 87.0669999967499
+            }
+         ]
+      }
+   ],
+   "name" : "platform.twitter.com_widgets_follow_button.7bf2b0e802ada47dae9548b7a1739fed.en.html#dnt=false&id=twitter-widget-1&lang=en&screen_name=sengineland&show_count=true&show_screen_name=false&size=m&time=1498637411155"
+}

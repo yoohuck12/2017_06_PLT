@@ -1,0 +1,82 @@
+{
+   "name" : "searchengineland-com.cdn.ampproject.org_c_searchengineland.com_dont-tardy-back-school-searching-starts-july-plan-campaigns-now-275912_amp",
+   "n_download_no_trigger" : 2,
+   "deps" : [
+      {
+         "id" : "dep1",
+         "time" : -1,
+         "a2" : "download_2",
+         "a1" : "r1_c1"
+      }
+   ],
+   "start_activity" : "download_0",
+   "load_activity" : -1,
+   "objs" : [
+      {
+         "url" : "https://searchengineland-com.cdn.ampproject.org/c/searchengineland.com/dont-tardy-back-school-searching-starts-july-plan-campaigns-now-275912/amp",
+         "comps" : [
+            {
+               "type" : "evalhtml",
+               "id" : "r1_c1",
+               "s_time" : 392.245999999432,
+               "time" : 2248.83400000181,
+               "e_time" : 2641.08000000124
+            }
+         ],
+         "id" : "r1",
+         "when_comp_start" : 1,
+         "download" : {
+            "receiveFirst" : 213,
+            "id" : "download_0",
+            "receiveLast" : 103.278999999486,
+            "dnsEnd" : 0,
+            "dns" : 0,
+            "receivedTime" : 391.278999999486,
+            "connectStart" : 0,
+            "s_time" : 0,
+            "type" : "text/html",
+            "receiveHeadersEnd" : 288,
+            "len" : 43430,
+            "sendStart" : 75,
+            "dnsStart" : 0,
+            "sslStart" : 0,
+            "sendEnd" : 75,
+            "connectEnd" : 75,
+            "sslEnd" : 74
+         }
+      },
+      {
+         "download" : {
+            "sslEnd" : -1,
+            "connectEnd" : 3,
+            "sslStart" : -1,
+            "sendEnd" : 3,
+            "dnsStart" : -1,
+            "sendStart" : 3,
+            "receiveHeadersEnd" : 65,
+            "len" : 9930,
+            "type" : "text/javascript",
+            "receivedTime" : 2711.57400000084,
+            "s_time" : 2641.08000000124,
+            "connectStart" : 0,
+            "dns" : 0,
+            "dnsEnd" : -1,
+            "id" : "download_2",
+            "receiveLast" : 2646.57400000084,
+            "receiveFirst" : 62
+         },
+         "comps" : [
+            {
+               "id" : "comp_78",
+               "type" : 2,
+               "s_time" : 2712.1380000026,
+               "e_time" : 2721.85800000079,
+               "time" : 9.71999999818991
+            }
+         ],
+         "url" : "https://cdn.ampproject.org/rtv/011498506512561/v0/amp-crypto-polyfill-0.1.js",
+         "when_comp_start" : -1,
+         "id" : "r27"
+      }
+   ]
+}
